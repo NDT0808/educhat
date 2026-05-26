@@ -1,0 +1,11 @@
+[project]
+name = "prompt-service"
+version = "0.1.0"
+description = "Microservice for managing and rendering prompts"
+authors = [{name = "Antigravity", email = "antigravity@example.com"}]
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "jinja2",
+]
+requires-python = ">=3.11"

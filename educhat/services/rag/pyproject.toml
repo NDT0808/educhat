@@ -1,0 +1,11 @@
+[project]
+name = "rag-service"
+version = "0.1.0"
+description = "Microservice for RAG ingestion and retrieval"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "qdrant-client",
+    "sentence-transformers",
+]
+requires-python = ">=3.11"

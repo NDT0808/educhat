@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+openai
+requests
+python-multipart
+unidecode
+sentence-transformers
+transformers
+loguru
+bcrypt==3.2.0
+passlib[bcrypt]

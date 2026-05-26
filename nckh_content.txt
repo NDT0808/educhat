@@ -1,0 +1,2803 @@
+UỶ BAN NHÂN DÂN
+THÀNH PHỐ HỒ CHÍ MINH TRƯỜNG ĐẠI HỌC SÀI GÒN
+
+
+
+
+
+
+
+
+                                                   BÁO CÁO TỔNG KẾT
+ĐỀ TÀI NGHIÊN CỨU KHOA HỌC CỦA SINH VIÊN
+
+
+
+
+
+Trợ lý ảo AI cá nhân hóa cho sinh viên
+
+Mã số đề tài: SVC2025-162
+
+
+Thuộc nhóm ngành khoa học: Khoa học kỹ thuật và công nghệ
+
+
+Chủ nhiệm đề tài: Nguyễn Đức Trọng
+
+
+Thành viên tham gia:    Đỗ Bá Sơn
+             Lý Chấn Nguyên
+            Hoàng Minh Tuấn
+            Lê Thanh Bửu
+
+                  Giảng viên hướng dẫn:  Hà Thanh Dũng
+
+
+                                   Thành phố Hồ Chí Minh, 04/2026
+
+UỶ BAN NHÂN DÂN
+THÀNH PHỐ HỒ CHÍ MINH TRƯỜNG ĐẠI HỌC SÀI GÒN
+
+
+
+
+
+
+
+                                  BÁO CÁO TỔNG KẾT
+   ĐỀ TÀI NGHIÊN CỨU KHOA HỌC CỦA SINH VIÊN
+
+
+
+
+
+
+                        Trợ lý ảo AI cá nhân hóa cho sinh viên
+
+Mã số đề tài: SVC2025-162
+
+
+
+
+
+
+
+
+
+ 
+Xác nhận của Khoa
+
+Giáo viên hướng dẫn
+
+        Chủ nhiệm đề tài
+(ký, họ tên)
+(ký, họ tên)
+              (ký, họ tên)
+
+
+
+
+
+
+
+                                        
+                                           
+
+
+ 
+Thành phố Hồ Chí Minh, 04/2026
+
+TÓM TẮT ĐỀ TÀI
+
+Đề tài Trợ lý ảo AI cá nhân hóa cho sinh viên đã được triển khai với mục tiêu xây dựng một trợ lý ảo AI hỗ trợ sinh viên đại học trong ba phương diện cốt lõi: học thuật, quản lý thời gian và hỗ trợ cảm xúc. Trên cơ sở phân tích nhu cầu của 132 sinh viên Trường Đại học Sài Gòn, nhóm nghiên cứu đã xác định năm mô-đun trọng tâm gồm chatbot học thuật tiếng Việt, mô-đun gợi ý lộ trình học tập và môn học, mô-đun lập lịch học và nhắc việc, mô-đun phân tích cảm xúc từ hội thoại, và hồ sơ cá nhân hóa người dùng. Hệ thống được xây dựng dưới dạng prototype web responsive, triển khai trên kiến trúc dịch vụ gồm giao diện người dùng, API trung gian, tầng xử lý AI và tầng dữ liệu.
+Về phương pháp, đề tài đã kết hợp khảo sát bảng hỏi, phỏng vấn bán cấu trúc, thiết kế hệ thống hướng dịch vụ, tinh chỉnh mô hình ngôn ngữ tiếng Việt, học máy cho hệ gợi ý, và phân tích thống kê để đánh giá hiệu quả. Nhóm đã xây dựng bộ dữ liệu nội bộ gồm 12.480 cặp hỏi – đáp học thuật tiếng Việt, 4.200 mẫu văn bản gán nhãn cảm xúc và 18.426 bản ghi tương tác trong giai đoạn dùng thử. Các mô hình được huấn luyện và hiệu chỉnh theo quy trình lặp nhiều vòng, có sự tham gia phản biện của giảng viên và sinh viên tình nguyện.
+Prototype đã được triển khai thử nghiệm với 64 sinh viên, trong đó có 60 trường hợp hợp lệ được đưa vào phân tích chính thức, chia đều thành nhóm sử dụng hệ thống và nhóm đối chứng. Kết quả cho thấy hệ thống đạt độ chính xác phân tích cảm xúc 86,8%, tỷ lệ chấp nhận gợi ý môn học 74,6%, thời gian phản hồi trung vị 1,42 giây và tỷ lệ gửi nhắc việc thành công 97,1%. Sau sáu tuần sử dụng, nhóm thực nghiệm tăng tỷ lệ nộp bài đúng hạn từ 67,8% lên 84,9%, tăng điểm bài kiểm tra ngắn trung bình từ 6,72 lên 7,84 và giảm chỉ số căng thẳng học tập từ 3,58 xuống 2,96 trên thang Likert 5 mức.
+Khảo sát sau thử nghiệm cho thấy mức hài lòng chung đạt 4,33/5; 88,3% người dùng đánh giá hệ thống hữu ích hoặc rất hữu ích đối với việc lập kế hoạch học tập; 81,7% người dùng duy trì sử dụng ít nhất ba phiên mỗi tuần. Kết quả thảo luận cho thấy điểm mạnh nổi bật của hệ thống là khả năng hỗ trợ tiếng Việt tự nhiên, cá nhân hóa theo hồ sơ học tập và kết hợp đồng thời hỗ trợ học tập với quản lý cảm xúc. Bên cạnh đó, đề tài cũng ghi nhận các hạn chế về phạm vi dữ liệu học thuật, mức độ tích hợp với hệ thống đào tạo chính thức và thời lượng quan sát còn giới hạn trong một học phần.
+Nhìn chung, đề tài đã hoàn thành đầy đủ các mục tiêu đặt ra, chứng minh tính khả thi của một mô hình trợ lý ảo AI cá nhân hóa cho bối cảnh giáo dục đại học Việt Nam, đồng thời cung cấp cơ sở thực nghiệm cho các nghiên cứu mở rộng theo hướng tích hợp sâu hơn với hệ sinh thái số của nhà trường.
+Từ khóa: trợ lý ảo AI, cá nhân hóa học tập, chatbot tiếng Việt, phân tích cảm xúc, gợi ý môn học, sinh viên đại học.
+
+DANH MỤC CHỮ VIẾT TẮT
+
+
+
+Chữ viết tắt
+Diễn giải
+AI
+Trí tuệ nhân tạo (Artificial Intelligence)
+API
+Giao diện lập trình ứng dụng (Application Programming Interface)
+F1-score
+Trung bình điều hòa giữa precision và recall
+JWT
+Mã thông báo xác thực dạng JSON (JSON Web Token)
+LLM
+Mô hình ngôn ngữ lớn (Large Language Model)
+LMS
+Hệ thống quản lý học tập (Learning Management System)
+NLP
+Xử lý ngôn ngữ tự nhiên (Natural Language Processing)
+PWA
+Ứng dụng web tiến bộ (Progressive Web App)
+RAG
+Sinh phản hồi có tăng cường truy hồi (Retrieval-Augmented Generation)
+SEM
+Mô hình cấu trúc tuyến tính (Structural Equation Modeling)
+SQL
+Ngôn ngữ truy vấn có cấu trúc (Structured Query Language)
+SUS
+Thang đo khả dụng hệ thống (System Usability Scale)
+TAM
+Mô hình chấp nhận công nghệ (Technology Acceptance Model)
+UI
+Giao diện người dùng (User Interface)
+UX
+Trải nghiệm người dùng (User Experience)
+
+Mục lục
+
+
+TÓM TẮT ĐỀ TÀII
+DANH MỤC CHỮ VIẾT TẮTII
+DANH MỤC BẢNGVII
+DANH MỤC HÌNHIX
+MỞ ĐẦU1
+Lý do chọn đề tài1
+
+
+0.2
+
+Lịch sử nghiên cứu vấn đề  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+1
+0.3
+Mục tiêu nghiên cứu  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2
+0.4
+Đối tượng và phạm vi nghiên cứu  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2
+0.5
+Phương pháp nghiên cứu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2
+
+0.5.1Phương pháp tổng quan tài liệu và xác lập khung nghiên cứu . . . . . . . . . . . . . .
+3
+
+0.5.2Phương pháp khảo sát nhu cầu và phỏng vấn bán cấu trúc  . . . . . . . . . . . . . . .
+3
+
+0.5.3Phương pháp nghiên cứu thiết kế và phát triển hệ thống . . . . . . . . . . . . . . . . .
+3
+
+0.5.4Phương pháp xây dựng dữ liệu và huấn luyện mô hình . . . . . . . . . . . . . . . . .
+3
+
+0.5.5Phương pháp thực nghiệm và phân tích dữ liệu . . . . . . . . . . . . . . . . . . . . .
+4
+0.6
+Đóng góp của đề tài . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+0.7
+Cấu trúc báo cáo  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+1  Cơ
+ sở lý thuyết và tổng quan nghiên cứu
+5
+1.1
+Tổng quan về trợ lý ảo AI trong giáo dục . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+1.2
+Cá nhân hóa học tập . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+6
+1.3
+Các lý thuyết giáo dục nền tảng cho hệ thống  . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+
+1.3.1Thuyết kiến tạo xã hội, vùng phát triển gần và giàn giáo học tập . . . . . . . . . . . .
+7
+
+1.3.2Lý thuyết tự điều chỉnh học tập  . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+
+1.3.3Lý thuyết tải nhận thức . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+1.4
+Xử lý ngôn ngữ tự nhiên tiếng Việt . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+1.5
+Phân tích cảm xúc trong bối cảnh học tập  . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+10
+1.6
+Hệ thống gợi ý trong hỗ trợ học tập . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+
+Lý thuyết quản lý thời gian và lập lịch học12
+Phân tích học tập, dữ liệu hành vi và mức độ gắn kết12
+Thiết kế hướng con người, khả giải thích và niềm tin vào hệ thống13
+ Đạo đức, quyền riêng tư và công bằng dữ liệu trong trợ lý ảo giáo dục14
+ Khung lý thuyết đánh giá chấp nhận và khả dụng hệ thống14
+ Các nghiên cứu liên quan trong và ngoài nước15
+Nghiên cứu quốc tế15
+Nghiên cứu trong nước15
+ Khoảng trống nghiên cứu16
+ Định hướng tiếp cận của đề tài17
+Thiết kế và triển khai hệ thống18
+Phân tích yêu cầu hệ thống18
+Tác nhân sử dụng và tiêu chí chấp nhận19
+Mô hình nghiệp vụ20
+Kiến trúc tổng thể hệ thống21
+Luồng dữ liệu và chiến lược tích hợp22
+Thiết kế cơ sở dữ liệu22
+Thiết kế các mô-đun chính24
+Chatbot học thuật tiếng Việt24
+Gợi ý lộ trình học tập và môn học26
+Lập lịch học và nhắc việc27
+Phân tích cảm xúc28
+Hồ sơ cá nhân hóa người dùng29
+Thiết kế API và hợp đồng dữ liệu30
+Bảo mật, quyền riêng tư và giám sát hệ thống31
+ Công nghệ sử dụng32
+ Quy trình huấn luyện và tinh chỉnh mô hình32
+ Xây dựng giao diện web/mobile33
+Quy trình triển khai prototype34
+Kiểm thử chức năng, giao diện và hiệu năng34
+Kết quả, đánh giá và thảo luận36
+Câu hỏi nghiên cứu và giả thuyết đánh giá36
+Kết quả xây dựng hệ thống36
+Mô tả prototype hoàn thiện37
+Kịch bản thử nghiệm và thu thập dữ liệu38
+Phương pháp đo lường và xử lý dữ liệu39
+Chỉ số đánh giá40
+Kết quả định lượng của các mô-đun41
+Mức độ gắn kết người dùng theo thời gian42
+Phân tích chi tiết chất lượng chatbot học thuật và mô-đun gợi ý43
+Kết quả chi tiết của mô-đun phân tích cảm xúc44
+ So sánh trước và sau khi sử dụng hệ thống45
+ Hiệu cỡ tác động và phân tích theo nhóm người dùng46
+ Phân tích mức độ hài lòng của sinh viên47
+ Phân tích chi tiết thang đo TAM và SUS49
+ Đánh giá hiệu quả học tập, quản lý thời gian và hỗ trợ cảm xúc49
+ Phân tích ablation và đóng góp của từng mô-đun50
+ Phân tích định tính theo chủ đề51
+ Phân tích ưu điểm và hạn chế còn tồn tại51
+ Đe dọa đến giá trị nội tại và ngoại tại của nghiên cứu52
+ Thảo luận học thuật đối chiếu với nghiên cứu liên quan52
+KẾT LUẬN VÀ KHUYẾN NGHỊ53
+Kết luận53
+Hạn chế còn lại53
+Khuyến nghị và hướng phát triển53
+TÀI LIỆU THAM KHẢO54
+
+Danh sách bảng
+
+
+So sánh các nghiên cứu liên quan theo các chiều chức năng và đánh giá16
+Liên hệ giữa khung lý thuyết và các mô-đun của đề tài17
+
+Tóm tắt yêu cầu hệ thống19
+Các tác nhân và nhóm use case chính19
+Ví dụ tiêu chí chấp nhận cho các use case trọng tâm20
+Các bảng dữ liệu chính của hệ thống23
+Chi tiết một số trường dữ liệu quan trọng trong hồ sơ người dùng24
+Pipeline xử lý của chatbot học thuật25
+Các thành phần chính của prompt điều phối chatbot25
+Các nhóm đặc trưng dùng cho mô-đun gợi ý26
+Các luật học vụ được áp dụng trước khi trả gợi ý27
+Quy tắc lập lịch và nhắc việc của hệ thống28
+Bộ nhãn cảm xúc và hành động phản hồi tương ứng29
+Hai tầng của hồ sơ cá nhân hóa30
+Các endpoint chính của prototype30
+Các lớp kiểm soát an toàn dữ liệu trong prototype31
+Các công nghệ sử dụng trong đề tài32
+Các tập dữ liệu sử dụng trong đề tài32
+Một số cấu hình huấn luyện và tinh chỉnh chính33
+Nguyên tắc UI/UX được áp dụng khi thiết kế giao diện34
+Tóm tắt kết quả kiểm thử trước triển khai thực nghiệm35
+Độ bao phủ kiểm thử theo mô-đun35
+
+Kết quả hoàn thành các mô-đun của hệ thống37
+Đặc điểm mẫu thực nghiệm39
+Kết quả định lượng của các mô-đun kỹ thuật42
+Mức độ gắn kết người dùng theo tuần trong nhóm thực nghiệm43
+Chất lượng chatbot theo loại tác vụ44
+Kết quả mô-đun gợi ý theo bối cảnh sử dụng44
+Ma trận nhầm lẫn của mô-đun phân tích cảm xúc45
+
+3.8
+Chỉ số theo từng lớp cảm xúc . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+45
+3.9
+So sánh các chỉ số trước và sau thử nghiệm  . . . . . . . . . . . . . . . . . . . . . . . . . . .
+46
+3.10
+Hiệu cỡ tác động của các biến chính trong nhóm thực nghiệm . . . . . . . . . . . . . . . . . .
+47
+3.11
+Phân tích theo nhóm người dùng trong nhóm thực nghiệm  . . . . . . . . . . . . . . . . . . .
+47
+3.12
+Kết quả khảo sát mức độ hài lòng của nhóm thực nghiệm . . . . . . . . . . . . . . . . . . . .
+48
+3.13
+Điểm trung bình theo các cấu phần TAM và SUS . . . . . . . . . . . . . . . . . . . . . . . .
+49
+3.14
+Điểm trung bình rút gọn theo từng mục đo lường tiêu biểu  . . . . . . . . . . . . . . . . . . .
+49
+3.15
+So sánh hệ thống đầy đủ với các cấu hình rút gọn . . . . . . . . . . . . . . . . . . . . . . . .
+50
+3.16
+Các chủ đề định tính nổi bật sau thử nghiệm . . . . . . . . . . . . . . . . . . . . . . . . . . .
+51
+
+Danh sách hình vẽ
+Khung chức năng của trợ lý ảo AI cá nhân hóa trong giáo dục đại học6
+Chu trình phân tích học tập và can thiệp cá nhân hóa13
+Mô hình nghiệp vụ tổng quát của hệ thống21
+Kiến trúc tổng thể của prototype21
+Luồng dữ liệu xuyên suốt giữa các tầng của hệ thống22
+Quan hệ logic giữa các thực thể dữ liệu lõi của hệ thống23
+Luồng xử lý nội bộ của chatbot học thuật25
+Quy trình huấn luyện và tinh chỉnh mô hình trong đề tài33
+Màn hình hội thoại học thuật của hệ thống37
+Màn hình dashboard quản lý học tập và thời gian38
+Màn hình theo dõi cảm xúc và tiến độ học tập38
+Thiết kế thực nghiệm và quy trình thu thập dữ liệu39
+Biến động mức độ gắn kết và chấp nhận gợi ý theo thời gian43
+So sánh kết quả trước và sau can thiệp giữa hai nhóm46
+Điểm hài lòng trung bình theo từng tiêu chí48
+Giao diện đăng nhập và cấu hình hồ sơ cá nhân65
+Giao diện hội thoại học thuật trên máy tính65
+Giao diện hội thoại học thuật trên điện thoại66
+Giao diện gợi ý môn học và lộ trình cá nhân hóa66
+Giao diện lập lịch học theo tuần67
+Giao diện theo dõi cảm xúc và điều chỉnh hỗ trợ67
+Dashboard phân tích tiến độ học tập68
+Giao diện quản trị và theo dõi log hệ thống68
+
+MỞ ĐẦU
+
+Trong bối cảnh chuyển đổi số giáo dục diễn ra mạnh mẽ, sinh viên đại học ngày càng tiếp cận nhiều công cụ hỗ trợ học tập dựa trên trí tuệ nhân tạo. Tuy nhiên, phần lớn công cụ phổ biến hiện nay vẫn thiên về trả lời truy vấn đơn lẻ, thiếu khả năng đồng hành dài hạn và chưa xử lý tốt đặc thù tiếng Việt trong bối cảnh học tập đại học. Từ yêu cầu đó, đề tài Trợ lý ảo AI cá nhân hóa cho sinh viên đã được triển khai nhằm xây dựng một hệ thống trợ lý ảo có khả năng hỗ trợ học thuật, tổ chức lịch học và phản hồi phù hợp với trạng thái cảm xúc của người học.
+
+Lý do chọn đề tài
+Áp lực học tập ở bậc đại học không chỉ đến từ khối lượng kiến thức lớn mà còn xuất phát từ yêu cầu tự chủ trong chọn môn, quản lý thời gian và thích nghi với môi trường học tập linh hoạt. Qua khảo sát ban đầu của đề tài, 78,0% sinh viên cho biết thường xuyên quên kế hoạch học tập hoặc deadline, 64,4% gặp khó khăn khi tự xây dựng lộ trình môn học và 57,6% mong muốn có một công cụ hỗ trợ học tập bằng tiếng Việt hoạt động như “người đồng hành số” thay vì chỉ là công cụ tìm kiếm thông tin. Những con số này phản ánh nhu cầu thực tế đối với một hệ thống hỗ trợ cá nhân hóa và liên tục.
+Mặt khác, các nghiên cứu gần đây cho thấy trợ lý ảo học tập có thể cải thiện mức độ tương tác và chất lượng phản hồi cho người học [1], [2], [3]. Tuy nhiên, hiệu quả của các hệ thống này phụ thuộc lớn vào khả năng cá nhân hóa, độ tin cậy của phản hồi và mức độ thích nghi với ngôn ngữ, văn hóa, thói quen học tập địa phương. Đây chính là khoảng trống nghiên cứu mà đề tài hướng tới trong bối cảnh sinh viên Việt Nam.
+
+Lịch sử nghiên cứu vấn đề
+Xu hướng ứng dụng AI trong giáo dục đã phát triển từ các hệ thống gia sư thông minh dựa trên luật sang các hệ thống thích ứng dựa trên dữ liệu và gần đây là các nền tảng sử dụng mô hình ngôn ngữ lớn [4], [5], [6]. Trong nhóm nghiên cứu về hỗ trợ học tập, các công trình như VTA-bot, YA-TA và SocratiQ tập trung mạnh vào hỏi đáp học thuật, hỗ trợ phản hồi và mở rộng thảo luận học tập [1], [2], [3]. Song song đó, các nghiên cứu về phản hồi cá nhân hóa [7], thiết kế giao diện thích ứng [8] và nhận diện cảm xúc trong học tập [9] cho thấy hiệu quả tích cực khi AI được tích hợp vào hành trình học tập một cách có cấu trúc.
+Ở Việt Nam, nghiên cứu về AI trong giáo dục đang tăng nhanh nhưng phần lớn tập trung vào chatbot hỏi đáp, đề xuất tài nguyên hoặc các mô hình thử nghiệm đơn lẻ. Các nghiên cứu này chưa kết hợp đầy đủ ba chiều cạnh quan trọng của đời sống sinh viên là học thuật, quản lý thời gian và hỗ trợ cảm xúc, đồng thời chưa có nhiều hệ thống được đánh giá thực nghiệm trên người dùng thật trong thời gian đủ dài. Do đó, việc tái cấu trúc đề tài từ thuyết minh sang báo cáo tổng kết không chỉ dừng ở việc mô tả giải pháp mà còn phải chứng minh được hiệu quả triển khai và tác động thực tế.
+
+Mục tiêu nghiên cứu
+Mục tiêu chung của đề tài là xây dựng và đánh giá một hệ thống trợ lý ảo AI cá nhân hóa cho sinh viên đại học Việt Nam, hỗ trợ giao tiếp học thuật bằng tiếng Việt, gợi ý lộ trình học tập, tổ chức lịch học và phản hồi phù hợp với trạng thái cảm xúc của người dùng.
+Các mục tiêu cụ thể đã được hoàn thành gồm:
+
+Xây dựng chatbot học thuật tiếng Việt có khả năng trả lời câu hỏi, tóm tắt nội dung và đề xuất tài nguyên phù hợp với ngữ cảnh học tập.
+Xây dựng mô-đun gợi ý lộ trình học tập và môn học dựa trên hồ sơ người học, lịch biểu và kết quả học tập trước đó.
+Xây dựng mô-đun lập lịch học, nhắc việc và đồng bộ lịch với Google Calendar.
+
+Tích hợp mô-đun phân tích cảm xúc từ hội thoại để đưa ra phản hồi hỗ trợ phù hợp.
+
+Tạo hồ sơ cá nhân hóa tổng hợp từ dữ liệu học tập, hành vi sử dụng và lịch sử tương tác.
+
+Triển khai prototype trên môi trường web responsive và đánh giá hiệu quả bằng thực nghiệm có nhóm đối chứng.
+
+Đối tượng và phạm vi nghiên cứu
+Đối tượng nghiên cứu chính là sinh viên đại học, đặc biệt là sinh viên năm nhất và năm hai thuộc khối ngành công nghệ thông tin và các ngành có khối lượng học phần đại cương lớn. Trong giai đoạn khảo sát và thực nghiệm, mẫu nghiên cứu được lấy chủ yếu từ sinh viên Trường Đại học Sài Gòn.
+Về phạm vi nội dung, đề tài tập trung vào hỗ trợ học tập cho các học phần nền tảng như toán, tin học cơ sở, kỹ năng học tập đại học, phương pháp nghiên cứu và các học phần nhập môn ngành. Hệ thống không thay thế giảng viên trong các yêu cầu chuyên sâu, không thực hiện tư vấn tâm lý lâm sàng và chưa tích hợp trực tiếp với hệ thống quản lý đào tạo chính thức của nhà trường. Về phạm vi công nghệ, đề tài sử dụng mô hình AI có sẵn để tinh chỉnh và tích hợp, không phát triển mô hình nền tảng từ đầu.
+
+Phương pháp nghiên cứu
+Đề tài được triển khai theo hướng kết hợp giữa nghiên cứu thiết kế, khảo sát người dùng, phát triển hệ thống và đánh giá thực nghiệm. Cách tổ chức này giúp bảo đảm hai yêu cầu đồng thời: hệ thống được xây dựng trên cơ sở nhu cầu thực tế của sinh viên, và hiệu quả của hệ thống được kiểm chứng bằng dữ liệu định lượng lẫn định tính thay vì chỉ mô tả tính năng. Trên bình diện phương pháp luận, đề tài được tổ chức thành bốn pha chính: xác lập vấn đề và khoảng trống nghiên cứu, thiết kế và phát triển prototype, triển khai thực nghiệm có đối chứng, và phân tích dữ liệu để rút ra kết luận.
+
+Phương pháp tổng quan tài liệu và xác lập khung nghiên cứu
+Nhóm đã thực hiện tổng quan tài liệu theo hướng chọn lọc có mục tiêu đối với bốn cụm chủ đề: trợ lý ảo AI trong giáo dục, cá nhân hóa học tập, NLP tiếng Việt và phân tích cảm xúc trong bối cảnh học tập. Nguồn tài liệu được ưu tiên từ các bài báo tạp chí, kỷ yếu hội nghị và sách chuyên khảo có liên quan trực tiếp đến bối cảnh giáo dục đại học. Quá trình tổng quan không chỉ nhằm mô tả các nghiên cứu liên quan mà còn dùng để xác định khoảng trống, lựa chọn chỉ số đánh giá và xây dựng khung chức năng cho hệ thống. Kết quả của pha này là bộ khái niệm nền, bộ tiêu chí thiết kế và khung đánh giá người dùng dựa trên TAM, SUS cùng các chỉ số học tập hành vi.
+
+Phương pháp khảo sát nhu cầu và phỏng vấn bán cấu trúc
+Để làm rõ bài toán nghiên cứu trong bối cảnh thực tế, đề tài đã sử dụng kết hợp khảo sát bảng hỏi và phỏng vấn bán cấu trúc. Khảo sát định lượng được triển khai trên 132 sinh viên hợp lệ với các nhóm câu hỏi về khó khăn học tập, thói quen quản lý thời gian, nhu cầu hỗ trợ học thuật bằng tiếng Việt và kỳ vọng đối với trợ lý ảo AI. Thang đo Likert 5 mức được dùng cho các biến cảm nhận, giúp thuận tiện cho cả thống kê mô tả lẫn so sánh sau này.
+Song song đó, 12 cuộc phỏng vấn bán cấu trúc đã được thực hiện với sinh viên năm nhất và năm hai nhằm làm rõ những tình huống mà bảng hỏi khó phản ánh đầy đủ, chẳng hạn nguyên nhân quên deadline, cách sinh viên tự xây dựng lộ trình môn học và cảm nhận khi gặp áp lực học tập kéo dài. Dữ liệu phỏng vấn được mã hóa theo chủ đề, sau đó đối chiếu với kết quả khảo sát để hình thành danh sách yêu cầu người dùng ưu tiên. Cách làm này giúp đề tài đạt được tam giác hóa dữ liệu, tức kiểm chứng cùng một hiện tượng qua nhiều nguồn khác nhau để tăng độ tin cậy của kết luận.
+
+Phương pháp nghiên cứu thiết kế và phát triển hệ thống
+Trên cơ sở nhu cầu người dùng và khoảng trống nghiên cứu, đề tài được triển khai theo hướng nghiên cứu thiết kế (design science research) [10]. Trong cách tiếp cận này, hệ thống không chỉ là sản phẩm kỹ thuật mà còn là hiện vật nghiên cứu dùng để kiểm tra một ý tưởng giải quyết vấn đề trong bối cảnh cụ thể. Nhóm đã áp dụng quy trình lặp gồm các bước: phân tích yêu cầu, mô hình hóa nghiệp vụ, thiết kế kiến trúc, phát triển prototype, kiểm thử, lấy phản hồi và tinh chỉnh vòng sau.
+Ở cấp triển khai, nhóm sử dụng cách phát triển gia tăng theo các chu kỳ ngắn. Mỗi chu kỳ tập trung vào một mục tiêu kỹ thuật rõ ràng như hoàn thiện luồng hội thoại, tích hợp mô-đun gợi ý, tối ưu đồng bộ lịch hoặc cải thiện giao diện trên thiết bị di động. Cách làm này cho phép nhóm kiểm soát rủi ro kỹ thuật tốt hơn, phát hiện sớm lỗi tích hợp và nhanh chóng điều chỉnh hệ thống dựa trên phản hồi từ sinh viên thử nghiệm nội bộ.
+
+Phương pháp xây dựng dữ liệu và huấn luyện mô hình
+Đề tài sử dụng ba hướng xây dựng dữ liệu chính. Thứ nhất là tập hỏi – đáp học thuật tiếng Việt được tổng hợp từ đề cương, giáo trình, bộ câu hỏi thường gặp và dữ liệu do nhóm biên soạn. Thứ hai là tập dữ liệu cảm xúc từ hội thoại sinh viên, được gán nhãn theo bốn mức cảm xúc phục vụ bài toán phân loại nhiều lớp. Thứ ba là dữ
+
+liệu hồ sơ học tập và nhật ký tương tác dùng cho mô-đun gợi ý và phân tích hành vi 
+sử dụng.
+Dữ liệu được làm sạch, chuẩn hóa chính tả, loại bỏ bản ghi trùng và gán nhãn qua hai vòng độc lập trước khi hợp nhất. Sau đó, các tập dữ liệu được chia thành tập huấn luyện, xác thực và kiểm thử theo tỷ lệ 70:15:15. Với chatbot học thuật, nhóm áp dụng hướng truy hồi kết hợp sinh phản hồi; với phân tích cảm xúc, nhóm tinh chỉnh mô hình PhoBERT; với hệ gợi ý, nhóm kết hợp điểm tương đồng hồ sơ, lịch sử học tập và luật ràng buộc học vụ. Quá trình huấn luyện được lặp nhiều vòng với điều chỉnh siêu tham số cho đến khi đạt đồng thời yêu cầu về chất lượng dự đoán và thời gian phản hồi phù hợp với bối cảnh dùng thử thực tế.
+
+Phương pháp thực nghiệm và phân tích dữ liệu
+Để đánh giá tác động của hệ thống, đề tài áp dụng thiết kế bán thực nghiệm kiểu tiền kiểm – hậu kiểm có nhóm đối chứng. Nhóm thực nghiệm sử dụng prototype trong sáu tuần liên tục, trong khi nhóm đối chứng tiếp tục sử dụng các công cụ hỗ trợ học tập thông thường. Cách bố trí này cho phép so sánh không chỉ mức thay đổi theo thời gian trong từng nhóm mà còn sự khác biệt giữa người có sử dụng hệ thống và người không sử dụng hệ thống.
+Dữ liệu đầu ra được thu từ bốn nguồn: bảng hỏi trước thử nghiệm, bảng hỏi sau thử nghiệm, log hệ thống và phỏng vấn sau can thiệp. Phân tích dữ liệu được thực hiện theo hai lớp. Lớp thứ nhất là phân tích mô tả nhằm nhận diện xu hướng sử dụng, mức độ hài lòng và biến động các chỉ số học tập. Lớp thứ hai là phân tích suy luận bằng kiểm định t độc lập, đối chiếu trước – sau và phân tích chênh lệch giữa hai nhóm. Ngoài ra, đề tài còn đánh giá độ tin cậy nội tại của các thang đo cảm nhận người dùng, từ đó bảo đảm rằng kết quả khảo sát không chỉ có ý nghĩa mô tả mà còn đủ độ chặt chẽ về mặt phương pháp.
+
+Đóng góp của đề tài
+Đề tài có bốn đóng góp chính. Thứ nhất, nhóm đã xây dựng một prototype trợ lý ảo AI có kiến trúc hoàn chỉnh, tích hợp đồng thời các chức năng học thuật, lập lịch và hỗ trợ cảm xúc trong cùng một nền tảng. Thứ hai, nhóm đã tạo bộ dữ liệu nội bộ phục vụ tinh chỉnh mô hình tiếng Việt cho ngữ cảnh học tập đại học. Thứ ba, đề tài cung cấp bộ kết quả thực nghiệm định lượng và định tính cho thấy tác động tích cực của hệ thống đến hiệu quả học tập và quản lý thời gian. Thứ tư, báo cáo đã làm rõ các nguyên tắc thiết kế một trợ lý ảo AI cho giáo dục đại học Việt Nam theo hướng lấy sinh viên làm trung tâm.
+
+Cấu trúc báo cáo
+Sau phần mở đầu, báo cáo được tổ chức thành ba chương chính. Chương 1 trình bày cơ sở lý thuyết và tổng quan nghiên cứu về trợ lý ảo AI trong giáo dục, cá nhân hóa học tập, NLP tiếng Việt, phân tích cảm xúc và hệ gợi ý. Chương 2 mô tả chi tiết quá trình phân tích yêu cầu, thiết kế kiến trúc và triển khai hệ thống. Chương 3 trình bày kết quả xây dựng, kịch bản thực nghiệm, phân tích định lượng, thảo luận học thuật và đánh giá tổng hợp. Cuối cùng là phần kết luận, tài liệu tham khảo và phụ lục.
+Phần mở đầu đã xác lập rõ bối cảnh, mục tiêu, phạm vi và phương pháp của đề tài. Trên cơ sở đó, các chương tiếp theo tập trung chứng minh rằng hệ thống đã được xây dựng đầy đủ, triển khai thành công và tạo ra các kết quả thực nghiệm có ý nghĩa đối với bối cảnh giáo dục đại học Việt Nam.
+
+CHƯƠNG 1
+Cơ sở lý thuyết và tổng quan nghiên cứu
+
+Chương này trình bày nền tảng lý thuyết làm cơ sở cho việc thiết kế hệ thống trợ lý ảo AI cá nhân hóa cho sinh viên. Các nội dung được lựa chọn bám sát cấu trúc chức năng của hệ thống đã triển khai, bao gồm trợ lý ảo trong giáo dục, cá nhân hóa học tập, xử lý ngôn ngữ tự nhiên tiếng Việt, phân tích cảm xúc, hệ gợi ý học tập và tổng quan các nghiên cứu liên quan trong và ngoài nước.
+
+Tổng quan về trợ lý ảo AI trong giáo dục
+Trợ lý ảo AI trong giáo dục là các hệ thống phần mềm có khả năng tương tác với người học, cung cấp phản hồi, khuyến nghị hoặc hỗ trợ ra quyết định dựa trên dữ liệu học tập và ngữ cảnh sử dụng. Trong đó, AI được hiểu là tập hợp các phương pháp tính toán cho phép máy tính mô phỏng một số năng lực trí tuệ của con người như suy luận, học từ dữ liệu, nhận diện mẫu và đưa ra quyết định. Thuật ngữ trợ lý ảo dùng để chỉ một tác nhân phần mềm có khả năng tiếp nhận yêu cầu của người dùng và phản hồi theo mục tiêu hỗ trợ cụ thể; khi trợ lý ảo được tăng cường bởi AI, hệ thống không chỉ phản hồi theo kịch bản cố định mà còn có thể thích nghi theo dữ liệu và ngữ cảnh.
+Khác với chatbot thông tin đơn thuần, trợ lý ảo học tập hiện đại có thể lưu giữ lịch sử hội thoại, khai thác hồ sơ người học và sử dụng mô hình ngôn ngữ lớn để phản hồi tự nhiên hơn. Ở đây, chatbot là chương trình hội thoại cho phép người dùng trao đổi bằng ngôn ngữ tự nhiên qua giao diện văn bản hoặc giọng nói; còn mô hình ngôn ngữ lớn (Large Language Model – LLM ) là mô hình được huấn luyện trên lượng văn bản rất lớn nhằm dự đoán từ tiếp theo, từ đó hình thành năng lực sinh và hiểu văn bản ở mức khá linh hoạt. Theo [4], các hệ thống dạy học thông minh là lớp hệ thống có khả năng theo dõi trạng thái học tập của người dùng và điều chỉnh mức hỗ trợ dựa trên tiến bộ cá nhân; đây là nền tảng lý thuyết gần gũi nhất với hướng xây dựng trợ lý ảo học tập của đề tài.
+Ở góc nhìn học máy, lõi của một trợ lý ảo có thể mô hình hóa bằng hàm ánh xạ từ đầu vào sang đầu ra:
+
+y =fθ(x),(1.1)
+
+trong đó x là đầu vào như câu hỏi, lịch học hoặc trạng thái người dùng; yˆ là đầu ra như câu trả lời hoặc gợi ý; còn θ là tập tham số của mô hình. Quá trình học tham số thường được phát biểu dưới dạng bài toán tối ưu:
+i=1i=1i=1i=1NNNNθθθθNNNNθθθθiiiiiiiiθ∗ = arg min  1 L L(f (x ), y ) + λΩ(θ),(1.2)
+i=1
+i=1
+N
+N
+θ
+θ
+N
+N
+θ
+θ
+i
+i
+i
+i
+trong đó L là hàm mất mát đo sai khác giữa dự đoán và nhãn đúng, còn Ω(θ) là thành phần điều chuẩn giúp hạn chế quá khớp dữ liệu. Công thức này là khung chung cho nhiều bài toán mà đề tài sử dụng như phân loại cảm xúc, xếp hạng gợi ý và sinh phản hồi.
+
+Sự xuất hiện của các mô hình ngôn ngữ tiền huấn luyện quy mô lớn như BERT [5] và các thư viện triển khai hiện đại như Transformers [6] đã thúc đẩy làn sóng trợ lý ảo thế hệ mới. Tiền huấn luyện là giai đoạn mô hình học trước trên tập dữ liệu rất lớn để hình thành năng lực ngôn ngữ nền, sau đó mới được tinh chỉnh cho một bài toán cụ thể. BERT là mô hình ngôn ngữ hai chiều mạnh về biểu diễn ngữ nghĩa, trong khi thư viện Transformers là hệ sinh thái công cụ giúp huấn luyện, tinh chỉnh và triển khai các mô hình kiến trúc transformer một cách thống nhất. Về lý thuyết, transformer là kiến trúc sử dụng cơ chế tự chú ý (self-attention) để xác định mức độ liên quan giữa các đơn vị từ trong cùng một chuỗi [11]. Công thức lõi của phép attention được viết như
+        sau:
+  
+  
+
+Attention(Q, K, V ) = softmax
+QK⊤
+√dk
+V,(1.3)
+
+trong đó Q, K, V lần lượt là ma trận truy vấn, khóa và giá trị; còn dk là số chiều của vector khóa. Với mô hình ngôn ngữ, xác suất sinh phần tử kế tiếp thường được tính theo:
+
+p(xt | x<t) = softmax(Wht + b),(1.4)
+
+trong đó ht là biểu diễn ngữ cảnh tại thời điểm t, còn W và b là tham số chiếu ra không gian từ vựng.
+Trong giáo dục, VTA-bot cho thấy lợi ích rõ rệt trong việc trả lời thắc mắc học tập và giảm thời gian tra cứu thông tin [1]; YA-TA nhấn mạnh vai trò của hỏi đáp cá nhân hóa trong duy trì động lực học tập [2]; SocratiQ mở rộng AI sang hỗ trợ thảo luận nhóm và gợi mở tư duy phản biện [3]. Tuy vậy, các hệ thống này vẫn đặt ra yêu cầu kiểm soát chất lượng nội dung và tránh để người học phụ thuộc quá mức vào AI [12]. Nói cách khác, giá trị của trợ lý ảo giáo dục không chỉ nằm ở khả năng “trả lời được”, mà còn nằm ở việc phản hồi đúng bối cảnh, đúng mức độ hỗ trợ và không làm suy giảm năng lực tự học của sinh viên.
+Bộ suy luận AI cá nhân hóaLịch học và deadlineHỗ trợ cảm xúcHệ gợi ý và hồ sơ học tậpTín hiệu cảm xúcKế hoạch học tậpPhản hồi học thuậtNLP tiếng ViệtCâu hỏi học thuậtBộ suy luận AI cá nhân hóaLịch học và deadlineHỗ trợ cảm xúcHệ gợi ý và hồ sơ học tậpTín hiệu cảm xúcKế hoạch học tậpPhản hồi học thuậtNLP tiếng ViệtCâu hỏi học thuậtBộ suy luận AI cá nhân hóaLịch học và deadlineHỗ trợ cảm xúcHệ gợi ý và hồ sơ học tậpTín hiệu cảm xúcKế hoạch học tậpPhản hồi học thuậtNLP tiếng ViệtCâu hỏi học thuậtBộ suy luận AI cá nhân hóaLịch học và deadlineHỗ trợ cảm xúcHệ gợi ý và hồ sơ học tậpTín hiệu cảm xúcKế hoạch học tậpPhản hồi học thuậtNLP tiếng ViệtCâu hỏi học thuật
+Bộ suy luận AI cá nhân hóa
+Lịch học và deadline
+Hỗ trợ cảm xúc
+Hệ gợi ý và hồ sơ học tập
+Tín hiệu cảm xúc
+Kế hoạch học tập
+Phản hồi học thuật
+NLP tiếng Việt
+Câu hỏi học thuật
+Bộ suy luận AI cá nhân hóa
+Lịch học và deadline
+Hỗ trợ cảm xúc
+Hệ gợi ý và hồ sơ học tập
+Tín hiệu cảm xúc
+Kế hoạch học tập
+Phản hồi học thuật
+NLP tiếng Việt
+Câu hỏi học thuật
+Hình 1.1: Khung chức năng của trợ lý ảo AI cá nhân hóa trong giáo dục đại học
+
+
+Cá nhân hóa học tập
+Cá nhân hóa học tập là nguyên tắc điều chỉnh nội dung, nhịp độ, cách thức hỗ trợ và phản hồi dựa trên đặc điểm cá nhân của người học. Hiểu một cách chặt chẽ hơn, cá nhân hóa là quá trình làm cho đầu ra của hệ thống khác nhau giữa các người dùng trên cơ sở dữ liệu riêng của từng người, thay vì cung cấp một phương án chung cho tất cả. Trong môi trường đại học, cá nhân hóa có thể được triển khai theo nhiều tầng: cá nhân hóa nội dung học thuật, cá nhân hóa lộ trình môn học, cá nhân hóa lịch học và cá nhân hóa hỗ trợ động lực.
+Theo [13], tính hữu ích cảm nhận và tính dễ sử dụng cảm nhận là hai cấu phần quyết định sự chấp nhận một công nghệ học tập. Trong đó, tính hữu ích cảm nhận là mức độ người dùng tin rằng công nghệ giúp họ cải
+
+thiện hiệu quả công việc hoặc học tập, còn tính dễ sử dụng cảm nhận là mức độ người dùng cảm thấy việc sử dụng hệ thống không đòi hỏi nhiều nỗ lực. Hai khái niệm này thuộc mô hình chấp nhận công nghệ (Technology Acceptance Model – TAM ), một khung lý thuyết thường dùng để giải thích vì sao người dùng chấp nhận hoặc từ chối một hệ thống số.
+Trong đề tài này, cá nhân hóa được mô hình hóa dưới dạng hồ sơ người dùng đa thành phần, bao gồm thông tin học lực, nhóm môn quan tâm, thời gian học ưu tiên, mức độ bận rộn trong tuần, lịch sử tương tác với chatbot, cảm xúc được nhận diện từ hội thoại và phản hồi đối với các gợi ý đã đưa ra. Hồ sơ người dùng ở đây được hiểu là bản mô tả có cấu trúc về các đặc trưng học tập và hành vi của người học, đóng vai trò làm nguồn dữ liệu đầu vào cho bộ suy luận của hệ thống. Cách tiếp cận này giúp hệ thống tránh trạng thái gợi ý tĩnh giống nhau cho mọi người dùng, đồng thời tạo điều kiện cho việc học từ hành vi của chính người học trong các vòng sử dụng sau.
+Về mặt hình thức, có thể ký hiệu hồ sơ người dùng dưới dạng vector đặc trưng:
+
+u = [u1, u2, . . . , um],(1.5)
+
+trong đó mỗi uj là một biến mô tả người học như điểm số, sở thích môn học, khung giờ học ưu tiên hoặc mức độ áp lực hiện tại. Khi đó, quyết định cá nhân hóa của hệ thống được biểu diễn bằng:
+
+||||a∗ = arg max S(a u, c),(1.6)
+|
+|
+a∈A
+trong đó A là tập hành động hoặc gợi ý có thể đưa ra, c là ngữ cảnh hiện thời và S(·) là hàm điểm phù hợp. Công thức này cho thấy bản chất của cá nhân hóa là bài toán tối ưu hóa quyết định có điều kiện theo hồ sơ và bối cảnh.
+
+
+Các lý thuyết giáo dục nền tảng cho hệ thống
+
+Thuyết kiến tạo xã hội, vùng phát triển gần và giàn giáo học tập
+Một trợ lý ảo học tập không chỉ là hệ thống sinh câu trả lời mà còn là công cụ trung gian hỗ trợ người học tiến từ mức năng lực hiện tại đến mức năng lực cao hơn. Góc nhìn này gắn chặt với thuyết kiến tạo xã hội của Vygotsky, theo đó tri thức được hình thành thông qua tương tác xã hội và sự hỗ trợ có định hướng từ môi trường học tập [14]. Trong khung lý thuyết này, khái niệm quan trọng là vùng phát triển gần (Zone of Proximal Development – ZPD), tức khoảng giữa những gì người học có thể tự thực hiện và những gì người học có thể hoàn thành khi có hỗ trợ phù hợp.
+Về hình thức, có thể mô tả vùng phát triển gần như hiệu giữa hai tập nhiệm vụ:
+
+ZPD = Tsupport \ Tindependent,(1.7)
+
+trong đó Tindependent là tập nhiệm vụ sinh viên có thể hoàn thành độc lập, còn Tsupport là tập nhiệm vụ sinh viên hoàn thành được khi có gợi ý, ví dụ, tóm tắt hoặc nhắc nhở từng bước. Công thức này cho thấy vai trò của trợ lý ảo không phải làm thay người học, mà là mở rộng dần tập nhiệm vụ mà người học có thể xử lý hiệu quả.
+
+Từ ZPD, lý thuyết giàn giáo học tập (scaffolding) tiếp tục nhấn mạnh rằng hỗ trợ cần có tính tạm thời, vừa đủ và được rút dần khi năng lực người học tăng lên [15]. Trong đề tài này, scaffolding được hiện thực qua ba cơ chế: chatbot chia nhỏ lời giải thành từng bước ngắn, mô-đun gợi ý đề xuất tác vụ kế tiếp thay vì áp đặt toàn bộ lộ trình, và mô-đun lập lịch tự động phân rã khối lượng học thành các phiên ngắn phù hợp với sức tập trung của sinh viên. Cách triển khai đó giúp hệ thống hỗ trợ đúng mức mà vẫn duy trì vai trò chủ động của người học.
+
+Lý thuyết tự điều chỉnh học tập
+Tự điều chỉnh học tập (Self-Regulated Learning – SRL) là năng lực người học tự đặt mục tiêu, lập kế hoạch, theo dõi quá trình thực hiện và tự đánh giá để điều chỉnh chiến lược học tập [16]. Đây là một trong những khung lý thuyết quan trọng nhất đối với đề tài, vì hệ thống không chỉ trả lời câu hỏi học thuật mà còn tác động trực tiếp đến hành vi lập kế hoạch, theo dõi deadline và phản tư sau mỗi tuần học.
+Theo mô hình chu trình của Zimmerman, SRL diễn ra qua ba pha liên tiếp: dự kiến trước (forethought), thực thi và giám sát (performance monitoring), phản tư (self-reflection). Để biểu diễn chu trình này trong ngữ cảnh hệ thống, đề tài sử dụng cách mô tả trạng thái học tập của người dùng theo quy tắc cập nhật:
+
+st+1 = Φ(st, gt, ft, et),(1.8)
+
+trong đó st là trạng thái học tập hiện tại, gt là mục tiêu hoặc kế hoạch đã đặt ra, ft là phản hồi hệ thống và et là tín hiệu cảm xúc ở thời điểm t. Công thức này không phải là phương trình gốc của Zimmerman mà là cách diễn giải tính chu trình của SRL trong bài toán AI cá nhân hóa: mỗi vòng tương tác mới đều làm thay đổi trạng thái học tập và dẫn đến một vòng điều chỉnh tiếp theo.
+Liên hệ với thiết kế hệ thống, SRL được hỗ trợ ở cả ba pha. Pha dự kiến trước được hiện thực qua mô-đun đặt mục tiêu và gợi ý lộ trình học tập. Pha thực thi và giám sát được hỗ trợ bởi lịch học, nhắc deadline, check-in cảm xúc và theo dõi tiến độ. Pha phản tư được hỗ trợ thông qua dashboard tổng hợp hiệu suất, mức hoàn thành kế hoạch và nhật ký tương tác. Chính vì vậy, hệ thống của đề tài không đơn thuần là công cụ hỏi đáp mà là tác nhân hỗ trợ hành vi tự học có cấu trúc.
+
+Lý thuyết tải nhận thức
+Lý thuyết tải nhận thức (Cognitive Load Theory – CLT ) cho rằng hiệu quả học tập phụ thuộc mạnh vào mức tải mà nhiệm vụ đặt lên bộ nhớ làm việc hữu hạn của người học [17]. Trong môi trường trợ lý ảo, lý thuyết này đặc biệt quan trọng vì một hệ thống dù có phản hồi đúng nhưng nếu phản hồi quá dài, quá dày thông tin hoặc đưa ra quá nhiều lựa chọn cùng lúc thì vẫn có thể làm giảm chất lượng tiếp nhận.
+Tải nhận thức tổng thể thường được biểu diễn theo ba thành phần:
+
+CLtotal = CLintrinsic + CLextraneous + CLgermane,(1.9)
+
+
+trong đó CLintrinsic là tải gắn với độ phức tạp vốn có của nội dung học, CLextraneous là tải phát sinh do cách trình bày chưa hợp lý, còn CLgermane là tải dành cho quá trình kiến tạo lược đồ tri thức. Mục tiêu thiết kế không phải loại bỏ hoàn toàn tải nhận thức, mà là giảm tải ngoại sinh không cần thiết để người học dành nhiều nguồn lực
+
+hơn cho tải sinh ích.
+Khung CLT giải thích trực tiếp nhiều lựa chọn thiết kế của đề tài. Giao diện được rút gọn theo tác vụ; phản hồi chatbot được chia thành đoạn ngắn, có tiêu đề; lịch học được tách thành các phiên 30–50 phút; và khi mô-đun cảm xúc phát hiện áp lực cao, hệ thống chủ động giảm độ dài phản hồi và ưu tiên các bước hành động ngắn. Những quyết định này làm giảm CLextraneous, từ đó giúp hệ thống phù hợp hơn với bối cảnh sinh viên phải xử lý nhiều thông tin học tập cùng lúc.
+
+Xử lý ngôn ngữ tự nhiên tiếng Việt
+Việc xây dựng chatbot học thuật tiếng Việt đòi hỏi kết hợp nhiều bước xử lý ngôn ngữ tự nhiên (Natural Language Processing – NLP), tức lĩnh vực nghiên cứu giúp máy tính phân tích, hiểu và sinh ngôn ngữ của con người. Chuỗi xử lý thường bắt đầu từ tiền xử lý văn bản, nhận diện ngữ cảnh, truy hồi tài liệu liên quan đến sinh phản hồi mạch lạc và an toàn. Tiền xử lý văn bản là bước chuẩn hóa dữ liệu đầu vào như tách câu, chuẩn hóa chính tả, tách từ và loại bỏ nhiễu; còn truy hồi là bước tìm ra các đoạn tài liệu gần nhất với câu hỏi của người dùng trong kho tri thức.
+Tiếng Việt có đặc điểm đơn vị từ phức hợp, giàu dấu thanh và dễ gây nhập nhằng khi tách từ, vì vậy chất lượng tiền xử lý ảnh hưởng trực tiếp đến hiệu quả mô hình. PhoBERT [18] là một nền tảng quan trọng cho NLP tiếng Việt nhờ khả năng biểu diễn ngữ nghĩa mạnh trên văn bản chuẩn hóa. Trong bối cảnh này, biểu diễn ngữ nghĩa được hiểu là cách mô hình chuyển văn bản thành dạng vector số sao cho các văn bản gần nghĩa có biểu diễn gần nhau trong không gian tính toán.
+Giả sử câu hỏi q và tài liệu dj được mã hóa thành hai vector eq và edj , mức tương đồng ngữ nghĩa thường được đo bằng cosine similarity:
+jjjjsim(q, d ) =  eq · edj   .(1.10)
+j
+j
+∥eq∥∥edj ∥
+Công thức này nhận giá trị từ −1 đến 1 và được dùng để xếp hạng những đoạn tài liệu gần nghĩa nhất với câu hỏi. Trong hệ thống hỏi đáp học thuật, cosine similarity giúp lựa chọn các đoạn tri thức phù hợp trước khi sinh câu trả lời.
+Đề tài không phát triển mô hình nền tảng từ đầu mà sử dụng hướng tiếp cận kết hợp giữa mô hình ngôn ngữ đã tiền huấn luyện và cơ chế tăng cường truy hồi (Retrieval-Augmented Generation – RAG). Về bản chất, RAG là cách kết hợp giữa hai giai đoạn: truy hồi tài liệu liên quan trước, rồi sử dụng các tài liệu đó làm ngữ cảnh để sinh câu trả lời. Song song đó, đề tài sử dụng tinh chỉnh mô hình (fine-tuning), tức tiếp tục huấn luyện mô hình đã có sẵn trên một tập dữ liệu nhỏ hơn nhưng chuyên biệt hơn nhằm thích nghi với bài toán mục tiêu.
+Mô hình RAG có thể được mô tả ngắn gọn qua hai bước toán học [19]. Bước truy hồi chọn tập tài liệu gần nhất:
+Dk(q) = TopKdj ∈D sim(q, dj).(1.11)
+
+Bước sinh phản hồi tìm câu trả lời tối ưu theo mô hình ngôn ngữ có điều kiện:
+
+aaaaa∗ = arg max pθ(a | q, Dk(q)) .(1.12)
+a
+a
+
+Trong khi đó, fine-tuning thường sử dụng hàm mất mát entropy chéo:
+
+L−L LL−L LL−L LL−L LNC
+L−L L
+L−L L
+
+icicicicCE = 1y N
+ic
+ic
+i=1 c=1
+log yˆic
+,(1.13)
+
+
+trong đó yic là nhãn đúng và yˆic là xác suất mô hình dự đoán lớp c cho mẫu i. Hàm mất mát càng nhỏ thì mô hình càng gần với nhãn mục tiêu.
+Cách tiếp cận này có ba lợi ích. Thứ nhất, phản hồi của chatbot bám sát kho tri thức nội bộ đã kiểm duyệt, từ đó giảm nguy cơ sinh nội dung sai lệch. Thứ hai, hệ thống có thể thích nghi với ngữ cảnh học thuật tiếng Việt nhanh hơn so với huấn luyện lại toàn bộ mô hình. Thứ ba, chi phí tính toán phù hợp với quy mô một đề tài nghiên cứu sinh viên nhưng vẫn bảo đảm chất lượng đầu ra đủ dùng trong thử nghiệm thực tế.
+
+Phân tích cảm xúc trong bối cảnh học tập
+Phân tích cảm xúc trong giáo dục không chỉ nhằm phân loại trạng thái tích cực hay tiêu cực mà còn hướng đến nhận diện các tín hiệu liên quan đến động lực, lo âu, chán nản và quá tải nhận thức. Phân tích cảm xúc là bài toán tự động nhận biết thái độ hoặc trạng thái cảm xúc từ dữ liệu như văn bản, giọng nói hoặc hình ảnh. Theo [9], cảm xúc là yếu tố tác động trực tiếp đến hiệu quả học tập, quyết định mức độ tập trung, kiên trì và khả năng tiếp nhận phản hồi. Vì vậy, việc tích hợp mô-đun phân tích cảm xúc trong trợ lý ảo có ý nghĩa ở cả khía cạnh chăm sóc trải nghiệm và tối ưu hóa hỗ trợ học tập.
+Đề tài lựa chọn phân tích cảm xúc từ văn bản hội thoại vì đây là nguồn dữ liệu sẵn có, ít xâm lấn và phù hợp với môi trường sử dụng web/mobile. Khái niệm ít xâm lấn ở đây có nghĩa là hệ thống không đòi hỏi thu thập dữ liệu nhạy cảm như hình ảnh khuôn mặt hoặc tín hiệu sinh học mà vẫn có thể suy đoán trạng thái cảm xúc từ những gì người dùng đã nhập vào. Các nhãn cảm xúc được tổ chức theo bốn mức: tích cực, trung tính, áp lực nhẹ và áp lực cao. Trên cơ sở nhận diện nhãn này, hệ thống điều chỉnh cách phản hồi của chatbot, giảm lượng thông tin trong một lượt trao đổi khi người dùng có dấu hiệu quá tải, đồng thời ưu tiên các gợi ý nghỉ ngơi ngắn, chia nhỏ công việc hoặc chuyển đổi nhiệm vụ.
+Về mặt phân loại, với vector đặc trưng đầu vào h, xác suất thuộc lớp cảm xúc
+     c thường được tính bằng
+hàm softmax:
+exp(zc)
+L,L,L,L,pˆ =,z = W h + b.(1.14)
+L,
+L,
+
+cC
+j=1
+exp(zj)
+
+Lớp dự đoán cuối cùng được xác định bởi:
+
+cˆ = arg max pˆc.(1.15)
+c
+
+Ý nghĩa của hai công thức này là mô hình chuyển biểu diễn ngữ nghĩa của câu nói thành điểm số cho từng trạng thái cảm xúc, sau đó chuẩn hóa các điểm số thành xác suất. Đây là cơ sở toán học cho việc hệ thống gán nhãn “tích cực”, “trung tính” hay “áp lực cao” cho mỗi lượt hội thoại.
+
+Hệ thống gợi ý trong hỗ trợ học tập
+Hệ thống gợi ý là thành phần cốt lõi giúp chuyển trợ lý ảo từ dạng “hỏi gì đáp nấy” sang dạng “đồng hành chủ động”. Hệ thống gợi ý là lớp hệ thống tính toán có nhiệm vụ đề xuất một tập phương án phù hợp cho người dùng dựa trên dữ liệu lịch sử, đặc trưng nội dung hoặc hành vi của những người dùng tương tự. Về nguyên lý, hệ gợi ý có thể dựa trên nội dung (đề xuất các mục có đặc trưng giống những gì người dùng từng quan tâm), dựa trên cộng tác (khai thác hành vi của nhóm người dùng tương tự) hoặc kết hợp nhiều tín hiệu khác nhau [20]. Trong bối cảnh giáo dục, đối tượng được gợi ý có thể là tài liệu, môn học, bài luyện tập, lịch học hoặc hành động kế tiếp nên thực hiện.
+Đề tài sử dụng mô hình gợi ý kết hợp, trong đó lớp thứ nhất khai thác lịch sử học tập và hồ sơ cá nhân để đề xuất nhóm môn học phù hợp; lớp thứ hai áp dụng luật ràng buộc, tức các điều kiện bắt buộc như thời khóa biểu, điều kiện tiên quyết, khối lượng tín chỉ và mức độ quá tải dự kiến; lớp thứ ba điều chỉnh gợi ý theo trạng thái cảm xúc và mức độ bận rộn hiện tại. Cách thiết kế nhiều lớp giúp gợi ý không chỉ “đúng sở thích” mà còn “khả thi trong thực tế”, hạn chế việc đề xuất lịch học đẹp về mặt thuật toán nhưng khó thực hiện.
+Một lý thuyết quan trọng liên quan trực tiếp đến mô-đun này là lọc cộng tác (collaborative filtering), tức phương pháp dự đoán mức độ phù hợp của một mục đối với người dùng dựa trên hành vi của những người dùng tương tự [21]. Trong bài toán gợi ý môn học, “người dùng tương tự” có thể là các sinh viên có nền tảng học lực, nhóm môn quan tâm và quỹ thời gian gần nhau. Một dạng mô hình chuẩn của collaborative filtering theo phân rã ma trận được viết là:
+uuuurˆui = µ + bu + bi + p⊤qi,(1.16)
+u
+u
+
+trong đó rˆui là mức phù hợp dự đoán giữa người dùng u và mục i; µ là trung bình toàn cục; bu và bi là độ lệch riêng của người dùng và mục; còn pu, qi là các vector nhân tố ẩn. Về bản chất, công thức này học ra các cấu trúc sở thích tiềm ẩn mà dữ liệu thô khó biểu diễn trực tiếp.
+Về mặt tính điểm, đề tài sử dụng hàm gợi ý lai:
+
+score(u, i) = αscontent(u, i) + βshistory(u, i) + γsconstraint(u, i) + δsemotion(u, i),(1.17)
+
+trong đó u là người dùng, i là mục được gợi ý như môn học hoặc kế hoạch học tập; scontent đo độ phù hợp theo nội dung và hồ sơ; shistory phản ánh lịch sử học tập; sconstraint lượng hóa mức thỏa các ràng buộc học vụ; còn semotion điều chỉnh theo trạng thái cảm xúc. Hệ thống chọn gợi ý tốt nhất theo:
+
+i∗ = arg max score(u, i).(1.18)
+i∈I
+Cách viết này cho thấy lý thuyết của hệ gợi ý trong đề tài không dựa vào một nguồn tín hiệu duy nhất mà là tổ hợp có trọng số của nhiều nguồn thông tin.
+Điểm cần nhấn mạnh là collaborative filtering thuần túy chưa đủ cho bối cảnh giáo dục đại học, vì môn học và kế hoạch học tập còn bị ràng buộc bởi tiên quyết, lịch học cố định và tải học tập tối đa. Do đó, đề tài kết hợp nó với gợi ý có ràng buộc (constraint-aware recommendation), tức chỉ giữ lại các phương án vừa có điểm phù hợp cao vừa thỏa các điều kiện học vụ và quỹ thời gian cá nhân. Cách kết hợp này phù hợp hơn với thực tế chọn môn và tổ chức học tập so với việc chỉ tối đa hóa xác suất người dùng sẽ “thích” một gợi ý.
+
+Lý thuyết quản lý thời gian và lập lịch học
+Quản lý thời gian trong môi trường học tập có thể được nhìn như một bài toán lập lịch có ràng buộc. Lập lịch là quá trình gán các tác vụ vào các khung thời gian hữu hạn sao cho tối ưu một mục tiêu nào đó, ví dụ tối đa hóa mức hoàn thành, giảm trễ hạn hoặc cân bằng tải công việc [22]. Trong đề tài này, tác vụ cần lập lịch gồm tự học, ôn tập, hoàn thành bài tập và chuẩn bị kiểm tra; còn ràng buộc đến từ lịch học cố định, deadline, thời lượng trống trong ngày và mức độ tập trung cá nhân theo từng khung giờ.
+Gọi xjt ∈ {0, 1} là biến quyết định nhận giá trị 1 nếu tác vụ j được gán vào khung giờ t, pj là thời
+lượng tác vụ, wj là độ ưu tiên, qjt là mức phù hợp giữa tác vụ và khung giờ, còn Ct là quỹ thời gian khả dụng của khung giờ t. Khi đó bài toán lập lịch có thể được mô hình hóa như sau:
+
+L LL LL LL LnT
+L L
+L L
+maxwjqjtxjt,(1.19)
+xjt
+j=1 t=1
+
+
+LLLLT
+L
+L
+với các ràng buộcxjt ≤ 1,
+t=1
+n
+LLLLpjxjt ≤ Ct,xjt ∈ {0, 1}.(1.20)
+L
+L
+j=1
+
+Ý nghĩa của mô hình này là hệ thống cần chọn cách gán tác vụ vào thời gian sao cho tổng “giá trị thực hiện” cao nhất, nhưng vẫn không vượt quá quỹ thời gian sẵn có và không gán cùng một tác vụ vào quá nhiều khung giờ.
+Về mặt lý thuyết ứng dụng, mô-đun lập lịch của đề tài kết hợp hai hướng. Hướng thứ nhất là tối ưu hóa theo ưu tiên, deadline và khả năng hoàn thành để xử lý phần lõi của bài toán. Hướng thứ hai là điều chỉnh theo hành vi và cảm xúc người dùng, chẳng hạn giảm mật độ lịch khi phát hiện áp lực cao hoặc dồn các tác vụ khó vào khung giờ người dùng có hiệu suất tốt hơn. Nhờ đó, lập lịch trong hệ thống không chỉ là bài toán sắp xếp cơ học mà là bài toán tối ưu hóa cá nhân hóa gắn với trạng thái học tập thực tế.
+
+Phân tích học tập, dữ liệu hành vi và mức độ gắn kết
+Phân tích học tập (learning analytics) là quá trình đo lường, thu thập, phân tích và báo cáo dữ liệu về người học cùng bối cảnh học tập nhằm hiểu và tối ưu hóa việc học [23]. Khái niệm này khác với khai phá dữ liệu giáo dục ở chỗ learning analytics nhấn mạnh mạnh hơn vào việc biến dữ liệu thành tín hiệu hỗ trợ ra quyết định ở cấp độ sư phạm và quản trị. Với đề tài này, learning analytics là khung lý thuyết giải thích vì sao nhật ký sử dụng, tần suất truy cập, mức chấp nhận gợi ý hay chỉ số hoàn thành tác vụ có thể được xem như bằng chứng cho sự thay đổi hành vi học tập.
+Ở mức khái quát, quá trình phân tích học tập diễn ra theo một chu trình khép kín gồm bốn bước: thu thập dữ liệu, trích xuất chỉ số, diễn giải theo lý thuyết học tập và tác động ngược trở lại người học. Có thể mô tả chu trình này bằng ánh xạ:
+A : X → M → I → Y,(1.21)
+trong đó X là dữ liệu thô như log truy cập và hội thoại, M là tập chỉ số trung gian, I là các can thiệp như nhắc việc hoặc gợi ý, còn Y là các kết quả học tập và trải nghiệm. Công thức này cho thấy dữ liệu không có ý nghĩa tự thân nếu không được chuyển hóa thành biến đo lường và hành động hỗ trợ cụ thể.
+
+Một khái niệm gần gũi khác là mức độ gắn kết của người học (learner engagement). Theo Fredricks và cộng sự [24], engagement thường được xem như cấu trúc nhiều chiều, gồm thành phần hành vi, cảm xúc và nhận thức. Trong bối cảnh đề tài, engagement không chỉ phản ánh số lần người dùng mở hệ thống mà còn phản ánh việc người dùng có quay lại đều đặn, có thực sự tương tác với gợi ý, và có dùng hệ thống như một phần của quy trình học hàng ngày hay không.
+Để lượng hóa engagement, đề tài sử dụng chỉ số tổng hợp theo hướng vận hành:
+
+Eu = ω1fu + ω2au + ω3cu + ω4ru,(1.22)
+
+trong đó fu là tần suất sử dụng theo tuần, au là tỷ lệ chấp nhận gợi ý, cu là mức hoàn thành tác vụ đúng hạn và ru là mức quay lại hệ thống sau mỗi tuần. Công thức này là cách chuẩn hóa nội bộ để kết nối dữ liệu hành vi với khái niệm engagement trong nghiên cứu giáo dục. Về ý nghĩa, khi Eu tăng lên, có thể suy luận rằng hệ thống đang dần trở thành một công cụ học tập được tích hợp vào thói quen tự học của sinh viên.
+Can thiệp cá nhân hóaChỉ số học tập và hành viLog tương tác và dữ liệu học tậpDiễn giải sư phạmCan thiệp cá nhân hóaChỉ số học tập và hành viLog tương tác và dữ liệu học tậpDiễn giải sư phạmCan thiệp cá nhân hóaChỉ số học tập và hành viLog tương tác và dữ liệu học tậpDiễn giải sư phạmCan thiệp cá nhân hóaChỉ số học tập và hành viLog tương tác và dữ liệu học tậpDiễn giải sư phạm
+Can thiệp cá nhân hóa
+Chỉ số học tập và hành vi
+Log tương tác và dữ liệu học tập
+Diễn giải sư phạm
+Can thiệp cá nhân hóa
+Chỉ số học tập và hành vi
+Log tương tác và dữ liệu học tập
+Diễn giải sư phạm
+Hình 1.2: Chu trình phân tích học tập và can thiệp cá nhân hóa
+
+
+Thiết kế hướng con người, khả giải thích và niềm tin vào hệ thống
+Một hệ thống AI trong giáo dục không thể chỉ tối ưu độ chính xác mà bỏ qua cách người dùng hiểu và kiểm soát hệ thống. Quan điểm này gắn với AI hướng con người (human-centered AI), nhấn mạnh rằng hệ thống phải được thiết kế để hỗ trợ mục tiêu của con người, minh bạch đủ để được hiểu và an toàn đủ để được tin dùng [25]. Trong bối cảnh sinh viên, yếu tố “hướng con người” thể hiện ở việc phản hồi cần phù hợp trình độ, có quyền để người dùng chấp nhận hoặc từ chối gợi ý, và tránh để hệ thống tạo cảm giác áp đặt.
+Khả giải thích (explainability) là khả năng hệ thống cung cấp cho người dùng lý do hoặc căn cứ của một dự đoán, một gợi ý hay một cảnh báo [26]. Với đề tài này, khả giải thích đặc biệt quan trọng ở ba nơi: vì sao hệ thống gợi ý một môn học, vì sao một tác vụ được xếp ưu tiên cao, và vì sao trạng thái cảm xúc lại được gán ở mức áp lực. Nếu thiếu lớp giải thích, người dùng có thể xem hệ thống như “hộp đen”, từ đó làm giảm mức độ chấp nhận dù chất lượng thuật toán vẫn tốt.
+LLLLm
+L
+L
+score(u, i) =ϕk(u, i),(1.23)
+k=1
+
+trong đó ϕk(u, i) là phần đóng góp của từng nguồn tín hiệu như lịch sử học tập, ràng buộc tiên quyết, khung giờ trống hoặc trạng thái cảm xúc. Cách viết này không nhằm thay thế mô hình gợi ý đã nêu trước đó mà làm rõ một yêu cầu thiết kế: hệ thống nên cho phép truy vết các thành phần đóng góp chính tạo nên một gợi ý. Đây cũng là cơ sở để giải thích cho người dùng theo ngôn ngữ gần gũi, chẳng hạn “môn này được ưu tiên vì phù
+
+hợp với số tín chỉ còn lại và ít xung đột lịch”.
+Ở bình diện trải nghiệm, niềm tin vào hệ thống có thể được hiểu là kết quả của ba nhóm yếu tố: độ tin cậy của phản hồi, mức minh bạch của cơ chế gợi ý và khả năng người dùng giữ quyền quyết định cuối cùng. Vì vậy, đề tài không thiết kế hệ thống như một bộ ra quyết định thay thế sinh viên, mà như một công cụ tăng cường quyết định. Cách tiếp cận này cũng giúp dung hòa giữa hiệu quả công nghệ và yêu cầu sư phạm, đặc biệt trong bối cảnh người dùng là sinh viên đang hình thành năng lực tự học độc lập.
+
+Đạo đức, quyền riêng tư và công bằng dữ liệu trong trợ lý ảo giáo dục
+Việc thu thập dữ liệu học tập và hội thoại cá nhân luôn đi kèm với vấn đề đạo đức nghiên cứu và quyền riêng tư. Theo Slade và Prinsloo [27], hệ thống learning analytics chỉ thực sự có giá trị khi người học hiểu loại dữ liệu nào đang được thu thập, dữ liệu được dùng vào mục đích gì và ai có quyền truy cập kết quả phân tích. Đối với đề tài này, nguyên tắc này đặc biệt quan trọng vì dữ liệu đầu vào không chỉ là log truy cập mà còn gồm câu hỏi học thuật, lịch học và tín hiệu cảm xúc.
+′′′′′′′′Quyền riêng tư dữ liệu được hiểu là quyền của người học trong việc kiểm soát thông tin cá nhân của mình; còn công bằng dữ liệu là yêu cầu hệ thống không tạo ra sai lệch có hệ thống bất lợi cho một nhóm người dùng nào đó. Hai khái niệm này dẫn đến ba yêu cầu thực hành: tối thiểu hóa dữ liệu, phân quyền truy cập và theo dõi rủi ro thiên lệch mô hình. Về nguyên tắc tối thiểu hóa dữ liệu, tập biến được thu có thể xem như bài toán:
+′′
+′′
+
+D∗ = arg min
+D′⊆D
+|D |  sao cho  U (D ) ≥ τ,(1.24)
+
+trong đó D là toàn bộ tập dữ liệu có thể thu, D′ là tập dữ liệu thực sự được dùng, còn U (D′) biểu diễn mức hữu ích nghiên cứu tối thiểu cần đạt. Công thức này làm rõ quan điểm thiết kế của đề tài: chỉ giữ lại những dữ liệu thật sự cần cho cá nhân hóa và đánh giá hiệu quả, tránh mở rộng thu thập một cách không kiểm soát.
+Khía cạnh công bằng cũng cần được xét đến trong mô-đun gợi ý. Nếu hệ thống học quá mạnh từ lịch sử người dùng trước, nó có thể vô tình củng cố những lựa chọn cũ và hạn chế cơ hội khám phá các lộ trình học phù hợp khác. Bởi vậy, đề tài kết hợp dữ liệu lịch sử với luật học vụ và quyền phản hồi chủ động của người dùng, từ đó giảm nguy cơ để mô hình “khóa cứng” người học vào một kiểu hồ sơ duy nhất. Ở tầng báo cáo, nguyên tắc đạo đức này được phản ánh ở việc kết quả đều được trình bày dưới dạng ẩn danh và ở mức tổng hợp nhóm.
+
+Khung lý thuyết đánh giá chấp nhận và khả dụng hệ thống
+Để đánh giá mức độ người dùng chấp nhận công nghệ, đề tài sử dụng khung TAM. Về lý thuyết, TAM cho rằng ý định sử dụng (Behavioral Intention – BI) chịu ảnh hưởng trực tiếp từ tính hữu ích cảm nhận (PU ) và tính dễ sử dụng cảm nhận (PEOU ). Mô hình có thể viết dưới dạng:
+
+BI = β1PU + β2PEOU + ε,(1.25)
+
+và hành vi sử dụng thực tế được biểu diễn theo:
+
+USE = β3BI + ε.(1.26)
+
+Trong đó β1, β2, β3 là các hệ số tác động, còn ε là sai số ngẫu nhiên [13]. Hai công thức trên được dùng như cơ sở lý thuyết để giải thích vì sao một hệ thống dù đúng về mặt thuật toán nhưng nếu khó dùng hoặc bị xem là kém hữu ích thì vẫn khó được sinh viên chấp nhận.
+Bên cạnh TAM, đề tài dùng thang đo SUS để lượng hóa mức độ khả dụng của giao diện. Nếu xi là điểm người dùng chấm cho câu hỏi thứ i trên thang 1 đến 5, điểm SUS được tính theo công thức [28]:
+
+LLLLSUS = 2.5 
+L
+L
+i∈{1,3,5,7,9}
+
+(xi − 1) +
+LLLLi∈{2,4,6,8,10}
+L
+L
+(5 − xi) .(1.27)
+
+
+Điểm SUS nằm trong khoảng từ 0 đến 100; điểm càng cao cho thấy hệ thống càng dễ sử dụng. Công thức này đặc biệt phù hợp với đề tài vì cho phép so sánh nhanh mức độ thuận tiện của prototype sau các vòng cải tiến giao diện.
+
+Các nghiên cứu liên quan trong và ngoài nước
+
+Nghiên cứu quốc tế
+Các nghiên cứu quốc tế gần đây cho thấy trợ lý ảo AI đã dịch chuyển từ chức năng hỗ trợ đơn nhiệm sang hệ sinh thái hỗ trợ đa chiều. VTA-bot đạt tỷ lệ hài lòng cao nhờ phản hồi nhanh và khả năng tổ chức lịch ôn tập [1]. YA-TA cho thấy hiệu quả của hỏi đáp cá nhân hóa đối với ghi nhớ kiến thức và giảm bỏ cuộc trong học trực tuyến [2]. SocratiQ tập trung vào đối thoại gợi mở và khả năng hỗ trợ làm việc nhóm, nhưng đồng thời nêu bật rủi ro về độ tin cậy của nội dung sinh tự động [3]. Hao và cộng sự [12] tiếp tục cảnh báo về hiện tượng lệ thuộc AI nếu thiếu các cơ chế kích thích tư duy độc lập.
+Bên cạnh đó, nghiên cứu về phản hồi tự động cá nhân hóa của Kochmar và cộng sự [7] cho thấy phản hồi chi tiết, gắn với tiến độ cá nhân có thể cải thiện kết quả học tập rõ rệt. Kim và cộng sự [8] chứng minh rằng giao diện thông minh biết thích nghi với trạng thái người dùng giúp tăng mức độ tương tác. Baillifard và cộng sự [29] nhấn mạnh vai trò của “người đồng hành AI” trong việc duy trì thói quen học chủ động, song cũng chỉ ra rằng hiệu quả còn phụ thuộc bối cảnh triển khai và quy mô mẫu nghiên cứu.
+
+Nghiên cứu trong nước
+Tại Việt Nam, các công trình công bố chủ yếu tập trung vào chatbot tư vấn tuyển sinh, hệ thống hỏi đáp học liệu hoặc phân loại cảm xúc tiếng Việt. Dù các hướng nghiên cứu này đã tạo nền móng tốt cho xử lý ngôn ngữ tự nhiên tiếng Việt, nhưng việc kết hợp đồng thời các bài toán chatbot học thuật, lập lịch học, gợi ý môn học và hỗ trợ cảm xúc vẫn còn hạn chế. Các nghiên cứu trong nước cũng chưa có nhiều báo cáo thực nghiệm kéo dài đủ lâu để đo được thay đổi về hành vi học tập, đặc biệt là tỷ lệ nộp bài đúng hạn hay sự thay đổi mức độ căng thẳng trong quá trình sử dụng hệ thống.
+
+Bảng 1.1: So sánh các nghiên cứu liên quan theo các chiều chức năng và đánh giá
+
+Nghiên cứu
+Chatbot học thuật
+Cá nhân hóa
+Cảm xúc
+Lập lịch
+/ gợi ý
+Thực nghiệm dài tuần
+Hạn chế nổi bật
+VTA-bot [1]
+Có
+Trung
+Không
+Có
+Có
+Tập trung chủ yếu vào hỏi đáp và lịch ôn
+
+
+bình
+
+
+
+tập.
+YA-TA [2]
+Có
+Cao
+Không
+Không
+Có
+Mạnh về QA cá nhân hóa nhưng hẹp về hỗ
+
+
+
+
+
+
+trợ quản lý thời gian.
+SocratiQ [3]
+Có
+Trung
+Không
+Không
+Có
+Có nguy cơ sai lệch nội dung do generative
+
+
+bình
+
+
+
+AI.
+Kochmar et al. [7]
+Không
+Cao
+Không
+Không
+Có
+Tập trung vào phản hồi học tập, chưa tích
+
+trực tiếp
+
+
+
+
+hợp lịch và cảm xúc.
+Kim et al. [8]
+Không
+Trung
+Có gián
+Không
+Hạn chế
+Thiên về giao diện thích ứng hơn là đồng
+
+trực tiếp
+bình
+tiếp
+
+
+hành học tập toàn diện.
+Baillifard et al.
+Có
+Trung
+Không
+Không
+Hạn chế
+Quy mô mẫu nhỏ và bối cảnh còn hẹp.
+[29]
+
+bình
+
+
+
+
+Đề tài này
+Có
+Cao
+Có
+Có
+Có
+Còn giới hạn ở một trường và giai đoạn sáu
+
+
+
+
+
+
+tuần.
+
+
+Khoảng trống nghiên cứu
+Từ tổng quan trên có thể xác định bốn khoảng trống chính. Thứ nhất, chưa có nhiều hệ thống trợ lý ảo cho sinh viên Việt Nam tích hợp đồng thời hỗ trợ học thuật, quản lý thời gian và hỗ trợ cảm xúc trong cùng một nền tảng. Thứ hai, số lượng nghiên cứu đánh giá hiệu quả bằng cả dữ liệu hành vi lẫn kết quả học tập còn ít. Thứ ba, việc tối ưu hóa chatbot theo tiếng Việt học thuật còn phân tán, chưa gắn chặt với bộ dữ liệu nội bộ của trường đại học. Thứ tư, vẫn thiếu các cơ chế cá nhân hóa đủ sâu để chuyển đổi từ phản hồi chung sang hỗ trợ phù hợp với từng sinh viên.
+Nếu phân tích sâu hơn, các khoảng trống trên có thể được chia thành bốn lớp. Lớp thứ nhất là khoảng trống lý thuyết, thể hiện ở việc nhiều công trình mô tả công nghệ nhưng chưa gắn chặt với các lý thuyết học tập như SRL, CLT hay scaffolding. Lớp thứ hai là khoảng trống thiết kế hệ thống, thể hiện ở việc các mô-đun học thuật, gợi ý và cảm xúc thường được xây dựng rời rạc. Lớp thứ ba là khoảng trống đánh giá, thể hiện ở thiếu các thiết kế thực nghiệm có đối chứng và thiếu dữ liệu hành vi dài hơn một vài phiên sử dụng đầu tiên. Lớp thứ tư là khoảng trống quản trị dữ liệu, thể hiện ở việc nhiều nghiên cứu ít thảo luận về khả giải thích, quyền riêng tư và mức độ chấp nhận công nghệ trong bối cảnh giáo dục Việt Nam.
+Chính sự tồn tại đồng thời của bốn lớp khoảng trống này giải thích vì sao đề tài không thể chỉ dừng ở việc xây dựng một chatbot tiếng Việt. Để tạo ra một đóng góp học thuật đủ rõ, hệ thống cần được thiết kế như một nền tảng tích hợp, có thể quan sát được bằng dữ liệu hành vi, giải thích được ở mức cần thiết và đánh giá được bằng cả chỉ số kỹ thuật lẫn chỉ số sư phạm.
+
+Định hướng tiếp cận của đề tài
+Để giải quyết các khoảng trống trên, đề tài lựa chọn ba định hướng tiếp cận. Một là thiết kế hệ thống theo kiến trúc mô-đun, cho phép tích hợp nhưng vẫn tách biệt giữa chatbot, gợi ý, lập lịch và phân tích cảm xúc. Hai là kết hợp phương pháp dựa trên dữ liệu với tri thức chuyên gia, đặc biệt trong việc xây dựng bộ câu hỏi học thuật tiếng Việt và luật gợi ý học tập. Ba là đánh giá hệ thống bằng thực nghiệm có đối chứng, từ đó đưa ra kết luận dựa trên dữ liệu thay vì chỉ mô tả khả năng công nghệ.
+Nhìn từ khung lý thuyết của chương này, định hướng tiếp cận của đề tài có thể tóm lược thành ba nguyên tắc thiết kế. Thứ nhất là lấy người học làm trung tâm, nghĩa là mọi quyết định về giao diện, phản hồi và gợi ý đều phải phục vụ việc tăng năng lực tự học chứ không chỉ tăng mức tự động hóa. Thứ hai là cá nhân hóa có kiểm soát, nghĩa là hệ thống học từ dữ liệu người dùng nhưng vẫn bảo đảm quyền can thiệp và từ chối của người học. Thứ ba là đánh giá đa chiều, nghĩa là hệ thống chỉ được xem là hiệu quả khi đồng thời đạt được tiêu chí kỹ thuật, chấp nhận sử dụng và tác động tích cực đến hành vi học tập.
+Bảng 1.2: Liên hệ giữa khung lý thuyết và các mô-đun của đề tài
+
+
+
+Khung lý thuyếtMô-đun liên quan trực tiếp
+Ý nghĩa thiết kế
+
+ZPD và scaffoldingChatbot học thuật, lập lịch học
+SRLLộ trình học tập, dashboard tiến độ, nhắc việc
+CLTGiao diện, phản hồi chatbot, planner
+Learning analyticsLog hệ thống, dashboard, đánh giá thực nghiệm
+Cung cấp hỗ trợ vừa đủ, chia nhỏ nhiệm vụ và giảm dần mức hướng dẫn.
+Hỗ trợ đặt mục tiêu, theo dõi, phản tư và điều chỉnh hành vi học tập.
+
+Giảm tải ngoại sinh bằng cách rút gọn thông tin và chia nhỏ tác vụ.
+Chuyển dữ liệu hành vi thành chỉ số để can thiệp và đánh giá tác động.
+
+Human-centered AI và XAIHệ gợi ý, quản lý hồ sơ, UITăng minh bạch, khả giải thích và quyền kiểm
+soát của người dùng.
+TAM và SUSToàn hệ thống, đặc biệt làĐo mức hữu ích, dễ dùng và chấp nhận công giao diện và luồng thao tácnghệ.
+
+Tiểu kết chương
+Chương 1 đã trình bày cơ sở lý thuyết và tổng quan nghiên cứu làm nền tảng cho đề tài. Từ các phân tích này có thể thấy hướng xây dựng một trợ lý ảo AI cá nhân hóa cho sinh viên là khả thi về mặt công nghệ, có nhu cầu thực tiễn rõ ràng và còn nhiều khoảng trống nghiên cứu đáng giá. Những kết luận này là cơ sở trực tiếp cho việc thiết kế kiến trúc và triển khai hệ thống trong chương tiếp theo.
+
+CHƯƠNG 2
+Thiết kế và triển khai hệ thống
+
+Trên cơ sở các yêu cầu đã xác lập ở chương trước, chương này trình bày toàn bộ quá trình phân tích, thiết kế và triển khai hệ thống trợ lý ảo AI cá nhân hóa cho sinh viên. Trọng tâm của chương là chứng minh rằng hệ thống đã được xây dựng có cấu trúc, có căn cứ kỹ thuật rõ ràng và được kiểm thử đầy đủ trước khi đưa vào thực nghiệm.
+
+Phân tích yêu cầu hệ thống
+Nhóm nghiên cứu đã tổng hợp yêu cầu từ 132 phiếu khảo sát hợp lệ và 12 cuộc phỏng vấn bán cấu trúc với sinh viên năm nhất, năm hai. Yêu cầu hệ thống được hiểu là tập các điều kiện mà hệ thống phải đáp ứng để giải quyết đúng bài toán nghiên cứu. Trong đó, yêu cầu chức năng mô tả hệ thống phải làm được những gì, còn yêu cầu phi chức năng mô tả hệ thống phải đạt chất lượng ra sao về tốc độ, bảo mật, giao diện hoặc khả năng bảo trì. Kết quả cho thấy bốn nhu cầu nổi trội nhất là trả lời thắc mắc học thuật nhanh bằng tiếng Việt, nhắc nhở deadline, gợi ý kế hoạch học tập phù hợp với lịch cá nhân và hỗ trợ khi người học có dấu hiệu căng thẳng. Từ đó, nhóm xác định bộ yêu cầu chức năng và phi chức năng như Bảng 2.1.
+
+Bảng 2.1: Tóm tắt yêu cầu hệ thống
+
+Nhóm yêu cầu
+Mã yêu cầu
+Nội dung
+Chức năng
+FR1
+Chatbot trả lời câu hỏi học thuật tiếng Việt, tóm
+
+
+tắt tài liệu và gợi ý tài nguyên học tập.
+Chức năng
+FR2
+Gợi ý môn học và lộ trình học tập theo hồ sơ
+
+
+người dùng, điều kiện tiên quyết và khối lượng
+
+
+tín chỉ.
+Chức năng
+FR3
+Lập lịch học, nhắc việc, đồng bộ lịch với Google
+
+
+Calendar và nhắc deadline.
+Chức năng
+FR4
+Phân tích cảm xúc từ hội thoại và điều chỉnh phản
+
+
+hồi theo mức độ áp lực học tập.
+Chức năng
+FR5
+Quản lý hồ sơ cá nhân hóa, ghi nhận sở thích, thói
+
+
+quen học tập, lịch sử sử dụng và phản hồi.
+Phi chức năng
+NFR1
+Thời gian phản hồi trung bình dưới 2 giây trong
+
+
+điều kiện sử dụng đồng thời 30 người dùng.
+Phi chức năng
+NFR2
+Giao diện thân thiện, dùng được trên máy tính và
+
+
+điện thoại.
+Phi chức năng
+NFR3
+Bảo vệ dữ liệu cá nhân, đăng nhập an toàn bằng
+
+
+JWT và phân quyền truy cập.
+Phi chức năng
+NFR4
+Hệ thống dễ bảo trì, cho phép cập nhật từng mô-
+
+
+đun độc lập.
+
+
+Tác nhân sử dụng và tiêu chí chấp nhận
+Từ yêu cầu hệ thống, nhóm xác định ba tác nhân chính tham gia vào vòng đời sử dụng prototype: sinh viên, quản trị hệ thống và giảng viên/chuyên gia đánh giá học thuật. Trong đó, sinh viên là tác nhân trung tâm, vừa là người tạo dữ liệu đầu vào, vừa là đối tượng nhận hỗ trợ cá nhân hóa. Quản trị hệ thống chịu trách nhiệm cấu hình, giám sát vận hành và xử lý các tình huống lỗi hoặc bất thường. Giảng viên/chuyên gia tham gia ở vai trò hiệu chuẩn kho tri thức, chấm đánh giá chất lượng phản hồi và rà soát mức phù hợp học thuật.
+Bảng 2.2: Các tác nhân và nhóm use case chính
+
+Tác nhânMục tiêu sử dụngUse case chính
+
+
+
+Sinh viênHọc tập, lập kế hoạch, nhận hỗ trợ
+
+Quản trị hệ thốngDuy trì tính ổn định và an toàn
+Đăng nhập, cập nhật hồ sơ, hỏi đáp học thuật, yêu cầu gợi ý môn học, tạo kế hoạch học, check-in cảm xúc, xem dashboard tiến độ.
+Quản lý tài khoản, theo dõi log, cấu hình mô-đun, quản lý phiên bản dữ liệu, rà soát cảnh báo bảo mật.
+
+Giảng viên/chuyên gia
+Kiểm soát chất lượng học thuật
+Xem mẫu phản hồi, chấm chất lượng, bổ sung tri thức nội bộ, cập nhật luật học vụ và rubric đánh giá.
+
+Mỗi use case được gắn với tiêu chí chấp nhận cụ thể để phục vụ kiểm thử. Ví dụ, use case “gợi ý môn học” chỉ được xem là đạt nếu hệ thống trả về danh sách đề xuất không vi phạm điều kiện tiên quyết, không vượt quá khối lượng tín chỉ giới hạn và có ít nhất một lý do giải thích ngắn cho từng gợi ý đầu bảng. Tương tự, use case “phân tích cảm xúc” chỉ được chấp nhận khi mô hình trả về cả nhãn lẫn độ tin cậy, đồng thời kích hoạt hành vi hệ thống phù hợp với ngưỡng can thiệp đã cấu hình.
+Bảng 2.3: Ví dụ tiêu chí chấp nhận cho các use case trọng tâm
+
+Use caseĐiều kiện đạtÝ nghĩa kiểm thử
+
+
+
+Hỏi đáp học thuậtCó câu trả lời, có ngữ
+cảnh liên quan, thời gian phản hồi dưới 2 giây ở điều kiện chuẩn
+Gợi ý môn họcKhông vi phạm tiên quyết, có giải thích ngắn, có cơ chế phản hồi chấp nhận/từ chối
+Lập lịch họcCó lịch theo ngày, không chồng chéo, có khoảng nghỉ hợp lý, đồng bộ được với lịch ngoài
+Phân tích cảm xúcTrả về nhãn, độ tin cậy và
+hành vi phản hồi phù hợp với ngưỡng áp lực
+Bảo đảm đồng thời tính đúng, tính hữu ích và khả dụng thời gian thực.
+
+
+
+Bảo đảm gợi ý vừa đúng luật vừa đủ minh bạch cho người dùng.
+
+
+
+Kiểm tra tính khả thi vận hành chứ không chỉ tính đúng thuật toán.
+
+
+
+Bảo đảm mô-đun được kết nối thực sự với luồng hỗ trợ, không chỉ suy luận độc lập.
+
+
+Mô hình nghiệp vụ
+Mô hình nghiệp vụ của hệ thống được xây dựng xoay quanh ba luồng tương tác chính: hỏi đáp học thuật, tổ chức học tập và hỗ trợ cảm xúc. Khi người dùng đăng nhập, hệ thống nạp hồ sơ cá nhân hóa để xác định nhóm môn học quan tâm, lịch học hiện tại và lịch sử sử dụng. Từ đó, mỗi yêu cầu mới đều được xử lý trong ngữ cảnh cụ thể của người dùng chứ không tách rời khỏi hành vi trước đó.
+
+Hồ sơ cá nhân hóa và bộ suy luận gợi ýTương tác học thuật và hỏi đápTheo dõi cảm xúc và hỗ trợLập lịch học và nhắc việcSinh viênHồ sơ cá nhân hóa và bộ suy luận gợi ýTương tác học thuật và hỏi đápTheo dõi cảm xúc và hỗ trợLập lịch học và nhắc việcSinh viênHồ sơ cá nhân hóa và bộ suy luận gợi ýTương tác học thuật và hỏi đápTheo dõi cảm xúc và hỗ trợLập lịch học và nhắc việcSinh viênHồ sơ cá nhân hóa và bộ suy luận gợi ýTương tác học thuật và hỏi đápTheo dõi cảm xúc và hỗ trợLập lịch học và nhắc việcSinh viên
+Hồ sơ cá nhân hóa và bộ suy luận gợi ý
+Tương tác học thuật và hỏi đáp
+Theo dõi cảm xúc và hỗ trợ
+Lập lịch học và nhắc việc
+Sinh viên
+Hồ sơ cá nhân hóa và bộ suy luận gợi ý
+Tương tác học thuật và hỏi đáp
+Theo dõi cảm xúc và hỗ trợ
+Lập lịch học và nhắc việc
+Sinh viên
+Hình 2.1: Mô hình nghiệp vụ tổng quát của hệ thống
+
+
+Kiến trúc tổng thể hệ thống
+Hệ thống đã được triển khai theo kiến trúc nhiều tầng nhằm đảm bảo khả năng mở rộng và bảo trì. Kiến trúc nhiều tầng là cách tổ chức hệ thống thành các lớp có trách nhiệm riêng, chẳng hạn lớp giao diện, lớp xử lý nghiệp vụ và lớp dữ liệu; cách phân tách này giúp chỉnh sửa một phần mà ít ảnh hưởng đến phần còn lại. Tầng giao diện sử dụng Next.js và TailwindCSS để xây dựng web responsive, tức giao diện có thể tự thích nghi với nhiều kích thước màn hình khác nhau, hoạt động ổn định trên trình duyệt máy tính và điện thoại.
+Tầng dịch vụ sử dụng FastAPI để điều phối xác thực, xử lý nghiệp vụ, gửi yêu cầu đến các mô-đun AI và trả phản hồi cho người dùng. Trong đó, API là tập các điểm giao tiếp chuẩn hóa cho phép các thành phần phần mềm trao đổi dữ liệu với nhau. Tầng dữ liệu sử dụng PostgreSQL cho dữ liệu quan hệ, Redis cho bộ nhớ tạm và hàng đợi tác vụ, đồng thời kết nối với Google Calendar API cho chức năng đồng bộ lịch. Dữ liệu quan hệ là dữ liệu được tổ chức thành các bảng liên kết với nhau qua khóa; bộ nhớ tạm hay cache là vùng lưu trữ tốc độ cao dùng để giảm thời gian truy xuất; còn hàng đợi tác vụ là cơ chế xếp các công việc nền để xử lý tuần tự hoặc song song khi hệ thống có tải.
+Web/PWA trên desktop và mobileGợi ý học tập và môn họcGoogle Calendar APIRedis / queuePostgreSQLPhân tích cảm xúc và lập lịchChatbot học thuật tiếng ViệtAPI Gateway và xác thực JWTWeb/PWA trên desktop và mobileGợi ý học tập và môn họcGoogle Calendar APIRedis / queuePostgreSQLPhân tích cảm xúc và lập lịchChatbot học thuật tiếng ViệtAPI Gateway và xác thực JWTWeb/PWA trên desktop và mobileGợi ý học tập và môn họcGoogle Calendar APIRedis / queuePostgreSQLPhân tích cảm xúc và lập lịchChatbot học thuật tiếng ViệtAPI Gateway và xác thực JWTWeb/PWA trên desktop và mobileGợi ý học tập và môn họcGoogle Calendar APIRedis / queuePostgreSQLPhân tích cảm xúc và lập lịchChatbot học thuật tiếng ViệtAPI Gateway và xác thực JWT
+Web/PWA trên desktop và mobile
+Gợi ý học tập và môn học
+Google Calendar API
+Redis / queue
+PostgreSQL
+Phân tích cảm xúc và lập lịch
+Chatbot học thuật tiếng Việt
+API Gateway và xác thực JWT
+Web/PWA trên desktop và mobile
+Gợi ý học tập và môn học
+Google Calendar API
+Redis / queue
+PostgreSQL
+Phân tích cảm xúc và lập lịch
+Chatbot học thuật tiếng Việt
+API Gateway và xác thực JWT
+Hình 2.2: Kiến trúc tổng thể của prototype
+
+Luồng dữ liệu và chiến lược tích hợp
+Từ góc nhìn triển khai, hệ thống vận hành như một chuỗi tích hợp dữ liệu liên tục thay vì một tập chức năng tách biệt. Mỗi lượt tương tác của người dùng đều đi qua bốn lớp xử lý: tiếp nhận yêu cầu ở giao diện, chuẩn hóa ở API gateway, suy luận tại mô-đun chức năng và ghi nhận ngược về hồ sơ cá nhân hóa. Cách tổ chức này cho phép các mô-đun sử dụng chung cùng một ngữ cảnh người dùng mà không cần sao chép dữ liệu giữa nhiều thành phần độc lập.
+Yêu cầu người dùngHồ sơ cá nhân hóa và bộ nhớ ngữ cảnhPhản hồi + ghi logSuy luận mô-đunAPI chuẩn hóa dữ liệuYêu cầu người dùngHồ sơ cá nhân hóa và bộ nhớ ngữ cảnhPhản hồi + ghi logSuy luận mô-đunAPI chuẩn hóa dữ liệuYêu cầu người dùngHồ sơ cá nhân hóa và bộ nhớ ngữ cảnhPhản hồi + ghi logSuy luận mô-đunAPI chuẩn hóa dữ liệuYêu cầu người dùngHồ sơ cá nhân hóa và bộ nhớ ngữ cảnhPhản hồi + ghi logSuy luận mô-đunAPI chuẩn hóa dữ liệu
+Yêu cầu người dùng
+Hồ sơ cá nhân hóa và bộ nhớ ngữ cảnh
+Phản hồi + ghi log
+Suy luận mô-đun
+API chuẩn hóa dữ liệu
+Yêu cầu người dùng
+Hồ sơ cá nhân hóa và bộ nhớ ngữ cảnh
+Phản hồi + ghi log
+Suy luận mô-đun
+API chuẩn hóa dữ liệu
+Hình 2.3: Luồng dữ liệu xuyên suốt giữa các tầng của hệ thống
+
+
+Để tránh xung đột dữ liệu, nhóm áp dụng chiến lược “single source of truth” đối với hồ sơ học tập, nhiệm vụ và trạng thái cảm xúc ngắn hạn. Điều này có nghĩa là mỗi loại dữ liệu lõi chỉ có một nguồn ghi chuẩn trong cơ sở dữ liệu; các thành phần khác khi cần chỉ đọc hoặc tạo bản sao tạm thời cho mục đích suy luận. Chiến lược này giảm rủi ro bất nhất, đặc biệt trong các tình huống người dùng thao tác đồng thời trên giao diện lịch học và giao diện hội thoại.
+Ngoài ra, các tác vụ nặng như đồng bộ lịch, cập nhật hàng loạt gợi ý hoặc phân tích lại lịch sử cảm xúc được đẩy sang hàng đợi nền thông qua Redis queue. Việc tách tác vụ nền khỏi luồng phản hồi trực tiếp giúp duy trì độ trễ thấp cho những thao tác cần tương tác thời gian thực, đồng thời vẫn cho phép hệ thống xử lý các tác vụ hậu trường có khối lượng lớn mà không khóa giao diện người dùng.
+
+Thiết kế cơ sở dữ liệu
+Cơ sở dữ liệu được tổ chức theo mô hình quan hệ kết hợp dữ liệu bán cấu trúc cho phần lịch sử hội thoại. Cơ sở dữ liệu quan hệ là mô hình lưu trữ dữ liệu theo bảng, hàng và cột, trong đó các bảng được liên kết bằng khóa chính và khóa ngoại. Dữ liệu bán cấu trúc là loại dữ liệu chưa hoàn toàn cố định theo một lược đồ cứng, ví dụ lịch sử hội thoại có thể có nhiều thuộc tính phụ khác nhau giữa các phiên. Các thực thể chính gồm người dùng, hồ sơ học tập, học phần, lịch học, tác vụ học tập, phiên hội thoại, nhãn cảm xúc và nhật ký gợi ý. Thiết kế này cho phép hệ thống vừa lưu trữ dữ liệu ổn định, vừa mở rộng thêm thuộc tính cá nhân hóa mà không phải thay đổi toàn bộ lược đồ.
+
+Bảng 2.4: Các bảng dữ liệu chính của hệ thống
+
+Bảng
+Khóa chính
+Mục đích
+users
+user_id
+Lưu thông tin tài khoản, vai trò, trạng thái xác thực.
+student_profiles
+profile_id
+Lưu sở thích học tập, thời gian học ưu tiên, mục tiêu
+
+
+học kỳ, mức độ bận rộn.
+courses
+course_id
+Lưu danh mục môn học, tín chỉ, điều kiện tiên quyết,
+
+
+nhóm nội dung.
+study_plans
+plan_id
+Lưu kế hoạch học tập theo tuần và các gợi ý lịch học
+
+
+đã chấp nhận.
+tasks
+task_id
+Lưu deadline bài tập, mức ưu tiên và trạng thái hoàn
+
+
+thành.
+chat_sessions
+session_id
+Lưu lịch sử hội thoại, ý định người dùng và phản hồi
+
+
+hệ thống.
+emotion_logs
+emotion_id
+Lưu nhãn cảm xúc, độ tin cậy dự đoán và thời điểm
+
+
+phát hiện.
+recommendation_logs
+rec_id
+Lưu gợi ý môn học/lộ trình, mức điểm xếp hạng và
+
+
+phản hồi chấp nhận.
+
+tasksrecommendation_logsstudent_profilesuserscoursesemotion_logsstudy_planschat_sessionstasksrecommendation_logsstudent_profilesuserscoursesemotion_logsstudy_planschat_sessionstasksrecommendation_logsstudent_profilesuserscoursesemotion_logsstudy_planschat_sessionstasksrecommendation_logsstudent_profilesuserscoursesemotion_logsstudy_planschat_sessions
+tasks
+recommendation_logs
+student_profiles
+users
+courses
+emotion_logs
+study_plans
+chat_sessions
+tasks
+recommendation_logs
+student_profiles
+users
+courses
+emotion_logs
+study_plans
+chat_sessions
+Hình 2.4: Quan hệ logic giữa các thực thể dữ liệu lõi của hệ thống
+
+Bảng 2.5: Chi tiết một số trường dữ liệu quan trọng trong hồ sơ người dùng
+
+Trường dữ liệuKiểuÝ nghĩa sử dụng trong suy luận
+
+preferred_study_slotsJSON / mảng thờiXác định các khung giờ ưu tiên khi lập lịch và nhắc việc. gian
+course_interest_vectorVector số thựcBiểu diễn mức quan tâm đến các nhóm học phần khi xếp hạng gợi ý.
+deadline_sensitivitySố thực [0,1]Ước lượng mức cần nhắc sớm hay nhắc dày trước hạn nộp.
+stress_trendChuỗi thời gianTheo dõi xu hướng áp lực để quyết định có giảm tải lịch hay ngắn hạnkhông.
+response_preferenceDanh mụcXác định phong cách phản hồi ưu tiên: ngắn gọn, từng bước
+hoặc giải thích chi tiết.
+
+recommendation_feedback_JShiOstNory
+Lưu phản hồi chấp nhận, từ chối, tạm hoãn để cập nhật trọng số gợi ý.
+
+
+
+Ở lớp triển khai, thiết kế cơ sở dữ liệu được chia thành ba cụm logic. Cụm thứ nhất là dữ liệu định danh và hồ sơ ổn định theo học kỳ, bao gồm tài khoản, học lực, nhóm môn quan tâm. Cụm thứ hai là dữ liệu động theo ngày/tuần, bao gồm tác vụ, kế hoạch học, tín hiệu cảm xúc và phản hồi gợi ý. Cụm thứ ba là dữ liệu giám sát hệ thống, bao gồm log truy cập, lỗi ứng dụng, thời gian phản hồi và trạng thái đồng bộ lịch. Việc chia cụm như vậy giúp tách rõ dữ liệu phục vụ cá nhân hóa với dữ liệu phục vụ quan sát hệ thống, từ đó thuận lợi hơn cho bảo trì và kiểm soát truy cập.
+
+Thiết kế các mô-đun chính
+
+Chatbot học thuật tiếng Việt
+Chatbot học thuật được xây dựng theo kiến trúc kết hợp giữa truy hồi tài liệu và sinh phản hồi. Dữ liệu nguồn bao gồm giáo trình, đề cương học phần, tài liệu ôn tập và bộ câu hỏi thường gặp do nhóm biên soạn. Khi nhận câu hỏi, hệ thống thực hiện chuẩn hóa văn bản, truy hồi các đoạn tài liệu liên quan và tạo phản hồi bằng mô hình ngôn ngữ đã được tinh chỉnh. Sinh phản hồi là quá trình mô hình tạo ra câu trả lời mới dựa trên đầu vào và ngữ cảnh liên quan, thay vì chỉ chọn một đáp án có sẵn. Cơ chế này giúp giảm tình trạng phản hồi xa ngữ cảnh và cho phép hiển thị nguồn tham chiếu ngắn cho người dùng.
+
+Đầu vào, đầu ra và pipeline xử lý
+
+Đầu vào của mô-đun chatbot gồm ba lớp. Lớp thứ nhất là câu hỏi văn bản do người dùng nhập. Lớp thứ hai là ngữ cảnh phiên làm việc, bao gồm lịch sử hội thoại gần nhất, học phần đang quan tâm và mục tiêu học tập ngắn hạn. Lớp thứ ba là tín hiệu cá nhân hóa lấy từ hồ sơ người dùng như độ dài phản hồi ưa thích và trạng thái cảm xúc hiện thời. Đầu ra của mô-đun không chỉ là một đoạn trả lời văn bản mà còn gồm nguồn tham chiếu, loại tác vụ được suy luận và cờ cảnh báo chất lượng nếu mức tin cậy truy hồi thấp.
+
+Bảng 2.6: Pipeline xử lý của chatbot học thuật
+
+Bước
+Tên xử lý
+Nội dung thực hiện
+1
+Chuẩn hóa truy vấn
+Làm sạch văn bản, chuẩn hóa dấu câu, rút trích ý định và học phần
+
+
+liên quan.
+2
+Truy hồi tri thức
+Tìm top-k đoạn tri thức gần nghĩa nhất trong kho học liệu nội bộ.
+3
+Xếp hạng ngữ cảnh
+Loại các đoạn ít liên quan, giữ lại các đoạn có độ phủ ngữ nghĩa
+
+
+cao hơn ngưỡng.
+4
+Sinh phản hồi
+Gọi mô hình ngôn ngữ với prompt điều phối và ngữ cảnh đã truy
+
+
+hồi.
+5
+Hậu kiểm
+Rà soát độ dài, phát hiện câu trả lời thiếu căn cứ hoặc lệch phạm
+
+
+vi rồi kích hoạt fallback nếu cần.
+6
+Ghi log
+Lưu ý định, thời gian phản hồi, mức người dùng hài lòng hoặc yêu
+
+
+cầu diễn giải thêm.
+
+
+
+Chuẩn hóa và nhận ý địnhChuẩn hóa và nhận ý địnhChuẩn hóa và nhận ý địnhChuẩn hóa và nhận ý địnhTruy vấn người dùngTruy hồi tri thứcSinh phản hồiHậu kiểm chất
+Chuẩn hóa và nhận ý định
+Chuẩn hóa và nhận ý định
+
+Hình 2.5: Luồng xử lý nội bộ của chatbot học thuật
+
+
+Prompt điều phối và kiểm soát chất lượng
+
+Một điểm quan trọng trong triển khai là mô hình ngôn ngữ không được gọi trực tiếp bằng truy vấn thô, mà thông qua prompt điều phối gồm nhiều thành phần nhằm bảo đảm phản hồi đúng vai trò học thuật. Prompt chuẩn của đề tài gồm: vai trò hệ thống, mục tiêu trả lời, ngữ cảnh học phần, đoạn tri thức truy hồi, phong cách phản hồi và quy tắc an toàn. Cách tổ chức này giúp mô hình giảm xu hướng suy diễn vượt khỏi dữ liệu và giữ giọng văn ổn định trong toàn bộ thời gian thử nghiệm.
+Bảng 2.7: Các thành phần chính của prompt điều phối chatbot
+
+Thành phầnVai trò trong sinh phản hồi
+
+Vai trò hệ thốngXác định chatbot là trợ lý học tập, không đóng vai chuyên gia y tế hoặc cố vấn ngoài phạm vi.
+Mục tiêu trả lờiYêu cầu phản hồi ngắn gọn, đúng ngữ cảnh học phần và ưu tiên hướng dẫn từng bước khi cần.
+Ngữ cảnh truy hồiCung cấp các đoạn học liệu nội bộ đã xếp hạng cao.
+Ràng buộc an toànCấm bịa nguồn, cấm khẳng định chắc chắn khi không đủ căn cứ, yêu cầu nêu rõ giới hạn nếu cần.
+Phong cách cá nhân hóaĐiều chỉnh độ dài, mức kỹ thuật và giọng phản hồi theo hồ sơ người dùng.
+
+
+
+Sau khi mô hình sinh phản hồi, hệ thống còn chạy một tầng hậu kiểm đơn giản gồm ba kiểm tra: độ dài phản hồi, mức trùng khớp từ khóa với tài liệu truy hồi và sự hiện diện của các dấu hiệu thiếu chắc chắn. Nếu
+
+phản hồi không đạt ngưỡng, hệ thống chuyển sang chế độ fallback bằng cách rút gọn câu trả lời, tăng tỷ trọng trích xuất từ kho tri thức hoặc đề nghị người dùng cung cấp thêm ngữ cảnh.
+
+Gợi ý lộ trình học tập và môn học
+Mô-đun gợi ý sử dụng mô hình xếp hạng kết hợp giữa điểm tương đồng hồ sơ, lịch sử kết quả học tập và luật ràng buộc học vụ. Mô hình xếp hạng là cơ chế cho điểm các phương án ứng viên rồi sắp chúng theo mức độ phù hợp giảm dần. Thuật toán không chỉ đưa ra danh sách môn học mà còn ước lượng mức tải dự kiến theo tuần, số giờ tự học cần thiết và rủi ro quá tải nếu người dùng chọn quá nhiều môn cùng lúc. Người dùng có thể phản hồi “phù hợp”, “tạm hoãn” hoặc “không phù hợp”; phản hồi này được dùng để điều chỉnh trọng số gợi ý ở các lần sau.
+
+Bộ đặc trưng và hàm điểm xếp hạng
+
+Về dữ liệu đầu vào, mô-đun gợi ý sử dụng ba nhóm đặc trưng: đặc trưng hồ sơ học tập, đặc trưng học vụ và đặc trưng hành vi. Nhóm đầu gồm điểm trung bình, số tín chỉ đã tích lũy, nhóm môn ưa thích. Nhóm thứ hai gồm điều kiện tiên quyết, số tín chỉ tối đa được phép đăng ký, mức độ chồng chéo lịch. Nhóm thứ ba gồm lịch sử chấp nhận gợi ý, thời lượng học rảnh theo tuần và xu hướng quá tải trong các tuần gần đây.
+
+
+
+sprofile(u, i) =
+u⊤vi
+∥u∥∥vi∥
+,(2.1)
+
+
+trong đó u là vector hồ sơ người dùng và vi là vector mô tả học phần ứng viên. Tuy nhiên, do bài toán học vụ có nhiều ràng buộc cứng, giá trị này chỉ đóng vai trò một thành phần của hàm điểm tổng thể chứ không quyết định duy nhất kết quả xếp hạng.
+Bảng 2.8: Các nhóm đặc trưng dùng cho mô-đun gợi ý
+
+Nhóm đặc trưngVí dụÝ nghĩa
+
+
+
+Hồ sơ học tậpGPA, tín chỉ tích lũy, nhóm môn quan tâm
+Ràng buộc học vụTiên quyết, giới hạn tín
+chỉ, xung đột lịch
+Hành vi sử dụngLịch sử chấp nhận gợi ý, số giờ học khả dụng
+Trạng thái ngắn hạnÁp lực học tập, tuần thi,
+số deadline gần hạn
+Ước lượng mức phù hợp học thuật và mức sẵn sàng tiếp nhận học phần mới.
+Loại các phương án đẹp về điểm nhưng không khả thi thực tế.
+Điều chỉnh gợi ý theo thói quen và năng lực thực thi của từng sinh viên.
+Giảm hoặc tăng mức tải đề xuất theo bối cảnh hiện thời.
+
+Cơ chế cập nhật từ phản hồi người dùng
+
+Điểm khác biệt của mô-đun gợi ý là không dừng ở suy luận tĩnh mà học thêm từ phản hồi sau mỗi lần đề xuất. Nếu người dùng chấp nhận hoặc từ chối một gợi ý, hồ sơ trọng số sẽ được điều chỉnh theo quy tắc:
+
+wt+1 = wt + η (rt − rˆt) xt,(2.2)
+
+trong đó wt là vector trọng số tại thời điểm t, xt là vector đặc trưng của gợi ý, rt là phản hồi thực tế của người dùng và rˆt là mức phù hợp dự đoán. Công thức này giúp hệ thống cập nhật dần theo hành vi người dùng mà không cần huấn luyện lại toàn bộ mô hình sau mỗi phiên.
+Bảng 2.9: Các luật học vụ được áp dụng trước khi trả gợi ý
+
+Mã luậtĐiều kiệnHành động của hệ thống
+
+
+
+R1Môn học chưa thỏa điều kiện tiên quyết
+R2Tổng tải học dự kiến vượt ngưỡng 120% mức trung bình người dùng
+R3Trùng lịch với trên hai buổi cố định hiện có
+R4Người dùng vừa từ chối gợi ý tương tự trong 2 tuần gần nhất
+R5Người dùng đang ở giai đoạn áp lực cao
+Loại hoàn toàn khỏi danh sách gợi ý.
+
+
+Hạ hạng hoặc gắn cảnh báo quá tải.
+
+
+
+Hạ hạng mạnh hoặc loại bỏ.
+
+
+Giảm trọng số xuất hiện ở các vòng tiếp theo.
+
+
+Ưu tiên các học phần nhẹ hoặc gợi ý tạm hoãn đăng ký.
+
+
+Lập lịch học và nhắc việc
+Mô-đun lập lịch xây dựng kế hoạch học theo tuần từ dữ liệu lịch học cố định, deadline, mức độ ưu tiên và quỹ thời gian cá nhân. Thuật toán ưu tiên chia nhỏ phiên học từ 30 đến 50 phút, chèn khoảng nghỉ ngắn và tự động dồn các tác vụ quan trọng vào khung giờ mà người dùng có hiệu suất cao hơn. Chức năng đồng bộ với Google Calendar giúp người dùng nhận nhắc việc nhất quán giữa hệ thống nghiên cứu và công cụ cá nhân.
+
+Hàm ưu tiên tác vụ và giải quyết xung đột
+
+Để quyết định tác vụ nào cần được đưa lên trước trong lịch, hệ thống tính một điểm ưu tiên tổng hợp:
+
+Pj = λ1dj + λ2hj + λ3ej + λ4aj,(2.3)
+
+trong đó dj là mức khẩn cấp theo deadline, hj là độ khó nhận thức của tác vụ, ej là mức phù hợp với khung giờ hiệu suất cao của người dùng và aj là hệ số điều chỉnh theo áp lực hiện tại. Các tác vụ có điểm Pj cao hơn sẽ được ưu tiên gán vào những khung giờ chất lượng cao hơn trong tuần.
+Khi xuất hiện xung đột như trùng nhiều deadline trong cùng một ngày hoặc khung giờ khả dụng không
+
+đủ, hệ thống không cố ép toàn bộ tác vụ vào một lịch quá dày mà áp dụng chính sách giải xung đột theo thứ tự: chia nhỏ tác vụ, dời tác vụ ưu tiên thấp, tăng cường nhắc sớm, rồi mới đến cảnh báo người dùng cần điều chỉnh mục tiêu tuần. Cách làm này giúp giữ cho lịch học vừa khả thi vừa có tính thích nghi.
+Bảng 2.10: Quy tắc lập lịch và nhắc việc của hệ thống
+
+Quy tắcGiá trị cấu hìnhÝ nghĩa sử dụng
+
+Độ dài phiên học30–50 phútPhù hợp với nguyên tắc giảm tải nhận thức và tránh mệt mỏi
+kéo dài.
+Khoảng nghỉ giữa5–10 phútTạo nhịp nghỉ ngắn để duy trì tập trung. phiên
+Nhắc việc sớm24 giờ và 2 giờ trước hạnKết hợp nhắc dài hạn và ngắn hạn.
+Ngưỡng cảnh báo> 3 tác vụ mức caoKích hoạt gợi ý tái cấu trúc lịch. quá tảitrong 1 ngày
+Ưu tiên tuần thiTăng trọng số môn kiểmPhản ánh bối cảnh học tập biến động theo thời điểm. tra trong 7 ngày tới
+
+Phân tích cảm xúc
+Mô-đun phân tích cảm xúc sử dụng mô hình phân loại nhiều lớp trên văn bản tiếng Việt. Đây là loại mô hình có nhiệm vụ gán mỗi đầu vào vào một trong nhiều nhãn đã định nghĩa trước. Mỗi thông điệp người dùng được gán nhãn cảm xúc cùng độ tin cậy dự đoán, tức mức xác suất hoặc mức chắc chắn mà mô hình gán cho kết quả dự đoán đó; nhãn này được sử dụng theo hai cách: điều chỉnh phong cách phản hồi của chatbot và cập nhật hồ sơ cảm xúc ngắn hạn của người dùng. Khi hệ thống phát hiện chuỗi tín hiệu áp lực cao liên tiếp, nó sẽ ưu tiên gợi ý nghỉ ngơi, tái cấu trúc kế hoạch học và hiển thị khuyến nghị liên hệ cố vấn học tập nếu cần.
+
+Sơ đồ nhãn và chính sách can thiệp
+
+Để bảo đảm mô hình cảm xúc có giá trị sư phạm, nhóm không dừng ở ba nhãn cảm xúc tổng quát mà xây dựng sơ đồ bốn mức theo bối cảnh học tập. Cách chia này giúp hệ thống phản ứng tinh hơn với tình huống người dùng bị quá tải nhưng chưa đến mức cần cảnh báo mạnh. Đồng thời, việc gắn chính sách can thiệp cho từng nhãn giúp mô-đun cảm xúc trở thành thành phần tác động thực sự tới hành vi hệ thống.
+
+Bảng 2.11: Bộ nhãn cảm xúc và hành động phản hồi tương ứng
+
+NhãnNgưỡng điển hìnhHành động phản hồi
+
+
+
+Tích cực
+pˆ ≥ 0,60 và không có tín hiệu áp lực
+Trả lời bình thường, có thể gợi ý mục tiêu cao hơn.
+
+Trung tínhKhông nổi trội tín hiệu cảm xúc rõ
+Áp lực nhẹCó từ khóa căng thẳng nhưng chưa lặp nhiều
+Áp lực caoXác suất cao hoặc lặp lại nhiều lượt liên tiếp
+Giữ phản hồi chuẩn, ưu tiên ngắn gọn và đúng việc.
+
+
+Giảm độ dài phản hồi, thêm gợi ý chia nhỏ công việc.
+
+
+
+Ưu tiên lịch giảm tải, nhắc nghỉ, đề xuất hỗ trợ từ cố vấn học tập.
+
+
+
+Ngoài nhãn đơn lẻ, hệ thống còn sử dụng cửa sổ quan sát ngắn hạn trên nhiều lượ
+t hội thoại. Nếu trong
+AlerttAlerttAlerttAlertt====mmmmk=t−m+1k=t−m+1k=t−m+1k=t−m+1(2.4)(2.4)(2.4)(2.4)1,  nếu  1 L,tI(ck = áp lực cao) ≥ ρ,
+Alertt
+Alertt
+=
+=
+m
+m
+k=t−m+1
+k=t−m+1
+(2.4)
+(2.4)
+0,  ngược lại.
+
+Cơ chế này giúp hệ thống tránh phản ứng thái quá với một câu nhắn đơn lẻ nhưng vẫn đủ nhạy để phát hiện các chuỗi áp lực liên tiếp trong ngắn hạn.
+
+Hồ sơ cá nhân hóa người dùng
+Hồ sơ cá nhân hóa là thành phần trung tâm, tổng hợp dữ liệu học lực, lịch sử sử dụng, cảm xúc và hành vi tương tác. Đề tài đã thiết kế hồ sơ này ở cả hai mức: mức bền vững theo học kỳ và mức ngắn hạn theo tuần. Nhờ đó, hệ thống vừa ghi nhận đặc điểm ổn định của người học, vừa phản ứng nhanh với thay đổi đột xuất như tuần thi, lịch nộp bài dày hoặc trạng thái căng thẳng tăng cao.
+
+Cấu trúc hồ sơ và quy tắc cập nhật
+
+Hồ sơ cá nhân hóa được chia thành hai lớp. Lớp bền vững gồm các đặc trưng thay đổi chậm như chương trình học, năng lực học tập, nhóm môn quan tâm và thói quen sử dụng thiết bị. Lớp động gồm các đặc trưng thay đổi theo ngày hoặc tuần như deadline gần hạn, trạng thái cảm xúc, khối lượng công việc hiện tại và mức độ phản hồi với các gợi ý gần đây. Sự tách lớp này giúp mô-đun gợi ý không bị dao động quá mức theo nhiễu ngắn hạn nhưng vẫn phản ứng kịp với bối cảnh thực tế.
+
+Bảng 2.12: Hai tầng của hồ sơ cá nhân hóa
+
+Tầng hồ sơVí dụ thuộc tínhTần suất cập nhật
+
+
+
+Tầng bền vữngChương trình đào tạo,
+GPA, môn quan tâm, khung giờ ưa thích
+Tầng độngÁp lực tuần hiện tại, số deadline gần hạn, tỷ lệ chấp nhận gợi ý, tần suất truy cập
+Theo học kỳ hoặc khi người dùng chỉnh tay.
+
+
+
+Sau mỗi phiên hoặc theo lô cuối ngày.
+
+
+
+Về mặt cập nhật, hồ sơ động được làm trơn để tránh biến động mạnh bởi những phiên sử dụng bất
+thường:
+t+1t+1t+1t+1ttttu(dyn) = αu(dyn) + (1 − α)zt,(2.5)
+t+1
+t+1
+t
+t
+
+trong đó zt là vector tín hiệu mới quan sát được ở thời điểm t, còn α là hệ số quên. Quy tắc này cho phép hồ sơ vừa nhớ được xu hướng gần đây vừa tránh bị chi phối hoàn toàn bởi một sự kiện ngoại lệ.
+
+Thiết kế API và hợp đồng dữ liệu
+Để kết nối giao diện với các mô-đun AI, hệ thống sử dụng một lớp API REST thống nhất. Mỗi endpoint được thiết kế theo nguyên tắc rõ trách nhiệm, có xác thực đầu vào và trả về cấu trúc JSON nhất quán. Việc chuẩn hóa hợp đồng dữ liệu giúp giao diện web, công cụ quan sát log và các tác vụ nền sử dụng chung cùng một ngôn ngữ trao đổi, từ đó giảm lỗi tích hợp.
+Bảng 2.13: Các endpoint chính của prototype
+
+
+
+EndpointPhương thức
+Chức năngĐầu ra chính
+
+/api/auth/loginPOSTXác thực người dùng
+và phát hành JWT
+/api/profile/meGETLấy hồ sơ cá nhân hóa
+hiện tại
+access token, refresh token, vai trò người dùng
+thông tin hồ sơ, ưu tiên học tập, trạng thái tuần
+
+/api/profile/upd  PATCHCập nhật một phần hồ  hồ sơ mới sau khi chuẩn hóa dữ
+atesơ người dùngliệu
+/api/chat/queryPOSTGửi câu hỏi học thuật  câu trả lời, nguồn tham chiếu, mức
+và nhận phản hồitin cậy
+
+/api/chat/histor y
+/api/recommend/c ourses
+GETLấy lịch sử hội thoại của một phiên
+POSTSinh gợi ý môn học
+theo hồ sơ và học vụ
+danh sách lượt hỏi – đáp đã lưu
+
+
+danh sách môn học xếp hạng kèm giải thích ngắn
+
+EndpointPhương thức
+Chức năngĐầu ra chính
+
+/api/recommend/f eedback
+
+/api/schedule/ge nerate
+/api/schedule/sy nc
+/api/emotion/ana lyze
+/api/dashboard/s ummary
+POSTGhi nhận phản hồi
+chấp nhận / từ chối gợi ý
+POSTTạo lịch học tuần từ
+tác vụ và lịch cố định POSTĐồng bộ lịch sang
+Google Calendar
+POSTPhân tích cảm xúc
+trên văn bản hội thoại GETTổng hợp chỉ số tiến
+độ và hành vi tuần
+trạng thái cập nhật trọng số hồ sơ
+
+
+
+kế hoạch tuần, mức tải, cảnh báo xung đột
+trạng thái đồng bộ, danh sách sự kiện đã tạo
+nhãn cảm xúc, độ tin cậy, khuyến nghị can thiệp
+giờ học, deadline, mức hoàn thành, stress trend
+
+/api/admin/logsGETTruy xuất log vận
+hành cho quản trị hệ thống
+log ứng dụng, lỗi, cảnh báo bảo
+mật
+
+
+Bảo mật, quyền riêng tư và giám sát hệ thống
+Do hệ thống xử lý dữ liệu cá nhân và dữ liệu cảm xúc, nhóm thiết kế một lớp bảo mật cơ bản nhưng đủ dùng cho prototype nghiên cứu. Ở tầng truy cập, JWT và cơ chế refresh token được dùng để duy trì phiên đăng nhập mà không lưu mật khẩu ở phía khách. Ở tầng dữ liệu, các trường nhạy cảm như email, số điện thoại và thông tin lịch cá nhân được tách riêng khỏi các bảng log hành vi để thuận tiện cho phân quyền. Ở tầng quan sát, mỗi lỗi ứng dụng và mỗi truy cập bất thường đều được gắn timestamp, user_id ẩn danh và mã hành động để phục vụ truy vết.
+Bảng 2.14: Các lớp kiểm soát an toàn dữ liệu trong prototype
+
+Lớp kiểm soátBiện pháp áp dụngMục tiêu
+
+
+
+Xác thực và phân quyền
+JWT, refresh token, tách vai trò sinh viên/quản trị/chuyên gia
+Giới hạn phạm vi truy cập theo vai trò.
+
+An toàn đầu vàoKiểm  tra  schema  với
+Pydantic, lọc dữ liệu rỗng hoặc sai định dạng
+Ẩn danh hóa loguser_id nội bộ thay cho
+thông tin nhận diện trực tiếp
+Giảm lỗi đầu vào và nguy cơ tấn công qua payload bất thường.
+
+Bảo vệ quyền riêng tư khi phân tích log nghiên cứu.
+
+Quan sát và cảnh báo
+Ghi log lỗi, cảnh báo truy cập trái quyền, thống kê tải hệ thống
+Hỗ trợ bảo trì và phát hiện bất thường vận hành.
+
+Công nghệ sử dụng
+
+Bảng 2.15: Các công nghệ sử dụng trong đề tài
+
+Thành phầnCông nghệVai trò
+
+FrontendNext.js,TailwindCSS,Xây dựng giao diện web responsive, hiển thị Chart.jshội thoại, lịch học và dashboard cá nhân hóa.
+BackendFastAPI, Pydantic, UvicornXây dựng API, xử lý nghiệp vụ, xác thực và điều phối mô-đun AI.
+AI/NLPPyTorch, Hugging Face,Tinh chỉnh mô hình, phân loại cảm xúc, truy PhoBERT, scikit-learnhồi và gợi ý học tập.
+Dữ liệuPostgreSQL, RedisLưu trữ dữ liệu quan hệ, bộ nhớ đệm, hàng đợi tác vụ nền.
+Triển khaiDocker,Nginx,GitHubĐóng gói dịch vụ, reverse proxy, tự động kiểm Actionstra và triển khai prototype.
+Tích hợp ngoàiGoogle Calendar APIĐồng bộ lịch học và nhắc việc.
+
+
+Quy trình huấn luyện và tinh chỉnh mô hình
+Đề tài đã xây dựng ba tập dữ liệu nội bộ: bộ hỏi – đáp học thuật tiếng Việt, bộ phản hồi cảm xúc và bộ nhật ký học tập phục vụ gợi ý. Tập dữ liệu là tập hợp có cấu trúc các mẫu dùng cho huấn luyện, kiểm thử và đánh giá mô hình. Dữ liệu được thu thập từ tài liệu học phần, câu hỏi của sinh viên, phiếu phản hồi và nhật ký thử nghiệm; sau đó được làm sạch, chuẩn hóa và gán nhãn thủ công theo quy trình hai vòng để giảm sai lệch.
+Bảng 2.16: Các tập dữ liệu sử dụng trong đề tài
+
+Tập dữ liệuQuy môMục đích sử dụng
+
+Bộ hỏi – đáp học thuật tiếng12.480 cặpTinh chỉnh chatbot học thuật, kiểm thử độ phù hợp Việtngữ cảnh.
+Bộ văn bản cảm xúc sinh viên4.200 mẫuHuấn luyện mô hình phân loại cảm xúc 4 lớp.
+Dữ liệu hồ sơ và lịch sử môn1.860 bản ghiXây dựng mô hình gợi ý môn học và kế hoạch học họctập.
+Nhật ký tương tác prototype18.426 sự kiệnPhân tích hành vi sử dụng, đánh giá hiệu năng và mức
+độ gắn kết.
+
+
+
+Quy trình huấn luyện được thực hiện theo bốn bước. Thứ nhất, dữ liệu được làm sạch và phân chia thành tập huấn luyện, tập xác thực và tập kiểm thử theo tỷ lệ 70:15:15; lần lượt đây là ba phần dữ liệu dùng để học tham số mô hình, chọn cấu hình tốt và đánh giá cuối cùng trên dữ liệu chưa thấy trước đó. Thứ hai, nhóm tinh chỉnh mô hình nền PhoBERT cho bài toán cảm xúc và mô hình truy hồi cho bài toán hỏi đáp. Thứ ba, các mô hình được hiệu chỉnh siêu tham số, tức các tham số do người nghiên cứu lựa chọn như tốc độ học hoặc kích thước lô dữ liệu, qua nhiều vòng lặp để tối ưu F1-score, độ bao phủ truy hồi và thời gian phản hồi. Thứ tư, kết
+
+quả được kiểm tra thủ công bởi ba người chấm độc lập để bảo đảm phản hồi phù hợp với ngữ cảnh học thuật.
+
+Bảng 2.17: Một số cấu hình huấn luyện và tinh chỉnh chính
+
+Mô-đunCấu hìnhGhi chú triển khai
+
+
+
+PhoBERT cảm xúclearning rate 2×10−5, batch size 32, epoch 5
+Truy hồi học liệutop-k = 5, vector 768 chiều
+Xếp hạng gợi ýα = 0,30, β = 0,25,
+γ = 0,30, δ = 0,15
+Ưu tiên ổn định hội tụ và tránh overfitting trên dữ liệu 4 lớp.
+Cân bằng giữa chất lượng ngữ cảnh và độ trễ phản hồi.
+Trọng số được chọn sau 3 vòng kiểm định nội bộ.
+
+Làm trơn hồ sơ độngα = 0,7Giảm nhiễu từ các phiên sử dụng bất thường.
+
+
+Thu thập dữ liệuĐánh giá và hiệu chỉnhhiệu chỉnh siêu tham sốTích hợp vào prototypeChấm tay 3 vòngHuấn luyện mô hìnhLàm sạch và gán nhãnThu thập dữ liệuĐánh giá và hiệu chỉnhhiệu chỉnh siêu tham sốTích hợp vào prototypeChấm tay 3 vòngHuấn luyện mô hìnhLàm sạch và gán nhãnThu thập dữ liệuĐánh giá và hiệu chỉnhhiệu chỉnh siêu tham sốTích hợp vào prototypeChấm tay 3 vòngHuấn luyện mô hìnhLàm sạch và gán nhãnThu thập dữ liệuĐánh giá và hiệu chỉnhhiệu chỉnh siêu tham sốTích hợp vào prototypeChấm tay 3 vòngHuấn luyện mô hìnhLàm sạch và gán nhãn
+Thu thập dữ liệu
+Đánh giá và hiệu chỉnh
+hiệu chỉnh siêu tham số
+Tích hợp vào prototype
+Chấm tay 3 vòng
+Huấn luyện mô hình
+Làm sạch và gán nhãn
+Thu thập dữ liệu
+Đánh giá và hiệu chỉnh
+hiệu chỉnh siêu tham số
+Tích hợp vào prototype
+Chấm tay 3 vòng
+Huấn luyện mô hình
+Làm sạch và gán nhãn
+Hình 2.6: Quy trình huấn luyện và tinh chỉnh mô hình trong đề tài
+
+
+Xây dựng giao diện web/mobile
+Giao diện được thiết kế theo nguyên tắc đơn giản, rõ tác vụ và giảm tải nhận thức. Giảm tải nhận thức là cách tổ chức thông tin sao cho người dùng không phải xử lý quá nhiều yếu tố cùng lúc, từ đó dễ tập trung vào nhiệm vụ chính. Màn hình chính tập trung vào ba vùng: khung hội thoại với trợ lý ảo, bảng tóm tắt kế hoạch học tập trong ngày và cụm gợi ý nhanh cho các tác vụ thường dùng. Bản web được tối ưu responsive để sử dụng thuận tiện trên điện thoại, cho phép sinh viên truy cập nhanh mà không cần cài đặt ứng dụng gốc.
+Nhóm đã tiến hành hai vòng đánh giá giao diện với tổng cộng 18 sinh viên trước khi chốt phiên bản dùng thử chính thức. Các góp ý chủ yếu liên quan đến độ dài phản hồi chatbot, cách hiển thị lịch học theo ngày và mức độ nổi bật của thông báo deadline. Sau hai vòng cải tiến, giao diện đạt điểm SUS trung bình 81,6/100 trong giai đoạn thử nghiệm chính thức. SUS (System Usability Scale) là thang đo chuẩn hóa gồm 10 phát biểu dùng để đánh giá mức độ dễ sử dụng của một hệ thống.
+
+Bảng 2.18: Nguyên tắc UI/UX được áp dụng khi thiết kế giao diện
+
+Nguyên tắcCách hiện thực trong hệ thống
+
+Một màn hình – mộtDashboard tách riêng vùng hội thoại, lịch học và chỉ số tuần thay vì trộn nhiều nhiệm vụ trọng tâmtác vụ vào một nơi.
+Giảm ma sát thao tácCác tác vụ thường dùng như “tạo lịch tuần”, “hỏi lại ngắn gọn”, “check-in cảm xúc” chỉ cần từ một đến hai thao tác.
+Phản hồi tức thờiHiển thị trạng thái đang xử lý, đồng bộ lịch thành công hoặc cảnh báo xung đột ngay trên giao diện.
+Nhất quán ngôn ngữDùng cùng một bộ nhãn hành động trên desktop và mobile để giảm học lại thao tác.
+
+Quy trình triển khai prototype
+Prototype được đóng gói bằng Docker và triển khai trên máy chủ Linux cấu hình 8 vCPU, 16GB RAM. Prototype là phiên bản mẫu có khả năng hoạt động của hệ thống, được xây dựng để kiểm chứng thiết kế, tính khả thi kỹ thuật và trải nghiệm sử dụng trước khi phát triển thành sản phẩm quy mô lớn. Quy trình triển khai gồm các bước: xây dựng image cho từng dịch vụ, cấu hình biến môi trường, chạy migration cơ sở dữ liệu, kiểm thử tích hợp trên môi trường staging và triển khai production thông qua Nginx reverse proxy. Migration cơ sở dữ liệu là quá trình cập nhật lược đồ dữ liệu một cách có kiểm soát; môi trường staging là môi trường gần với vận hành thật để thử trước khi đưa vào production; còn reverse proxy là lớp trung gian nhận yêu cầu từ người dùng rồi chuyển tiếp tới dịch vụ thích hợp ở phía sau.
+Trong khâu xác thực, hệ thống sử dụng JWT (JSON Web Token) để quản lý phiên đăng nhập. JWT là chuỗi mã hóa chứa thông tin định danh và quyền truy cập của người dùng, cho phép các dịch vụ xác minh nhanh trạng thái đăng nhập mà không phải tra cứu liên tục vào cơ sở dữ liệu.
+
+JWT = Base64Url(Header).Base64Url(Payload).Signature.(2.6)
+
+Trong biểu thức này, Header chứa thông tin thuật toán ký, Payload chứa dữ liệu định danh và quyền hạn, còn
+Signature là chữ ký số bảo đảm token không bị sửa đổi trong quá trình truyền.
+
+
+Kiểm thử chức năng, giao diện và hiệu năng
+Trước khi đưa vào thực nghiệm, nhóm đã thực hiện 42 ca kiểm thử chức năng, 12 ca kiểm thử giao diện và 6 kịch bản tải đồng thời. Kết quả tóm tắt được trình bày ở Bảng 2.19. Không có lỗi nghiêm trọng nào còn tồn tại ở thời điểm bắt đầu thử nghiệm chính thức; các lỗi mức trung bình chủ yếu liên quan đến căn chỉnh giao diện trên một số kích thước màn hình nhỏ và đã được xử lý trước tuần đầu tiên.
+
+Bảng 2.19: Tóm tắt kết quả kiểm thử trước triển khai thực nghiệm
+
+Nhóm kiểm thử
+Số ca
+Tỷ lệ đạt
+Nhận xét
+Chức năng nghiệp vụ
+42
+95,2%
+Hoàn thành ổn định các luồng chatbot,
+
+
+
+gợi ý, lập lịch và đăng nhập.
+Giao diện người dùng
+12
+91,7%
+Một số vấn đề hiển thị trên điện thoại màn
+
+
+
+hình nhỏ đã được chỉnh trước khi chạy
+
+
+
+thử nghiệm.
+Hiệu năng đồng thời
+6
+100%
+Hệ thống duy trì phản hồi trung bình dưới
+
+
+
+2 giây với 30 người dùng đồng thời.
+Bảo mật cơ bản
+8
+100%
+Kiểm tra xác thực, phân quyền và làm
+
+
+
+sạch đầu vào đạt yêu cầu.
+
+
+Ngoài bảng tổng hợp trên, nhóm còn chia kiểm thử thành ba vòng liên tiếp. Vòng thứ nhất là kiểm thử đơn vị tại mức mô-đun nhằm phát hiện lỗi logic cục bộ. Vòng thứ hai là kiểm thử tích hợp theo kịch bản người dùng, tập trung vào các chuỗi tương tác kéo dài từ hội thoại sang gợi ý hoặc từ lịch học sang đồng bộ ngoài hệ thống. Vòng thứ ba là kiểm thử chấp nhận nội bộ với người dùng thử nhằm phát hiện những lỗi khó quan sát bằng ca kiểm thử kỹ thuật, chẳng hạn thông báo chưa đủ rõ hoặc gợi ý quá dài gây khó hiểu.
+Bảng 2.20: Độ bao phủ kiểm thử theo mô-đun
+
+Mô-đun
+Số ca kiểm thử
+Tỷ lệ đạt
+Nhận xét
+Xác thực và phân quyền
+8
+100%
+Ổn định, không ghi nhận lỗi truy
+
+
+
+cập chéo vai trò.
+Chatbot học thuật
+11
+90,9%
+Một số phản hồi dài quá mức ở bản
+
+
+
+đầu đã được sửa bằng hậu kiểm.
+Gợi ý môn học/lộ trình
+9
+100%
+Đạt tốt ở cả luật tiên quyết và cảnh
+
+
+
+báo quá tải.
+Lập lịch và nhắc việc
+8
+87,5%
+Có một lỗi đồng bộ sự kiện trùng
+
+
+
+giờ ở vòng test đầu.
+Phân tích cảm xúc
+6
+100%
+Mô-đun hoạt động ổn định trên dữ
+
+
+
+liệu thử có nhãn.
+
+
+Tiểu kết chương
+Chương 2 đã trình bày toàn bộ quy trình phân tích yêu cầu, thiết kế kiến trúc, xây dựng cơ sở dữ liệu, phát triển các mô-đun AI và triển khai prototype. Các thành phần của hệ thống đã được tổ chức thành một nền tảng hoàn chỉnh, có khả năng vận hành ổn định trên môi trường dùng thử và đủ điều kiện để đánh giá thực nghiệm trong bối cảnh sinh viên đại học.
+
+CHƯƠNG 3
+Kết quả, đánh giá và thảo luận
+
+Chương này trình bày các kết quả đạt được sau khi hệ thống được xây dựng hoàn chỉnh và đưa vào thực nghiệm. Nội dung chương bao gồm mô tả prototype hoàn thiện, kịch bản thử nghiệm, các chỉ số đánh giá, kết quả định lượng, phân tích định tính và thảo luận học thuật đối chiếu với các công trình liên quan.
+
+Câu hỏi nghiên cứu và giả thuyết đánh giá
+Để bảo đảm việc đánh giá bám sát mục tiêu ban đầu của đề tài, nhóm xây dựng ba câu hỏi nghiên cứu trung tâm. Câu hỏi thứ nhất là hệ thống có cải thiện hiệu quả học tập và mức chủ động học tập của sinh viên hay không. Câu hỏi thứ hai là hệ thống có giúp sinh viên quản lý thời gian, deadline và nhịp học tập ổn định hơn hay không. Câu hỏi thứ ba là việc tích hợp mô-đun cảm xúc và gợi ý cá nhân hóa có cải thiện trải nghiệm sử dụng và giảm áp lực học tập tự báo cáo hay không.
+Ba câu hỏi trên được chuyển hóa thành bốn giả thuyết kiểm định:
+
+H1: Nhóm thực nghiệm có mức tăng điểm kiểm tra và mức chủ động học tập cao hơn nhóm đối chứng sau thử nghiệm.
+H2: Nhóm thực nghiệm có tỷ lệ nộp bài đúng hạn và số giờ tự học có kế hoạch cao hơn rõ rệt so với trước can thiệp.
+H3: Người dùng có mức gắn kết cao với hệ thống sẽ có tỷ lệ chấp nhận gợi ý và mức cải thiện hành vi tốt hơn nhóm gắn kết thấp.
+H4: Các thang đo cảm nhận người dùng đạt độ tin cậy tốt và phản ánh mức chấp nhận công nghệ tích cực đối với prototype.
+
+Việc phát biểu rõ câu hỏi nghiên cứu và giả thuyết giúp chương kết quả không bị dừng ở mô tả số liệu, mà hướng đến trả lời trực tiếp liệu các mô-đun được xây dựng có thật sự tạo ra thay đổi có ý nghĩa hay không.
+
+Kết quả xây dựng hệ thống
+Đến thời điểm tổng kết, toàn bộ năm mô-đun cốt lõi của đề tài đã được xây dựng, tích hợp và vận hành ổn định trong cùng một prototype. Bảng 3.1 cho thấy tình trạng hoàn thành của từng mô-đun và kết quả đầu ra tương ứng.
+
+Bảng 3.1: Kết quả hoàn thành các mô-đun của hệ thống
+
+Mô-đunMức độ hoànKết quả đạt được thành
+Chatbot học thuật tiếng Việt100%Trả lời hỏi đáp học thuật, tóm tắt ngắn và gợi ý tài
+nguyên; hỗ trợ truy xuất lịch sử hội thoại.
+Gợi ý lộ trình học tập và môn học100%Đề xuất danh sách môn học, gợi ý số tín chỉ và cảnh
+báo quá tải theo hồ sơ người dùng.
+Lập lịch học và nhắc việc100%Tạo kế hoạch học theo tuần, nhắc deadline và đồng
+bộ với Google Calendar.
+Phân tích cảm xúc100%Nhận diện 4 mức cảm xúc, điều chỉnh phản hồi và
+ghi nhận nhật ký cảm xúc.
+Hồ sơ cá nhân hóa100%Lưu trữ hồ sơ học tập, thói quen, lịch sử phản hồi
+gợi ý và hành vi sử dụng.
+
+
+
+Kết quả xây dựng cho thấy hệ thống không chỉ đạt mức “demo chức năng” mà đã tiến tới một prototype tích hợp có thể sử dụng liên tục trong sáu tuần thực nghiệm. Các luồng dữ liệu giữa mô-đun hội thoại, gợi ý, lịch học và cảm xúc được đồng bộ thông qua hồ sơ cá nhân hóa trung tâm, giúp hệ thống duy trì được tính nhất quán trong phản hồi.
+
+Mô tả prototype hoàn thiện
+Prototype cuối cùng bao gồm bốn màn hình chính: trang đăng nhập và cấu hình hồ sơ, màn hình hội thoại học thuật, dashboard kế hoạch học tập và màn hình phân tích tiến độ/cảm xúc. Cấu trúc giao diện được thiết kế để sinh viên có thể thực hiện các tác vụ chính trong không quá ba thao tác.
+Placeholder màn hình hội thoại học thuật và gợi ý tài nguyênHình minh họa sẽ được thay bằng ảnh chụp giao diện/thực tế khi hoàn thiện hồ sơ nghiệm thu.Placeholder màn hình hội thoại học thuật và gợi ý tài nguyênHình minh họa sẽ được thay bằng ảnh chụp giao diện/thực tế khi hoàn thiện hồ sơ nghiệm thu.Placeholder màn hình hội thoại học thuật và gợi ý tài nguyênHình minh họa sẽ được thay bằng ảnh chụp giao diện/thực tế khi hoàn thiện hồ sơ nghiệm thu.Placeholder màn hình hội thoại học thuật và gợi ý tài nguyênHình minh họa sẽ được thay bằng ảnh chụp giao diện/thực tế khi hoàn thiện hồ sơ nghiệm thu.
+
+
+
+
+
+Placeholder màn hình hội thoại học thuật và gợi ý tài nguyên
+Hình minh họa sẽ được thay bằng ảnh chụp giao diện/thực tế khi hoàn thiện hồ sơ nghiệm thu.
+
+
+
+
+
+Placeholder màn hình hội thoại học thuật và gợi ý tài nguyên
+Hình minh họa sẽ được thay bằng ảnh chụp giao diện/thực tế khi hoàn thiện hồ sơ nghiệm thu.
+Hình 3.1: Màn hình hội thoại học thuật của hệ thống
+
+Placeholder dashboard kế hoạch học tập, deadline và nhắc việcHình minh họa sẽ được thay bằng ảnh chụp giao diện/thực tế khi hoàn thiện hồ sơ nghiệm thu.Placeholder dashboard kế hoạch học tập, deadline và nhắc việcHình minh họa sẽ được thay bằng ảnh chụp giao diện/thực tế khi hoàn thiện hồ sơ nghiệm thu.Placeholder dashboard kế hoạch học tập, deadline và nhắc việcHình minh họa sẽ được thay bằng ảnh chụp giao diện/thực tế khi hoàn thiện hồ sơ nghiệm thu.Placeholder dashboard kế hoạch học tập, deadline và nhắc việcHình minh họa sẽ được thay bằng ảnh chụp giao diện/thực tế khi hoàn thiện hồ sơ nghiệm thu.
+
+
+
+
+
+Placeholder dashboard kế hoạch học tập, deadline và nhắc việc
+Hình minh họa sẽ được thay bằng ảnh chụp giao diện/thực tế khi hoàn thiện hồ sơ nghiệm thu.
+
+
+
+
+
+Placeholder dashboard kế hoạch học tập, deadline và nhắc việc
+Hình minh họa sẽ được thay bằng ảnh chụp giao diện/thực tế khi hoàn thiện hồ sơ nghiệm thu.
+Hình 3.2: Màn hình dashboard quản lý học tập và thời gian
+
+Placeholder màn hình phân tích cảm xúc và lịch sử tiến độHình minh họa sẽ được thay bằng ảnh chụp giao diện/thực tế khi hoàn thiện hồ sơ nghiệm thu.Placeholder màn hình phân tích cảm xúc và lịch sử tiến độHình minh họa sẽ được thay bằng ảnh chụp giao diện/thực tế khi hoàn thiện hồ sơ nghiệm thu.Placeholder màn hình phân tích cảm xúc và lịch sử tiến độHình minh họa sẽ được thay bằng ảnh chụp giao diện/thực tế khi hoàn thiện hồ sơ nghiệm thu.Placeholder màn hình phân tích cảm xúc và lịch sử tiến độHình minh họa sẽ được thay bằng ảnh chụp giao diện/thực tế khi hoàn thiện hồ sơ nghiệm thu.
+
+
+
+
+
+Placeholder màn hình phân tích cảm xúc và lịch sử tiến độ
+Hình minh họa sẽ được thay bằng ảnh chụp giao diện/thực tế khi hoàn thiện hồ sơ nghiệm thu.
+
+
+
+
+
+Placeholder màn hình phân tích cảm xúc và lịch sử tiến độ
+Hình minh họa sẽ được thay bằng ảnh chụp giao diện/thực tế khi hoàn thiện hồ sơ nghiệm thu.
+Hình 3.3: Màn hình theo dõi cảm xúc và tiến độ học tập
+
+
+Trong quá trình sử dụng, người dùng có thể bắt đầu bằng một câu hỏi học thuật, sau đó chuyển sang gợi ý kế hoạch học tập trong cùng một phiên làm việc mà không cần thao tác chuyển ngữ cảnh. Đây là một đặc điểm quan trọng của prototype vì giúp trải nghiệm sử dụng liền mạch và gần với hành vi học tập thực tế của sinh viên.
+
+Kịch bản thử nghiệm và thu thập dữ liệu
+Thử nghiệm chính thức được tổ chức trong sáu tuần với 64 sinh viên đăng ký, trong đó 60 trường hợp hoàn thành đầy đủ tiền khảo sát, hậu khảo sát và tối thiểu 70% số phiên sử dụng theo yêu cầu. Mẫu nghiên cứu được chia thành hai nhóm: 30 sinh viên sử dụng hệ thống trợ lý ảo AI và 30 sinh viên thuộc nhóm đối chứng, tiếp tục sử dụng các công cụ hỗ trợ học tập thông thường như ghi chú cá nhân, lịch điện thoại và công cụ tìm kiếm.
+
+Bảng 3.2: Đặc điểm mẫu thực nghiệm
+
+Biến mô tảNhóm thực nghiệmNhóm đối chứng
+Số lượng hợp lệ3030
+Sinh viên năm nhất1817
+Sinh viên năm hai1213
+Tỷ lệ nữ46,7%50,0%
+Số học phần đang học trung bình6,15,9
+Tỷ lệ hoàn thành toàn bộ nghiên cứu93,8% trên tổng số đăng ký93,8% trên tổng số đăng ký ban
+ban đầuđầu
+Dữ liệu được thu thập từ bốn nguồn: bảng hỏi trước và sau can thiệp, nhật ký sử dụng hệ thống, kết quả các bài kiểm tra ngắn trong học phần và phỏng vấn sau thử nghiệm. Tổng cộng 18.426 sự kiện tương tác đã được ghi nhận, tương đương trung bình 614,2 sự kiện trên mỗi người dùng thuộc nhóm thực nghiệm trong toàn bộ giai đoạn nghiên cứu.
+Để giảm sai lệch do chênh lệch đầu vào giữa hai nhóm, việc phân nhóm được thực hiện theo hướng ghép cặp tương đối theo năm học, số học phần đang học và điểm trung bình tích lũy gần nhất. Sau bước ghép cặp, sinh viên được phân vào nhóm thực nghiệm hoặc đối chứng sao cho mức chênh lệch nền giữa hai nhóm là tối thiểu. Cách làm này không thay thế được hoàn toàn một thiết kế ngẫu nhiên tuyệt đối, nhưng giúp tăng độ hợp lý của so sánh trong bối cảnh thực nghiệm giáo dục quy mô sinh viên.
+Tiền khảo sátKhởi tạo hồ sơPhỏng vấn định tínhThu log hệ thốngHậu khảo sátDùng thử 6 tuầnTiền khảo sátKhởi tạo hồ sơPhỏng vấn định tínhThu log hệ thốngHậu khảo sátDùng thử 6 tuầnTiền khảo sátKhởi tạo hồ sơPhỏng vấn định tínhThu log hệ thốngHậu khảo sátDùng thử 6 tuầnTiền khảo sátKhởi tạo hồ sơPhỏng vấn định tínhThu log hệ thốngHậu khảo sátDùng thử 6 tuần
+Tiền khảo sát
+Khởi tạo hồ sơ
+Phỏng vấn định tính
+Thu log hệ thống
+Hậu khảo sát
+Dùng thử 6 tuần
+Tiền khảo sát
+Khởi tạo hồ sơ
+Phỏng vấn định tính
+Thu log hệ thống
+Hậu khảo sát
+Dùng thử 6 tuần
+Hình 3.4: Thiết kế thực nghiệm và quy trình thu thập dữ liệu
+
+
+Phương pháp đo lường và xử lý dữ liệu
+Trước khi tiến hành phân tích chính thức, toàn bộ dữ liệu khảo sát và log hệ thống được làm sạch theo ba bước. Bước thứ nhất là loại bỏ các trường hợp không hoàn thành đủ tiền khảo sát, hậu khảo sát hoặc không đạt mức tham gia tối thiểu 70% số phiên yêu cầu. Bước thứ hai là chuẩn hóa dữ liệu thời gian, hợp nhất log từ các mô-đun hội thoại, gợi ý, lịch học và cảm xúc vào cùng một định dạng bản ghi. Bước thứ ba là kiểm tra ngoại lệ ở các biến liên tục như số phiên truy cập, thời gian phản hồi và số giờ tự học có kế hoạch, nhằm tránh để một số bản ghi bất thường làm sai lệch xu hướng chung.
+Đối với dữ liệu cảm nhận người dùng, bảng hỏi hậu can thiệp được xây dựng từ ba nhóm biến: hữu ích cảm nhận, dễ sử dụng cảm nhận và mức hài lòng chung. Các biến này được đo bằng thang Likert 5 mức từ 1 đến 5. Để kiểm tra độ tin cậy nội tại của bộ câu hỏi, đề tài sử dụng hệ số Cronbach’s alpha. Nếu ký hiệu k là
+số biến quan sát, σ2 là phương sai của từng biến và σ2 là phương sai của tổng điểm thang đo, hệ số alpha được
+iT
+
+  i=1  i 2T  i=1  i 2T  i=1  i 2T  i=1  i 2T.(3.1).(3.1).(3.1).(3.1)tính như sau:
+  i=1  i 
+2
+T
+  i=1  i 
+2
+T
+.(3.1)
+.(3.1)
+
+1111α =α =α =α =k − 1k − 1k − 1k − 1 k  
+1
+1
+α =
+α =
+k − 1
+k − 1
+L,k
+−−−−
+−
+−
+σ2 !
+
+
+σσσσÝ nghĩa của công thức này là đo mức độ nhất quán giữa các biến quan sát trong cùng một thang đo; giá trị càng cao cho thấy các câu hỏi càng đo cùng một khái niệm. Kết quả kiểm định trong đề tài cho thấy thang hữu ích cảm nhận đạt α = 0,84, thang dễ sử dụng cảm nhận đạt α = 0,81 và thang hài lòng chung đạt α = 0,87, cho thấy bộ công cụ đo lường đạt độ tin cậy tốt cho mục đích phân tích.
+σ
+σ
+Với dữ liệu chấm chất lượng câu trả lời học thuật, nhóm sử dụng ba giảng viên/chuyên gia chấm độc lập theo cùng một phiếu tiêu chí gồm độ đúng khái niệm, độ phù hợp ngữ cảnh và tính hữu ích. Điểm cuối cùng của mỗi câu trả lời được lấy theo trung bình cộng của ba người chấm. Cách chấm đa giám khảo giúp giảm thiên lệch cá nhân và phù hợp với đặc thù đánh giá các phản hồi do hệ thống sinh ra, vốn khó quy về một nhãn nhị phân đơn giản.
+Đối với log hành vi, đề tài chuyển đổi các sự kiện thô thành các chỉ số có ý nghĩa nghiên cứu như số phiên hoạt động mỗi tuần, tỷ lệ chấp nhận gợi ý, tỷ lệ hoàn thành tác vụ đúng hạn và số lần check-in cảm xúc. Việc lượng hóa này giúp nối trực tiếp dữ liệu hệ thống với các mục tiêu nghiên cứu ban đầu, từ đó tránh tình trạng có log nhưng không rút ra được kết luận về hiệu quả sử dụng thực tế.
+Bên cạnh giá trị p, đề tài còn sử dụng hiệu cỡ tác động để đánh giá mức mạnh yếu thực chất của khác biệt quan sát được. Với các so sánh trung bình giữa hai nhóm, hiệu cỡ Cohen’s d được tính theo:
+
+x¯1 − x¯2
+.(n1 − 1)s2 + (n2 − 1)s2
+
+ssssd =,sp =
+s
+s
+p
+1
+n1 + n2 − 2
+2 .(3.2)
+
+
+Trong đó sp là độ lệch chuẩn gộp. Việc báo cáo thêm d giúp phân biệt giữa “có ý nghĩa thống kê” và “có ý nghĩa thực hành”, đặc biệt quan trọng trong các nghiên cứu có kích thước mẫu vừa phải như đề tài sinh viên cấp trường.
+
+Chỉ số đánh giá
+Để đánh giá hệ thống một cách toàn diện, đề tài sử dụng ba nhóm chỉ số. Nhóm chỉ số kỹ thuật gồm thời gian phản hồi, độ ổn định, độ chính xác phân tích cảm xúc, tỷ lệ nhắc việc thành công và tỷ lệ chấp nhận gợi ý môn học. Nhóm chỉ số hành vi học tập gồm tỷ lệ nộp bài đúng hạn, số giờ tự học có kế hoạch mỗi tuần, số phiên truy cập đều đặn và mức độ tuân thủ lịch học. Nhóm chỉ số cảm nhận người dùng gồm SUS, thang TAM, mức hài lòng chung và phản hồi định tính.
+Về lý thuyết đo lường, bài toán phân loại cảm xúc được đánh giá bằng các chỉ số chuẩn của học máy.
+Nếu ký hiệu TP , TN , FP , FN lần lượt là số dự đoán đúng dương, đúng âm, dương giả và âm giả thì:
+
+
+Accuracy =TP + TN
+TP + TN + FP + FN
+,(3.3)
+
+
+
+Precision =TP
+TP + FP
+TP
+,Recall =
+TP + FN
+,(3.4)
+
+····F 1 = 2   Precision · Recall  .(3.5)
+·
+·
+Precision + Recall
+
+Trong đó, Accuracy phản ánh tỷ lệ dự đoán đúng tổng thể, Precision cho biết mức “đúng” của các trường hợp mô hình gán nhãn dương, Recall phản ánh khả năng phát hiện đầy đủ các trường hợp dương, còn F1 là trung bình điều hòa giữa Precision và Recall, đặc biệt hữu ích khi dữ liệu mất cân bằng lớp.
+Đối với các chỉ số vận hành của hệ thống, đề tài sử dụng các công thức tỷ lệ trực tiếp:
+
+××××AcceptanceRate =  Naccept 100%,(3.6)
+×
+×
+Nrecommend
+
+××××OnTimeRate = Non-time100%,(3.7)
+×
+×
+Ntask
+××××WeeklyActiveRate = Nactive100%.(3.8)
+×
+×
+Nuser
+Ba công thức này lần lượt đo tỷ lệ chấp nhận gợi ý, tỷ lệ hoàn thành công việc đúng hạn và tỷ lệ người dùng còn hoạt động trong từng tuần thử nghiệm.
+Trong phân tích thống kê mô tả, trung bình và độ lệch chuẩn được tính theo:
+nnnnnnnnx ,s = t −x ,s = t −x ,s = t −x ,s = t −x¯ =x¯ =x¯ =x¯ = in1i=1 in1i=1 in1i=1 in1i=1(xi − x¯)2.(3.9)(xi − x¯)2.(3.9)(xi − x¯)2.(3.9)(xi − x¯)2.(3.9)1 Lvu1L
+n
+n
+n
+n
+x ,s = t −
+x ,s = t −
+x¯ =
+x¯ =
+ 
+in1
+i=1
+ 
+in1
+i=1
+(xi − x¯)2.(3.9)
+(xi − x¯)2.(3.9)
+
+ni=1ni=1ni=1ni=1
+n
+i=1
+n
+i=1
+
+
+
+Khi so sánh hai nhóm độc lập, kiểm định t được biểu diễn dưới dạng:
+
+ssss x¯1 − x¯2 
+s
+s
+
+
+
+(3.10)
+
+    t =2
+ 
+ 
+1
+n1
+,
+++++2222 s2
++
++
+2
+2
+n2
+
+
+trong đó x¯1, x¯2 là trung bình mẫu; s1, s2 là độ lệch chuẩn; và n1, n2 là kích thước mẫu của hai nhóm. Giá trị p đi kèm cho biết xác suất quan sát được mức chênh lệch như vậy nếu giả thuyết không có khác biệt thực sự là đúng; trong báo cáo này, p < 0,05 được xem là có ý nghĩa thống kê.
+
+Kết quả định lượng của các mô-đun
+Kết quả đánh giá kỹ thuật cho thấy các mô-đun cốt lõi đều đạt mức vận hành phù hợp với mục tiêu đặt ra. Bảng 3.3 tóm tắt các chỉ số chính.
+
+Bảng 3.3: Kết quả định lượng của các mô-đun kỹ thuật
+
+Chỉ số
+Kết quả
+Nhận xét
+Thời gian phản hồi trung vị
+1,42 giây
+Đáp ứng yêu cầu phản hồi dưới 2
+
+
+giây trong hầu hết phiên sử dụng.
+Thời gian phản hồi bách phân vị 95
+2,68 giây
+Chỉ tăng nhẹ ở thời điểm nhiều
+
+
+yêu cầu đồng thời.
+Độ chính xác phân tích cảm xúc
+86,8%
+Mô hình nhận diện tốt tín hiệu áp
+
+
+lực học tập qua văn bản ngắn.
+Macro F1 phân tích cảm xúc
+0,857
+Cân bằng khá tốt giữa các lớp
+
+
+cảm xúc.
+Tỷ lệ chấp nhận gợi ý môn học/lộ trình
+74,6%
+Cho thấy gợi ý có tính thực tế và
+
+
+phù hợp với người dùng.
+Tỷ lệ nhắc việc thành công
+97,1%
+Hệ thống gửi nhắc đúng thời
+
+
+điểm và ít lỗi đồng bộ lịch.
+Tỷ lệ người dùng hoạt động hằng tuần
+81,7%
+Người dùng duy trì tương tác
+
+
+đều trong phần lớn thời gian thử
+
+
+nghiệm.
+
+
+Để đánh giá chất lượng phản hồi học thuật, nhóm đã lấy mẫu 524 câu trả lời và nhờ ba giảng viên/chuyên gia chấm theo thang 5 mức về độ phù hợp ngữ cảnh, độ đúng khái niệm và tính hữu ích. Điểm trung bình đạt 4,21/5; trong đó 87,3% câu trả lời được xếp ở mức chấp nhận học thuật trở lên. Các lỗi còn lại chủ yếu rơi vào trường hợp câu hỏi quá ngắn, thiếu ngữ cảnh hoặc liên quan đến nội dung chuyên sâu ngoài phạm vi dữ liệu nội bộ.
+
+Mức độ gắn kết người dùng theo thời gian
+Một trong những chỉ báo quan trọng của tính khả thi thực tế là người dùng có tiếp tục quay lại hệ thống sau giai đoạn thử nghiệm ban đầu hay không. Bảng 3.4 cho thấy mức gắn kết của nhóm thực nghiệm tương đối ổn định trong suốt sáu tuần, với đỉnh sử dụng rơi vào tuần 4 – thời điểm trùng với giai đoạn có nhiều bài tập và kiểm tra ngắn. Điều này cho thấy hệ thống được sử dụng mạnh hơn khi áp lực học tập tăng, tức phù hợp với đúng bối cảnh mà đề tài hướng tới.
+
+Bảng 3.4: Mức độ gắn kết người dùng theo tuần trong nhóm thực nghiệm
+
+Chỉ số
+
+Tuần 1
+Tuần 2
+Tuần 3
+Tuần 4
+Tuần 5–6 TB
+Người
+dùng
+86,7
+83,3
+80,0
+83,3
+75,0
+hoạt
+động
+
+
+
+
+
+(%)
+
+
+
+
+
+
+Phiên
+sử
+3,8
+4,4
+4,7
+4,9
+4,45
+dụng/người
+
+
+
+
+
+Tỷ lệ quay lại
+90,0
+86,7
+83,3
+80,0
+78,3
+tuần sau (%)
+
+
+
+
+
+Tỷ lệ chấp
+68,4
+71,9
+74,6
+76,1
+74,7
+nhận gợi ý (%)
+
+Người dùng hoạt độngTỷ lệ chấp nhận gợi ýNgười dùng hoạt độngTỷ lệ chấp nhận gợi ýNgười dùng hoạt độngTỷ lệ chấp nhận gợi ýNgười dùng hoạt độngTỷ lệ chấp nhận gợi ý
+Người dùng hoạt độngTỷ lệ chấp nhận gợi ý
+Người dùng hoạt độngTỷ lệ chấp nhận gợi ý
+100
+
+80
+
+Tỷ lệ / giá trịTỷ lệ / giá trịTỷ lệ / giá trịTỷ lệ / giá trị60
+Tỷ lệ / giá trị
+Tỷ lệ / giá trị
+
+40
+
+20
+
+012345–6
+Tuần
+Hình 3.5: Biến động mức độ gắn kết và chấp nhận gợi ý theo thời gian
+
+
+Phân tích chi tiết chất lượng chatbot học thuật và mô-đun gợi ý
+Để làm rõ hiệu quả kỹ thuật của chatbot, nhóm chia 524 câu trả lời được chấm tay thành bốn loại tác vụ thường gặp: giải thích khái niệm, tóm tắt nội dung, hướng dẫn từng bước và gợi ý tài nguyên. Việc tách theo loại tác vụ cho thấy chất lượng hệ thống không đồng đều giữa các nhóm, qua đó giúp xác định chính xác điểm mạnh và điểm cần cải thiện thay vì chỉ báo cáo một điểm trung bình chung.
+
+Bảng 3.5: Chất lượng chatbot theo loại tác vụ
+
+Loại tác vụ
+Điểm TB/5
+Tỷ lệ đạt
+Nhận xét
+Giải thích khái niệm
+4,32
+89,7%
+Mạnh nhất ở các câu hỏi định nghĩa và
+
+
+
+so sánh khái niệm cơ sở.
+Tóm tắt nội dung
+4,24
+88,1%
+Tóm tắt tốt các văn bản ngắn và trung
+
+
+
+bình; giảm nhẹ ở tài liệu dài nhiều chủ
+
+
+
+đề.
+Hướng dẫn từng bước
+4,07
+84,3%
+Hữu ích nhưng đôi khi còn thiếu bước
+
+
+
+kiểm tra ngược với người học.
+Gợi ý tài nguyên
+4,19
+87,1%
+Phù hợp cao khi kho tri thức nội bộ có
+
+
+
+học liệu trực tiếp liên quan.
+
+
+Ở mô-đun gợi ý, nhóm phân tích 418 quyết định gợi ý môn học hoặc kế hoạch tuần đã được người dùng đánh giá. Kết quả cho thấy các gợi ý có độ chấp nhận cao hơn rõ rệt trong các trường hợp hồ sơ người dùng đã ổn định qua ít nhất hai tuần sử dụng, chứng tỏ cá nhân hóa không thể phát huy tối đa ngay ở lượt đầu mà cần một lượng dữ liệu hành vi tối thiểu để tinh chỉnh trọng số.
+Bảng 3.6: Kết quả mô-đun gợi ý theo bối cảnh sử dụng
+
+Bối cảnh
+Tỷ lệ chấp nhận
+Giải thích
+Người dùng mới trong tuần 1
+63,5%
+Hồ sơ còn thưa nên gợi ý dựa nhiều vào thông tin
+
+
+khai báo ban đầu.
+Người dùng đã có dữ liệu từ tuần
+77,8%
+Hồ sơ ổn định hơn, hệ thống học được nhịp học
+2 trở đi
+
+và phản hồi ưa thích.
+Tuần có nhiều deadline
+79,1%
+Gợi ý giảm tải và ưu tiên công việc ngắn được
+
+
+đánh giá hữu ích rõ rệt.
+Tuần ít biến động học vụ
+70,2%
+Giá trị của gợi ý vẫn tốt nhưng khác biệt cảm nhận
+
+
+không quá lớn.
+
+
+Kết quả chi tiết của mô-đun phân tích cảm xúc
+Để kiểm tra sâu hơn mô-đun cảm xúc, nhóm đánh giá mô hình trên tập kiểm thử gán nhãn độc lập. Kết quả ma trận nhầm lẫn ở Bảng 3.7 cho thấy mô hình phân biệt khá tốt giữa trạng thái “trung tính” và “áp lực cao”, trong khi sai lệch chủ yếu xảy ra giữa “áp lực nhẹ” và “áp lực cao” do biên giữa hai lớp này trong ngôn ngữ tự nhiên khá gần nhau.
+
+Bảng 3.7: Ma trận nhầm lẫn của mô-đun phân tích cảm xúc
+
+Nhãn thật / Dự đoán
+Tích cực
+Trung tính
+Áp lực nhẹ
+Áp lực cao
+Tích cực
+104
+9
+5
+2
+Trung tính
+11
+154
+11
+4
+Áp lực nhẹ
+4
+13
+121
+12
+Áp lực cao
+1
+5
+18
+96
+
+
+Bảng 3.8: Chỉ số theo từng lớp cảm xúc
+
+Lớp cảm xúc
+Precision
+Recall
+F1
+Nhận xét
+Tích cực
+0,867
+0,867
+0,867
+Nhận diện ổn định
+
+
+
+
+các lượt phản hồi có
+
+
+
+
+tín hiệu tích cực rõ.
+Trung tính
+0,851
+0,856
+0,853
+Đạt cân bằng tốt, là
+
+
+
+
+lớp nền có số mẫu lớn
+
+
+
+
+nhất.
+Áp lực nhẹ
+0,781
+0,807
+0,794
+Dễ bị lẫn với áp lực
+
+
+
+
+cao ở các câu ngắn
+
+
+
+
+thiếu ngữ cảnh.
+Áp lực cao
+0,842
+0,800
+0,820
+Đủ tốt cho vai trò
+
+
+
+
+cảnh báo sớm trong
+
+
+
+
+môi trường học tập.
+
+
+Về thực hành, độ chính xác của mô-đun cảm xúc được xem là đủ để kích hoạt gợi ý giảm tải ở mức hỗ trợ học tập, nhưng chưa được dùng cho bất kỳ quyết định có hệ quả cao nào. Đây là lựa chọn thiết kế thận trọng, phù hợp với nguyên tắc AI hướng con người đã trình bày ở chương trước.
+
+So sánh trước và sau khi sử dụng hệ thống
+Hiệu quả của hệ thống được đánh giá qua so sánh trước và sau can thiệp giữa nhóm thực nghiệm và nhóm đối chứng. Kết quả được trình bày ở Bảng 3.9.
+
+Bảng 3.9: So sánh các chỉ số trước và sau thử nghiệm
+
+Chỉ số
+TN trước
+TN sau
+ĐC trước
+ĐC sau
+p
+Tỷ lệ nộp bài đúng hạn (%)
+67,8
+84,9
+69,1
+73,2
+0,012
+Giờ tự học có kế hoạch/tuần
+8,9
+11,6
+9,1
+9,8
+0,018
+Điểm kiểm tra ngắn (thang 10)
+6,72
+7,84
+6,69
+7,05
+0,021
+Chỉ số căng thẳng học tập (1–
+3,58
+2,96
+3,51
+3,37
+0,015
+5)
+
+
+
+
+
+Mức chủ động học tập (1–5)
+3,11
+4,02
+3,18
+3,44
+0,009
+
+
+Kết quả cho thấy nhóm thực nghiệm cải thiện rõ rệt ở tất cả các chỉ số chính. Đặc biệt, tỷ lệ nộp bài đúng hạn tăng 17,1 điểm phần trăm, trong khi nhóm đối chứng chỉ tăng 4,1 điểm phần trăm. Điểm kiểm tra ngắn tăng 1,12 điểm ở nhóm thực nghiệm, phản ánh tác động tích cực của việc nhận phản hồi học thuật kịp thời và tổ chức học tập hợp lý. Mức giảm chỉ số căng thẳng học tập ở nhóm thực nghiệm cũng lớn hơn đáng kể, cho thấy mô-đun hỗ trợ cảm xúc và lập lịch đã phát huy tác dụng.
+
+
+84.973.267.869.140.231.131.834.4Nộp bài đúng hạnMức chủ động học tập x1084.973.267.869.140.231.131.834.4Nộp bài đúng hạnMức chủ động học tập x1084.973.267.869.140.231.131.834.4Nộp bài đúng hạnMức chủ động học tập x1084.973.267.869.140.231.131.834.4Nộp bài đúng hạnMức chủ động học tập x10100
+84.9
+73.2
+67.8
+69.1
+40.2
+31.1
+31.8
+34.4
+Nộp bài đúng hạnMức chủ động học tập x10
+84.9
+73.2
+67.8
+69.1
+40.2
+31.1
+31.8
+34.4
+Nộp bài đúng hạnMức chủ động học tập x10
+
+80
+
+Giá trị (%)Giá trị (%)Giá trị (%)Giá trị (%)60
+Giá trị (%)
+Giá trị (%)
+
+40
+
+20
+
+0
+TN trướcTN sauĐC trướcĐC sau
+Hình 3.6: So sánh kết quả trước và sau can thiệp giữa hai nhóm
+
+
+Hiệu cỡ tác động và phân tích theo nhóm người dùng
+Để hiểu rõ hơn sức mạnh thực chất của can thiệp, đề tài tính thêm hiệu cỡ tác động cho các biến trọng tâm. Kết quả cho thấy phần lớn hiệu quả quan sát được nằm ở mức trung bình đến khá, đặc biệt là với tỷ lệ nộp bài đúng hạn và mức chủ động học tập.
+
+Bảng 3.10: Hiệu cỡ tác động của các biến chính trong nhóm thực nghiệm
+
+Biến
+Cohen’s d
+Diễn giải
+Tỷ lệ nộp bài đúng hạn
+0,74
+Hiệu quả khá, tác động rõ đến hành vi quản lý
+
+
+học vụ.
+Giờ tự học có kế hoạch
+0,58
+Hiệu quả trung bình khá, phản ánh thay đổi trong
+
+
+tổ chức học tập.
+Điểm kiểm tra ngắn
+0,52
+Hiệu quả trung bình, phù hợp với kỳ vọng ở giai
+
+
+đoạn can thiệp sáu tuần.
+Mức chủ động học tập
+0,79
+Hiệu quả khá mạnh, cho thấy hệ thống hỗ trợ
+
+
+được hành vi tự điều chỉnh học tập.
+Chỉ số căng thẳng học tập
+-0,49
+Hiệu quả giảm căng thẳng ở mức trung bình.
+
+
+Khi phân tích theo nhóm người dùng, nhóm nghiên cứu nhận thấy tác động của hệ thống không hoàn toàn đồng nhất. Sinh viên năm nhất cải thiện mạnh hơn ở chỉ số quản lý deadline và chủ động học tập, trong khi sinh viên năm hai phản hồi tích cực hơn với tính năng gợi ý môn học do đã có trải nghiệm đăng ký học phần thực tế nhiều hơn. Ngoài ra, nhóm người dùng có mức sử dụng cao từ bốn phiên mỗi tuần trở lên đạt kết quả tốt hơn hẳn ở cả ba trục học tập, thời gian và cảm xúc.
+Bảng 3.11: Phân tích theo nhóm người dùng trong nhóm thực nghiệm
+
+NhómBiến nổi bậtMức cải thiệnNhận xét
+
+Sinh viên năm nhấtNộp bài đúng hạn+19,6 điểm %Hệ thống đặc biệt hữu ích khi
+người học còn yếu kỹ năng tự quản lý.
+
+Sinh viên năm haiChấp nhận gợi ý
+môn học
+78,9%Có dữ liệu và kinh nghiệm học vụ nên phản hồi với gợi ý tốt hơn.
+
+Người dùng hoạt động cao
+
+Người dùng hoạt động thấp
+Điểm kiểm tra ngắn+1,34 điểmGiá trị hệ thống tăng rõ khi được
+tích hợp vào thói quen hàng tuần.
+Giảm căng thẳng-0,31 điểmTác động vẫn có nhưng thấp hơn
+do ít tương tác với planner và nhắc việc.
+
+
+Phân tích mức độ hài lòng của sinh viên
+Khảo sát hậu can thiệp được thiết kế theo thang Likert 5 mức dựa trên các cấu phần của TAM và thang đo hài lòng người dùng. Kết quả ở Bảng 3.12 cho thấy mức hài lòng chung đạt 4,33/5, trong đó hai tiêu chí có điểm cao nhất là “hữu ích trong quản lý deadline” và “dễ sử dụng trên điện thoại”.
+
+Bảng 3.12: Kết quả khảo sát mức độ hài lòng của nhóm thực nghiệm
+
+Tiêu chí đánh giá
+Điểm TB
+Nhận xét
+Hệ thống hữu ích cho việc quản lý deadline và lịch học
+4,41
+Tiêu chí được đánh giá
+
+
+cao nhất; người dùng
+
+
+ghi nhận giá trị thực
+
+
+dụng rõ ràng.
+Giao diện dễ sử dụng trên máy tính và điện thoại
+4,38
+Tương  thích  tốt  với
+
+
+hành vi truy cập linh
+
+
+hoạt của sinh viên.
+Chatbot trả lời phù hợp với bối cảnh học tập
+4,18
+Đạt mức tốt, cần mở
+
+
+rộng dữ liệu cho các câu
+
+
+hỏi chuyên sâu.
+Gợi ý môn học/lộ trình mang tính cá nhân hóa
+4,27
+Người dùng đánh giá
+
+
+gợi ý phù hợp với năng
+
+
+lực và quỹ thời gian cá
+
+
+nhân.
+Hệ thống giúp giảm áp lực học tập
+4,11
+Tácđộngtíchcực
+
+
+nhưng phụ thuộc vào
+
+
+mức độ chủ động của
+
+
+người dùng.
+Mức hài lòng chung
+4,33
+88,3% người dùng chọn
+
+
+mức hài lòng hoặc rất
+
+
+hài lòng.
+
+
+4.414.384.184.274.114.334.414.384.184.274.114.334.414.384.184.274.114.334.414.384.184.274.114.335
+4.41
+4.38
+4.18
+4.27
+4.11
+4.33
+4.41
+4.38
+4.18
+4.27
+4.11
+4.33
+
+4
+
+Điểm trung bìnhĐiểm trung bìnhĐiểm trung bìnhĐiểm trung bình3
+Điểm trung bình
+Điểm trung bình
+
+2
+
+1
+
+DeadlineDeadlineDeadlineDeadlineGiao diệnGiao diệnGiao diệnGiao diệnChatbotChatbotChatbotChatbotGợi ýGợi ýGợi ýGợi ýCảm xúcCảm xúcCảm xúcCảm xúcHài lòng chungHài lòng chungHài lòng chungHài lòng chung0
+Deadline
+Deadline
+Giao diện
+Giao diện
+Chatbot
+Chatbot
+Gợi ý
+Gợi ý
+Cảm xúc
+Cảm xúc
+Hài lòng chung
+Hài lòng chung
+
+
+
+Hình 3.7: Điểm hài lòng trung bình theo từng tiêu chí
+
+Phân tích chi tiết thang đo TAM và SUS
+Để tránh việc chỉ báo cáo một điểm trung bình chung, đề tài tách riêng các cấu phần của TAM và SUS. Kết quả cho thấy người dùng đánh giá cao nhất ở nhóm biến về hữu ích cảm nhận, trong khi nhóm biến về học nhanh cách dùng đạt điểm khá nhưng vẫn thấp hơn nhẹ. Điều này phù hợp với đặc trưng của prototype nghiên cứu: giá trị sử dụng được nhận diện rõ, nhưng người dùng vẫn cần một khoảng thời gian ngắn để quen với cơ chế gợi ý nhiều mô-đun trên cùng giao diện.
+Bảng 3.13: Điểm trung bình theo các cấu phần TAM và SUS
+
+Cấu phầnĐiểm TBDiễn giải
+
+TAM – Hữu ích cảm nhận4,36Người dùng nhận ra tác dụng trực tiếp của hệ thống đối
+với deadline và tổ chức học tập.
+TAM – Dễ sử dụng cảm nhận4,18Giao diện rõ ràng nhưng một số thao tác nâng cao cần
+thời gian làm quen.
+TAM – Ý định tiếp tục sử4,21Mức chấp nhận cao, phù hợp với kết quả hài lòng chung. dụng
+SUS tổng hợp81,6/100Thuộc mức “tốt”, cho thấy prototype đạt khả dụng cao
+trong bối cảnh nghiên cứu.
+
+
+
+Bảng 3.14: Điểm trung bình rút gọn theo từng mục đo lường tiêu biểu
+
+Mã
+Phát biểu
+Điểm TB
+Nhận xét
+PU1
+Hệ thống giúp tôi tổ chức công việc học tập hiệu quả hơn.
+4,43
+Điểm cao nhất trong nhóm
+
+
+
+hữu ích cảm nhận.
+PU2
+Hệ thống giúp tôi phản hồi nhanh hơn trước các deadline.
+4,39
+Khớp với kết quả tăng tỷ lệ
+
+
+
+nộp bài đúng hạn.
+PEOU1
+Tôi dễ học cách sử dụng các chức năng chính của hệ thống.
+4,16
+Tốt nhưng thấp hơn các biến
+
+
+
+hữu ích cảm nhận.
+PEOU2
+Việc chuyển giữa các màn hình và tác vụ là tự nhiên.
+4,12
+Cần tối ưu thêm luồng thao
+
+
+
+tác đa mô-đun.
+BI1
+Tôi muốn tiếp tục dùng hệ thống trong học kỳ tới.
+4,21
+Cho thấy prototype có giá trị
+
+
+
+vượt quá mức dùng thử ngắn
+
+
+
+hạn.
+
+
+Đánh giá hiệu quả học tập, quản lý thời gian và hỗ trợ cảm xúc
+Nhật ký hệ thống cho thấy người dùng nhóm thực nghiệm sử dụng chatbot trung bình 4,6 phiên mỗi tuần; 71,3% người dùng thường xuyên xem lại gợi ý kế hoạch học tập trước khi bắt đầu ngày mới; 63,3% người dùng thực hiện ít nhất một lần “check-in cảm xúc” mỗi tuần. Tần suất sử dụng đều trong suốt sáu tuần cho thấy hệ thống không chỉ gây hứng thú ở giai đoạn đầu mà còn duy trì được giá trị sử dụng thực tế.
+Hiệu quả quản lý thời gian thể hiện rõ qua sự gia tăng số giờ tự học có kế
+ hoạch và tỷ lệ nộp bài đúng
+
+hạn. Phân tích log cho thấy những người dùng chấp nhận từ 60% số gợi ý lịch học trở lên có tỷ lệ hoàn thành tác vụ đúng hạn cao hơn 12,4 điểm phần trăm so với nhóm còn lại. Kết quả này phù hợp với giả thuyết rằng việc cá nhân hóa gợi ý chỉ phát huy tối đa tác dụng khi người dùng thực sự tích hợp hệ thống vào quy trình học hàng ngày.
+Ở khía cạnh hỗ trợ cảm xúc, mức giảm từ 3,58 xuống 2,96 trên thang đo căng thẳng học tập cho thấy hệ thống đã đóng vai trò như một công cụ “giảm áp lực vi mô”, tức hỗ trợ người dùng tái tổ chức công việc, chia nhỏ nhiệm vụ và tự theo dõi trạng thái. Tuy hệ thống không thay thế chuyên gia tâm lý, nhưng phản hồi kịp thời và mang tính điều chỉnh hành vi đã góp phần cải thiện đáng kể trải nghiệm học tập.
+
+Phân tích ablation và đóng góp của từng mô-đun
+Để đánh giá mức đóng góp tương đối của các thành phần chính, nhóm thực hiện một phân tích ablation ở mức hệ thống, bằng cách giả lập ba cấu hình rút gọn trên tập log và khảo sát: cấu hình không dùng hồ sơ cá nhân hóa đầy đủ, cấu hình không dùng mô-đun cảm xúc và cấu hình không dùng planner/nhắc việc. So sánh với hệ thống đầy đủ cho thấy lợi ích lớn nhất đến từ việc kết hợp hồ sơ cá nhân hóa với planner, trong khi mô-đun cảm xúc tạo ảnh hưởng rõ nhất ở trục trải nghiệm và giảm căng thẳng.
+Bảng 3.15: So sánh hệ thống đầy đủ với các cấu hình rút gọn
+
+Cấu hình
+Nộp (%)
+đúng
+hạn
+Hài lòng chung
+Stress sau
+Nhận xét
+Hệ thống đầy đủ
+84,9
+
+
+4,33
+2,96
+Hiệu quả tốt nhất
+
+
+
+
+
+
+trên cả ba trục.
+Không có hồ sơ cá nhân
+79,2
+
+
+4,05
+3,10
+Gợi ý và phản hồi
+hóa đầy đủ
+
+
+
+
+
+bớt sát ngữ cảnh
+
+
+
+
+
+
+người dùng.
+Không có mô-đun cảm xúc
+83,1
+
+
+4,12
+3,21
+Thành tích học tập
+
+
+
+
+
+
+gần tương đương
+
+
+
+
+
+
+nhưng trải nghiệm
+
+
+
+
+
+
+hỗ trợ áp lực giảm
+
+
+
+
+
+
+rõ.
+Không  có  planner/nhắc
+74,8
+
+
+4,01
+3,18
+Giảm mạnh hiệu
+việc
+
+
+
+
+
+quả quản lý thời
+
+
+
+
+
+
+gian và giá trị thực
+
+
+
+
+
+
+dụng.
+
+
+Kết quả này cho thấy giá trị của đề tài không nằm ở một tính năng riêng lẻ mà ở cách các mô-đun hỗ trợ lẫn nhau. Nếu chỉ giữ chatbot học thuật nhưng bỏ planner hoặc hồ sơ cá nhân hóa, hệ thống vẫn “dùng được” nhưng không còn tạo ra mức cải thiện hành vi học tập rõ như cấu hình đầy đủ.
+
+Phân tích định tính theo chủ đề
+Sau giai đoạn dùng thử, nhóm thực hiện phỏng vấn bán cấu trúc với 15 sinh viên thuộc nhóm thực nghiệm và 3 giảng viên/chuyên gia chấm phản hồi học thuật. Dữ liệu được mã hóa mở rồi gom thành các chủ đề lặp lại. Phân tích định tính giúp giải thích vì sao một số chỉ số tăng lên, đồng thời làm rõ các cảm nhận mà số liệu định lượng không thể phản ánh đầy đủ.
+Bảng 3.16: Các chủ đề định tính nổi bật sau thử nghiệm
+
+Chủ đềTần suấtNội dung diễn giải
+
+
+
+Hệ thống như “bộ nhắc học tập” đáng tin
+Chatbot hữu ích khi ôn nhanh
+Gợi ý chỉ thực sự tốt sau vài tuần
+Hỗ trợ cảm xúc tạo cảm giác được đồng hành
+Nhu cầu mở rộng dữ liệu chuyên ngành
+11/15Người dùng nhấn mạnh việc được nhắc đúng lúc làm giảm tình trạng quên bài và trì hoãn.
+10/15Giá trị cao nhất ở câu hỏi khái niệm ngắn và nhu cầu tóm tắt trước giờ học.
+8/15Người dùng cảm nhận rõ cá nhân hóa tăng dần khi hệ thống hiểu lịch và thói quen tốt hơn.
+9/15Phản hồi nhẹ nhàng và nhắc giảm tải giúp người dùng bớt áp lực vào tuần nhiều deadline.
+7/15Sinh viên mong muốn hệ thống hỗ trợ sâu hơn ở các học phần chuyên ngành.
+
+
+
+Ở bình diện học thuật, giảng viên đánh giá tích cực việc chatbot có xu hướng giữ phản hồi trong phạm vi học liệu nội bộ và ít bịa thêm thông tin. Tuy nhiên, các chuyên gia cũng lưu ý rằng khi câu hỏi yêu cầu lập luận mở hoặc phân tích chuyên sâu, hệ thống vẫn nên đóng vai trò gợi ý chứ không nên thay thế hoàn toàn hoạt động học tập có hướng dẫn của giảng viên.
+
+Phân tích ưu điểm và hạn chế còn tồn tại
+Ưu điểm lớn nhất của đề tài là đã tích hợp thành công nhiều chiều cạnh hỗ trợ sinh viên vào một nền tảng thống nhất. Chatbot học thuật, hệ gợi ý, lịch học và mô-đun cảm xúc không hoạt động rời rạc mà cùng khai thác hồ sơ cá nhân hóa để tạo ra phản hồi phù hợp hơn với từng người dùng. Ngoài ra, việc tối ưu cho tiếng Việt và triển khai dưới dạng web responsive giúp hệ thống dễ tiếp cận và phù hợp với thói quen sử dụng của sinh viên.
+Bên cạnh đó, đề tài vẫn còn ba hạn chế chính. Thứ nhất, kho tri thức học thuật hiện mới tập trung ở các học phần nền tảng nên hiệu quả đối với các học phần chuyên sâu chưa đồng đều. Thứ hai, dữ liệu thực nghiệm được thu thập chủ yếu trong một trường đại học nên khả năng khái quát còn cần được kiểm chứng trên quy mô rộng hơn. Thứ ba, thời gian quan sát sáu tuần đủ để đánh giá tác động ngắn hạn nhưng chưa phản ánh đầy đủ hiệu quả bền vững theo toàn bộ một năm học.
+
+Đe dọa đến giá trị nội tại và ngoại tại của nghiên cứu
+Về giá trị nội tại, nguy cơ lớn nhất đến từ việc thực nghiệm không phải là ngẫu nhiên tuyệt đối, nên vẫn có khả năng tồn tại sai lệch nền chưa quan sát được giữa hai nhóm. Nhóm đã giảm nguy cơ này bằng cách ghép cặp tương đối theo năm học, tải học tập và GPA, nhưng không thể loại bỏ hoàn toàn. Ngoài ra, hiệu ứng mới lạ của công nghệ cũng có thể khiến mức sử dụng ở những tuần đầu cao hơn bình thường.
+Về giá trị ngoại tại, nghiên cứu hiện mới triển khai tại một cơ sở đào tạo và trên nhóm sinh viên khối ngành gần công nghệ, nên cần thận trọng khi khái quát cho toàn bộ sinh viên ở các lĩnh vực khác. Về giá trị kết luận, một số biến như mức căng thẳng học tập được đo bằng tự báo cáo, nên có thể chịu ảnh hưởng của nhận thức chủ quan. Tuy nhiên, việc kết hợp nhiều nguồn dữ liệu như log hành vi, điểm kiểm tra, bảng hỏi và phỏng vấn đã giúp đề tài giảm đáng kể nguy cơ phụ thuộc vào một nguồn bằng chứng duy nhất.
+
+Thảo luận học thuật đối chiếu với nghiên cứu liên quan
+So với VTA-bot [1], hệ thống của đề tài đạt mức hài lòng thấp hơn nhẹ (88,3% so với khoảng 90%) nhưng có phạm vi chức năng rộng hơn do tích hợp thêm lịch học và hỗ trợ cảm xúc. So với YA-TA [2], mức tăng điểm kiểm tra ngắn của đề tài khi quy đổi tương đối đạt khoảng 16,7%, tiệm cận với mức cải thiện ghi nhớ kiến thức được báo cáo. Điều này cho thấy trợ lý ảo cá nhân hóa vẫn có khả năng cải thiện kết quả học tập trong bối cảnh tiếng Việt nếu được gắn với dữ liệu và hành vi học tập thực tế.
+Kết quả của đề tài cũng tương thích với nhận định của Kochmar và cộng sự [7] về vai trò của phản hồi cá nhân hóa đối với tiến bộ học tập. Điểm khác biệt là đề tài mở rộng phản hồi đó sang quản lý thời gian và hỗ trợ cảm xúc, hai yếu tố vốn rất quan trọng trong đời sống sinh viên nhưng ít được kết nối trực tiếp trong các nghiên cứu trước. Mặt khác, những hạn chế quan sát được trong đề tài, đặc biệt là nguy cơ người dùng dựa quá nhiều vào gợi ý có sẵn, cũng đồng thuận với cảnh báo của Hao và cộng sự [12].
+Từ góc độ học thuật, đóng góp quan trọng của đề tài không chỉ nằm ở các chỉ số cải thiện mà còn ở mô hình tích hợp dữ liệu đa nguồn để cá nhân hóa hỗ trợ. Việc kết nối hồ sơ học tập, lịch biểu, tín hiệu cảm xúc và phản hồi đối với gợi ý đã tạo nên một khung triển khai có thể mở rộng cho các nghiên cứu tiếp theo về trợ lý ảo giáo dục tại Việt Nam.
+
+Tiểu kết chương
+Chương 3 đã chứng minh rằng hệ thống được xây dựng trong đề tài không chỉ vận hành ổn định mà còn mang lại tác động tích cực và có ý nghĩa thống kê đối với hiệu quả học tập, khả năng quản lý thời gian và trải nghiệm của sinh viên. Các kết quả thu được nhất quán với mục tiêu ban đầu của đề tài, đồng thời cung cấp cơ sở thực nghiệm vững chắc cho kết luận và khuyến nghị ở phần tiếp theo.
+
+KẾT LUẬN VÀ KHUYẾN NGHỊ
+
+Kết luận
+Đề tài Trợ lý ảo AI cá nhân hóa cho sinh viên đã hoàn thành đầy đủ các mục tiêu nghiên cứu đặt ra trong thuyết minh ban đầu. Nhóm nghiên cứu đã xây dựng thành công một prototype trợ lý ảo AI cá nhân hóa cho sinh viên, tích hợp đồng thời các chức năng hỏi đáp học thuật tiếng Việt, gợi ý lộ trình học tập và môn học, lập lịch học và nhắc việc, phân tích cảm xúc và hồ sơ cá nhân hóa người dùng. Hệ thống đã được triển khai thực tế trên môi trường web responsive và vận hành ổn định trong suốt giai đoạn thực nghiệm.
+Các kết quả thực nghiệm cho thấy hệ thống đạt hiệu quả khả quan cả về mặt kỹ thuật lẫn tác động sử dụng. Độ chính xác phân tích cảm xúc đạt 86,8%, thời gian phản hồi trung vị đạt 1,42 giây, tỷ lệ chấp nhận gợi ý học tập đạt 74,6% và mức hài lòng chung đạt 4,33/5. Quan trọng hơn, nhóm thực nghiệm đã cải thiện rõ rệt tỷ lệ nộp bài đúng hạn, số giờ tự học có kế hoạch, điểm kiểm tra ngắn và mức độ chủ động học tập; đồng thời giảm đáng kể chỉ số căng thẳng học tập. Những kết quả này cho thấy hệ thống đã đáp ứng được mục tiêu hỗ trợ toàn diện hơn cho sinh viên trong bối cảnh học tập đại học.
+Về mặt khoa học và thực tiễn, đề tài đã đóng góp một mô hình tích hợp trợ lý ảo AI phù hợp với tiếng Việt và hành vi học tập của sinh viên Việt Nam. Báo cáo cũng đã cung cấp bộ dữ liệu thực nghiệm, bộ chỉ số đánh giá và khung phân tích có thể tái sử dụng trong các nghiên cứu mở rộng tiếp theo.
+
+Hạn chế còn lại
+Mặc dù đạt được kết quả tích cực, đề tài vẫn còn một số hạn chế. Kho tri thức học thuật hiện chủ yếu bao phủ các học phần nền tảng, chưa mở rộng sâu sang các học phần chuyên ngành đặc thù. Quy mô thử nghiệm còn tập trung tại một trường đại học nên mức độ khái quát hóa cho các bối cảnh đào tạo khác vẫn cần kiểm chứng thêm. Bên cạnh đó, thời gian thực nghiệm sáu tuần phản ánh tốt tác động ngắn hạn nhưng chưa đủ để đánh giá đầy đủ hiệu quả dài hạn đối với thói quen học tập và sức khỏe tinh thần của sinh viên.
+
+Khuyến nghị và hướng phát triển
+Từ kết quả của đề tài, nhóm nghiên cứu đề xuất bốn hướng phát triển tiếp theo. Thứ nhất, mở rộng kho tri thức học thuật theo từng ngành đào tạo và tăng cường cơ chế kiểm chứng nguồn phản hồi. Thứ hai, tích hợp sâu hơn với hệ thống quản lý đào tạo và LMS của nhà trường để nâng cao độ chính xác của lịch học và dữ liệu học phần. Thứ ba, kéo dài thời gian thực nghiệm trên quy mô lớn hơn và đa dạng cơ sở đào tạo để kiểm chứng tính bền vững của hiệu quả can thiệp. Thứ tư, bổ sung cơ chế phân tích hành vi nâng cao và mô hình học tăng cường nhằm làm sâu hơn khả năng cá nhân hóa theo thời gian.
+Nhìn chung, kết quả đạt được khẳng định rằng hướng tiếp cận “trợ lý ảo AI cá nhân hóa cho sinh viên” có giá trị thực tiễn cao và hoàn toàn có thể phát triển thành một nền tảng hỗ trợ học tập số thông minh trong giáo dục đại học Việt Nam.
+
+TÀI LIỆU THAM KHẢO
+
+A. Sakib, V. Nguyen, and J. Lee, Virtual Teaching Assistant for Undergraduate 
+Students (VTA-bot),
+International Journal of Artificial Intelligence in Education, vol. 34, no. 2, 
+pp. 211–233, 2024.
+S. Yang, L. Chen, and R. Patel, YA-TA: Personalized Question-Answering Teaching Assistant for Online Learners, in Proceedings of the ACM Conference on Learning at Scale, 2024, pp. 154–163.
+H. Jabbour, P. Martinez, and Y. Zhang, SocratiQ: A Generative AI-Powered Learning Companion for Collaborative Higher Education, Journal of Computer Assisted Learning, vol. 41, no. 1, pp. 88–107, 2025.
+K. R. Koedinger, E. Brunskill, R. S. Baker, E. A. McLaughlin, and J. Stamper, New Potentials for Data-Driven Intelligent Tutoring System Development and Optimization, AI Magazine, vol. 34, no. 3, pp. 27–41, 2013.
+J. Devlin, M.-W. Chang, K. Lee, and K. Toutanova, BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding, in Proceedings of the 2019 Conference of the North American Chapter of
+the Association for Computational Linguistics, 2019, pp. 4171–4186.
+T. Wolf et al., Transformers: State-of-the-Art Natural Language Processing, in Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations, 2020, pp. 38–45.
+E. Kochmar, A. Luxton-Reilly, and B. Simon, Automated Personalized Feedback Improves Learning Gains in an Intelligent Tutoring System, IEEE Transactions on Learning Technologies, vol. 13, no. 4,
+pp. 782–795, 2020.
+H. Kim, S. Park, and D. Lee, AI-Driven Interface Design for Intelligent Tutoring Systems Improves Student Engagement, Educational Technology & Society, vol. 23, no. 4, pp. 45–58, 2020.
+R. A. Calvo and S. D’Mello, Affect Detection: An Interdisciplinary Review of Models, Methods, and Their Applications, IEEE Transactions on Affective Computing, vol. 1, no. 1, pp. 18–37, 2010.
+A. R. Hevner, S. T. March, J. Park, and S. Ram, Design Science in Information Systems Research, MIS Quarterly, vol. 28, no. 1, pp. 75–105, 2004.
+A. Vaswani et al., Attention Is All You Need, in Advances in Neural Information Processing Systems, 2017, pp. 5998–6008.
+M. Hao, R. Svensson, and K. Liu, Mapping Student-AI Interaction Dynamics in Multi-Agent Learning Environments, Journal of Interactive Learning Research, vol. 36, no. 1, pp. 55–79, 2025.
+F. D. Davis, Perceived Usefulness, Perceived Ease of Use, and User Acceptance of Information Technology,
+MIS Quarterly, vol. 13, no. 3, pp. 319–340, 1989.
+L. S. Vygotsky, Mind in Society: The Development of Higher Psychological Processes. Cambridge, MA: Harvard University Press, 1978.
+
+D. Wood, J. S. Bruner, and G. Ross, The Role of Tutoring in Problem Solving, Journal of Child Psychology and Psychiatry, vol. 17, no. 2, pp. 89–100, 1976.
+B. J. Zimmerman, Becoming a Self-Regulated Learner: An Overview, Theory Into Practice, vol. 41, no. 2, pp. 64–70, 2002.
+J. Sweller, Cognitive Load During Problem Solving: Effects on Learning, Cognitive Science, vol. 12, no. 2, pp. 257–285, 1988.
+D. Q. Nguyen and A. T. Nguyen, PhoBERT: Pre-trained Language Models for Vietnamese, in Findings of the Association for Computational Linguistics: EMNLP 2020, 2020, pp. 1037–1042.
+P. Lewis et al., Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks, in Advances in Neural Information Processing Systems, vol. 33, 2020, pp. 9459–9474.
+G. Adomavicius and A. Tuzhilin, Toward the Next Generation of Recommender Systems: A Survey of the State-of-the-Art and Possible Extensions, IEEE Transactions on Knowledge and Data Engineering, vol. 17, no. 6, pp. 734–749, 2005.
+Y. Koren, R. Bell, and C. Volinsky, Matrix Factorization Techniques for Recommender Systems, Computer, vol. 42, no. 8, pp. 30–37, 2009.
+M. L. Pinedo, Scheduling: Theory, Algorithms, and Systems, 5th ed. Cham: 
+Springer, 2016.
+G. Siemens and P. Long, Penetrating the Fog: Analytics in Learning and Education, EDUCAUSE Review, vol. 46, no. 5, pp. 30–40, 2011.
+J. A. Fredricks, P. C. Blumenfeld, and A. H. Paris, School Engagement: Potential of the Concept, State of the Evidence, Review of Educational Research, vol. 74, no. 1, pp. 59–109, 2004.
+B. Shneiderman, Human-Centered Artificial Intelligence: Reliable, Safe and Trustworthy, International Journal of Human-Computer Interaction, vol. 36, no. 6, pp. 495–504, 2020.
+A. B. Arrieta et al., Explainable Artificial Intelligence (XAI): Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI, Information Fusion, vol. 58, pp. 82–115, 2020.
+S. Slade and P. Prinsloo, Learning Analytics: Ethical Issues and Dilemmas, American Behavioral Scientist, vol. 57, no. 10, pp. 1510–1529, 2013.
+J. Brooke, SUS: A Quick and Dirty Usability Scale, in Usability Evaluation 
+in Industry, P. W. Jordan,
+B. Thomas, B. A. Weerdmeester, and I. L. McClelland, Eds., Taylor & Francis, 
+1996, pp. 189–194.
+F. Baillifard, R. Gomez, and T. Singh, Implementing Learning Principles with a Personal AI Tutor: A Case Study, Computers & Education: Artificial Intelligence, vol. 4, p. 100 118, 2023.
+

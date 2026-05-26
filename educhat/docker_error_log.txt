@@ -1,0 +1,37 @@
+llm-1  | {"timestamp": "2026-05-04 04:40:53,197", "level": "INFO", "message": "LLM Config: BASE_URL=https://generativelanguage.googleapis.com/v1beta/openai/, MODEL=Qwen/Qwen2.5-7B-Instruct", "module": "orchestrator", "funcName": "<module>", "lineNo": 28}
+llm-1  | {"timestamp": "2026-05-04 04:40:58,498", "level": "INFO", "message": "Loading CrossEncoder model on CPU...", "module": "orchestrator", "funcName": "<module>", "lineNo": 42}
+llm-1  | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+llm-1  | 
+Loading weights:   0%|          | 0/393 [00:00<?, ?it/s]
+Loading weights:  65%|██████▌   | 256/393 [00:00<00:00, 2546.76it/s]
+Loading weights: 100%|██████████| 393/393 [00:00<00:00, 2899.75it/s]
+llm-1  | {"timestamp": "2026-05-04 04:41:04,971", "level": "INFO", "message": "CrossEncoder model loaded on CPU.", "module": "orchestrator", "funcName": "<module>", "lineNo": 44}
+llm-1  | {"timestamp": "2026-05-04 04:41:05,132", "level": "INFO", "message": "CourseResolver cache loaded: 131 courses", "module": "course_resolver", "funcName": "refresh_cache", "lineNo": 104}
+llm-1  | INFO:     Started server process [1]
+llm-1  | INFO:     Waiting for application startup.
+llm-1  | INFO:     Application startup complete.
+llm-1  | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+llm-1  | INFO:     172.18.0.1:55456 - "GET /v1/auth/me HTTP/1.1" 200 OK
+llm-1  | INFO:     172.18.0.1:55470 - "GET /v1/auth/me HTTP/1.1" 200 OK
+llm-1  | {"timestamp": "2026-05-04 04:41:17,911", "level": "INFO", "message": "Retrieving context for: \u0110\u1ea1i H\u1ecdc Qu\u1ed1c Gia Th\u00e0nh Ph\u1ed1 H\u1ed3 Ch\u00ed Minh n\u0103m 2025", "module": "orchestrator", "funcName": "process_chat", "lineNo": 120, "request_id": "6979d669-a6c9-42a1-849f-d3ca6b179f07"}
+llm-1  | INFO:     127.0.0.1:48882 - "GET /v1/health HTTP/1.1" 200 OK
+llm-1  | {"timestamp": "2026-05-04 04:41:18,137", "level": "INFO", "message": "Rendering system prompt", "module": "orchestrator", "funcName": "process_chat", "lineNo": 170, "request_id": "6979d669-a6c9-42a1-849f-d3ca6b179f07"}
+llm-1  | {"timestamp": "2026-05-04 04:41:18,151", "level": "INFO", "message": "Calling LLM Qwen/Qwen2.5-7B-Instruct", "module": "orchestrator", "funcName": "process_chat", "lineNo": 177, "request_id": "6979d669-a6c9-42a1-849f-d3ca6b179f07"}
+llm-1  | {"timestamp": "2026-05-04 04:41:18,763", "level": "ERROR", "message": "Chat processing failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\\n', 'status': 'INVALID_ARGUMENT'}}]", "module": "main", "funcName": "chat", "lineNo": 184, "request_id": "6979d669-a6c9-42a1-849f-d3ca6b179f07"}
+llm-1  | INFO:     172.18.0.1:55486 - "POST /v1/chat HTTP/1.1" 500 Internal Server Error
+llm-1  | INFO:     127.0.0.1:37754 - "GET /v1/health HTTP/1.1" 200 OK
+llm-1  | INFO:     172.18.0.1:43780 - "GET /v1/auth/me HTTP/1.1" 200 OK
+llm-1  | INFO:     172.18.0.1:43796 - "GET /v1/auth/me HTTP/1.1" 200 OK
+llm-1  | INFO:     172.18.0.1:43798 - "GET /v1/auth/me HTTP/1.1" 200 OK
+llm-1  | INFO:     172.18.0.1:43802 - "GET /v1/auth/me HTTP/1.1" 200 OK
+llm-1  | {"timestamp": "2026-05-04 04:42:12,141", "level": "INFO", "message": "Retrieving context for: Tr\u01b0\u1eddng \u0110\u1ea1i h\u1ecdc Qu\u1ed1c gia Th\u00e0nh Ph\u1ed1 H\u1ed3 Ch\u00ed Minh c\u00f3 nh\u1eefng ph\u01b0\u01a1ng th\u1ee9c x\u00e9t tuy\u1ec3n n\u00e0o n\u0103m 2025?", "module": "orchestrator", "funcName": "process_chat", "lineNo": 120, "request_id": "6c141447-52e0-4915-bde2-991f0ea4d494"}
+llm-1  | {"timestamp": "2026-05-04 04:42:12,389", "level": "INFO", "message": "Rendering system prompt", "module": "orchestrator", "funcName": "process_chat", "lineNo": 170, "request_id": "6c141447-52e0-4915-bde2-991f0ea4d494"}
+llm-1  | {"timestamp": "2026-05-04 04:42:12,398", "level": "INFO", "message": "Calling LLM Qwen/Qwen2.5-7B-Instruct", "module": "orchestrator", "funcName": "process_chat", "lineNo": 177, "request_id": "6c141447-52e0-4915-bde2-991f0ea4d494"}
+llm-1  | {"timestamp": "2026-05-04 04:42:12,666", "level": "ERROR", "message": "Chat processing failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\\n', 'status': 'INVALID_ARGUMENT'}}]", "module": "main", "funcName": "chat", "lineNo": 184, "request_id": "6c141447-52e0-4915-bde2-991f0ea4d494"}
+llm-1  | INFO:     172.18.0.1:57770 - "POST /v1/chat HTTP/1.1" 500 Internal Server Error
+llm-1  | INFO:     127.0.0.1:50074 - "GET /v1/health HTTP/1.1" 200 OK
+llm-1  | INFO:     127.0.0.1:55914 - "GET /v1/health HTTP/1.1" 200 OK
+llm-1  | INFO:     127.0.0.1:39778 - "GET /v1/health HTTP/1.1" 200 OK
+llm-1  | INFO:     127.0.0.1:36004 - "GET /v1/health HTTP/1.1" 200 OK
+llm-1  | INFO:     127.0.0.1:33966 - "GET /v1/health HTTP/1.1" 200 OK
+llm-1  | INFO:     127.0.0.1:55664 - "GET /v1/health HTTP/1.1" 200 OK

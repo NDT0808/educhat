@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "types": ["vite/client", "react", "react-dom"],
+    // ... other options
+    "module": "es2022",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "target": "es2022",
+    "jsx": "react-jsx",
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitThis": true
+  }
+}
+   

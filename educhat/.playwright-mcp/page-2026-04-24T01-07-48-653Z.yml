@@ -1,0 +1,40 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - img [ref=e7]
+      - generic [ref=e10]:
+        - paragraph [ref=e11]: EduChat
+        - paragraph [ref=e12]: Academic planning assistant
+    - generic [ref=e13]:
+      - paragraph [ref=e14]: Student workspace
+      - heading "Tư vấn tuyển sinh, lộ trình học và thời khóa biểu trong một nơi." [level=1] [ref=e15]
+      - paragraph [ref=e16]: Đăng nhập để tra cứu thông tin học tập, lập kế hoạch môn học và kiểm tra lịch biểu cá nhân.
+    - generic [ref=e17]:
+      - generic [ref=e18]: Tư vấn
+      - generic [ref=e19]: Planner
+      - generic [ref=e20]: Timetable
+  - generic [ref=e23]:
+    - generic [ref=e24]:
+      - img [ref=e26]
+      - heading "Đăng nhập" [level=1] [ref=e29]
+      - paragraph [ref=e30]: Sử dụng tài khoản sinh viên để tiếp tục
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - text: Username (Mã sinh viên)
+        - generic [ref=e33]:
+          - generic:
+            - img
+          - 'textbox "Nhập mã sinh viên (ví dụ: YD2024001)" [ref=e34]'
+      - generic [ref=e35]:
+        - text: Password
+        - generic [ref=e36]:
+          - generic:
+            - img
+          - textbox "Mat khau" [ref=e37]
+          - button [ref=e38] [cursor=pointer]:
+            - img [ref=e39]
+      - button "Sign In" [ref=e42] [cursor=pointer]
+    - paragraph [ref=e43]:
+      - text: Chưa có tài khoản?
+      - link "Liên hệ quản trị viên" [ref=e44] [cursor=pointer]:
+        - /url: "#"

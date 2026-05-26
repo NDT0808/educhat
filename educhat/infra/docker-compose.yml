@@ -1,0 +1,92 @@
+services:
+  prompt:
+    build:
+      context: ..
+      dockerfile: services/prompt/Dockerfile
+    # ports: - Exposed only internally
+    #   - "8001:8000"
+    volumes:
+      - ../services/prompt:/app/services/prompt
+      - ../libs:/app/libs
+    env_file:
+      - ../.env
+    environment:
+      - PORT=8000
+      - INTERNAL_API_KEY=${INTERNAL_API_KEY:-internal_secret_key_change_me}
+    networks:
+      - edu_agent-net
+    healthcheck:
+      test: [ "CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/v1/health')" ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  rag:
+    build:
+      context: ..
+      dockerfile: services/rag/Dockerfile
+    ports:
+      - "8002:8000"
+    volumes:
+      - ../services/rag:/app/services/rag
+      - ../libs:/app/libs
+      - rag_hf_cache:/root/.cache/huggingface
+    env_file:
+      - ../.env
+    environment:
+      - PORT=8000
+      - QDRANT_HOST=host.docker.internal
+      - QDRANT_PORT=6333
+      - INTERNAL_API_KEY=${INTERNAL_API_KEY:-internal_secret_key_change_me}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    networks:
+      - edu_agent-net
+    healthcheck:
+      test: [ "CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/v1/health')" ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  llm:
+    build:
+      context: ..
+      dockerfile: services/llm/Dockerfile
+    ports:
+      - "8004:8000"
+    depends_on:
+      - prompt
+      - rag
+    volumes:
+      - ../services/llm:/app/services/llm
+      - ../services/advisor:/app/services/advisor
+      - ../libs:/app/libs
+      - ../data:/app/data # Mount data directory for persistence
+      - llm_hf_cache:/root/.cache/huggingface
+    env_file:
+      - ../.env
+    environment:
+      - PORT=8000
+      - DB_PATH=/app/data/sgu_schedules.db
+      - PROMPT_SERVICE_URL=http://prompt:8000
+      - RAG_SERVICE_URL=http://rag:8000
+      - JWT_SECRET=${JWT_SECRET:-supersecretkey_change_me_in_prod}
+      - INTERNAL_API_KEY=${INTERNAL_API_KEY:-internal_secret_key_change_me}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    networks:
+      - edu_agent-net
+    healthcheck:
+      test: [ "CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/v1/health')" ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  rag_hf_cache:
+  llm_hf_cache:
+
+
+networks:
+  edu_agent-net:
+    driver: bridge

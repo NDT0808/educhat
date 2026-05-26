@@ -1,0 +1,25 @@
+[project]
+name = "edu-agent-common"
+version = "0.1.0"
+description = "Shared libraries for Edu Agent"
+dependencies = [
+    "pydantic",
+    "fastapi",
+    "starlette",
+    "requests",
+    "passlib[bcrypt]",
+    "python-jose[cryptography]",
+    "httpx",
+    "pydantic-settings",
+    "tenacity",
+    "slowapi",
+    "prometheus-fastapi-instrumentator",
+]
+requires-python = ">=3.11"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

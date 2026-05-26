@@ -1,0 +1,11 @@
+[project]
+name = "llm-service"
+version = "0.1.0"
+description = "Microservice for LLM orchestration"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "openai",
+    "requests",
+]
+requires-python = ">=3.11"
