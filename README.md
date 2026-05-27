@@ -35,7 +35,7 @@ educhat/
 ├── ui/               # React-based Frontend
 ├── scripts/          # Ingestion & verification tools
 └── OCR/              # Academic curriculum parsing pipeline
-```text
+```
 
 ## 🚀 Research & Development
 Principal Investigator: Nguyen Duc Trong (Project Code: SVC2025-162)
