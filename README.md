@@ -1,42 +1,40 @@
-# 🧭 ORB-SLAM3 Control Panel (Advanced IPC & Safe Checkpointing)
+# 🎓 EduChat: Personalized AI Virtual Assistant for Students
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python)
-![C++](https://img.shields.io/badge/C++-11%2F14-00599C?style=for-the-badge&logo=c%2B%2B)
-![OpenCV](https://img.shields.io/badge/OpenCV-4.x-5C3EE8?style=for-the-badge&logo=opencv)
-![Ubuntu](https://img.shields.io/badge/WSL-Ubuntu_20.04-E95420?style=for-the-badge&logo=ubuntu)
+![RAG](https://img.shields.io/badge/RAG-Retrieval_Augmented_Generation-orange?style=for-the-badge)
+![Qdrant](https://img.shields.io/badge/Qdrant-Vector_DB-red?style=for-the-badge)
+![Docker](https://img.shields.io/badge/Docker-Containerized-blue?style=for-the-badge&logo=docker)
 
-An advanced, intuitive Graphical User Interface (GUI) and Inter-Process Communication (IPC) wrapper designed to control the **ORB-SLAM3** C++ core securely. This project solves critical multi-threading crashes and memory management issues inherent in the original SLAM implementation, providing a stable environment for visual odometry testing.
+EduChat is a state-funded university research project designed to bridge the gap between academic curriculum data and personalized student assistance. By leveraging **Retrieval-Augmented Generation (RAG)** and **Natural Language Processing (NLP)**, EduChat provides context-aware, 24/7 academic support for students.
 
 <img width="1916" height="907" alt="Educhat_img" src="https://github.com/user-attachments/assets/36efea3c-d66f-4b6f-a153-6b91a9258dc9" />
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/..." width="750" alt="ORB-SLAM3 GUI Interface">
-</p>
-
 ## 🌟 Key Features
 
-* **Soft Pause (Tạm Dừng Mềm):** Utilizes `SIGUSR2` signals to halt the C++ tracking loop dynamically. This freezes the camera and 3D map in RAM perfectly without killing the OS process, preventing coordinate drift.
-* **Midway Checkpointing (Lưu Chặng):** Employs `SIGUSR1` to extract 3D trajectory data (`.txt`) in real-time. Users can save multiple path segments (Checkpoints) while the vehicle is either paused or actively moving, without losing Map spatial consistency.
-* **Crash-Proof Shutdown (Bảo Toàn Dữ Liệu):** Overcomes the notorious ORB-SLAM3 `Shutdown()` segmentation fault. The system orchestrates an automated 3-step stop sequence (Brake -> Save -> Kill) to ensure trajectory files are fully written to the disk before safely terminating the C++ threads.
-* **Auto-Sync Dataset Manager:** Validates and mounts KITTI sequences from the host OS directly to the WSL environment dynamically.
+* **Context-Aware RAG:** Integrates a custom vector database (Qdrant) to retrieve and synthesize information from complex university curriculum PDFs and academic documents.
+* **Emotion Analysis:** Utilizes fine-tuned **PhoBERT** models to detect student sentiment, allowing the assistant to provide empathetic and tailored academic support.
+* **Intelligent OCR Pipeline:** Automated document parsing to ingest and structure unstructured curriculum data from physical scans and PDFs.
+* **Smart Optimizer:** Built-in tools for schedule optimization and registration parsing using advanced Prompt Engineering and LLM orchestration.
 
 ## 🛠️ Technology Stack
 
-* **Core Algorithms:** C++, ORB-SLAM3, Eigen3
-* **Computer Vision:** OpenCV
-* **GUI Framework:** Python, CustomTkinter
-* **System Architecture:** POSIX Signals (IPC), Subprocess Threading, Linux (WSL)
+* **AI/NLP:** PhoBERT, RAG (Retrieval-Augmented Generation), LLM Orchestration
+* **Databases:** Qdrant (Vector DB), SQLite (SGU Schedules)
+* **OCR:** Custom pipeline for academic curriculum parsing
+* **Frontend:** React, TypeScript, Tailwind CSS
+* **Infrastructure:** Docker, Python (FastAPI/Flask integration)
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```text
-ORB_SLAM3_Control/
-├── slam_gui.py                 # Core Python GUI & Subprocess Manager
-├── KITTI00-02.yaml             # Camera calibration parameters
-├── Examples/
-│   └── Stereo/
-│       └── stereo_kitti.cc     # Modified C++ Core (Integrated Signal Handlers)
-└── README.md
+educhat/
+├── services/
+│   ├── advisor/      # Student advisor & scheduler logic
+│   ├── llm/          # LLM routers (OCR, Emotion, Intent)
+│   └── rag/          # Qdrant Vector store & Ingestion pipeline
+├── ui/               # React-based Frontend
+├── scripts/          # Ingestion & verification tools
+└── OCR/              # Academic curriculum parsing pipeline
 
 
 
