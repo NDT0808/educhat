@@ -45,25 +45,20 @@ Funding: University-funded research grant (5,000,000 VND).
 Focus: Commercializing AI solutions for the education sector through sentiment-aware assistants.
 
 ## ⚙️ Installation & Setup
-1. Clone the repository
-
 ```text
-
+1. Clone the repository
 git clone [https://github.com/NDT0808/educhat.git](https://github.com/NDT0808/educhat.git)
 cd educhat
 
 2. Start Services (Docker)
-
 cd infra
 docker-compose up -d
 
-
 3. Ingest Academic Data
-
 Bash
 python ingest_data.py --source ./data/curriculum.pdf
-
 ```
+
 ## 🧠 System Architecture Highlights
 EduChat employs a microservices architecture where the LLM router acts as an orchestrator, dispatching tasks between the RAG service (for knowledge retrieval) and the Emotion service (for student sentiment analysis), ensuring a seamless and human-like interaction experience.
 
